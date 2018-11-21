@@ -1,6 +1,5 @@
 # a NUCLE parser for ME (mistake evaluation) project.
 
-import sys;
 import random;
 
 ATRIBUTES = "A"
@@ -28,12 +27,17 @@ def get_random_inx(lines):
 def parse_mistake(line):
     if line.startswith(ATRIBUTES):
         mistake = line.replace('|', ' ').split()
-        return mistake[ATTRIBUTES_INX:ATTRIBUTES_INX+NUM_OF_MISTAKE_ATTRIBUTES] #1:5 in NUCLE as it is
+        mistake = mistake[ATTRIBUTES_INX:ATTRIBUTES_INX+NUM_OF_MISTAKE_ATTRIBUTES] #1:5 in NUCLE as it is
+        mistake[0] = int(mistake[0])
+        mistake[1] = int(mistake[1])
+        if mistake[3] == 'REQUIRED':
+            mistake[3] = " "
+        return mistake
     return False
 
 def parse_sentence(lines, i):
     line = lines[i][2:]
-    sentence = (i, line, [])
+    sentence = (i+1, line, [])
     while True:
         i += 1
         cur_line = lines[i]
@@ -50,7 +54,7 @@ def main():
     lines = open(file_name).read().splitlines()
     for k in range(20):
         parsed_sentence = (parse_sentence(lines, get_random_inx(lines)))
-        print ("sentence number " + str(k+1) + " is:\n" + parsed_sentence[SENTANCE_INX])
+        print ("sentence number " + str(k+1) + " is originaly in line " + str(parsed_sentence[LINE_INX]) + " and is:\n" + parsed_sentence[SENTANCE_INX])
         print("mistakes for sentence number " + str(k+1) + " are:")
         for mistake in parsed_sentence[MISTAKES_INX]:
             print(mistake)

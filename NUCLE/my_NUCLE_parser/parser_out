@@ -1,0 +1,105 @@
+sentence number 1 is originaly in line 113109 and is:
+Subsequently two explosions occurred resulting in massive losses ( CHERNOBYL ACCIDENT , 2009 ) .
+mistakes for sentence number 1 are:
+
+sentence number 2 is originaly in line 155863 and is:
+Surgeries can also proceed smoothly and timely as both staff and patients can be tracked since they are wearing the tags .
+mistakes for sentence number 2 are:
+
+sentence number 3 is originaly in line 39291 and is:
+Increasing education quality also means increasing quality of future 's work force that should boost the nation in every sector .
+mistakes for sentence number 3 are:
+[0, 1, 'Wci', 'improving']
+[1, 3, 'Wci', 'the']
+[3, 4, 'Rloc-', ' ']
+[6, 6, 'ArtOrDet', 'the']
+[12, 13, 'Ssub', 'and']
+[17, 17, 'Others', "'s"]
+
+sentence number 4 is originaly in line 142806 and is:
+In order for the VHTR nuclear reactor to be ideal for commercial production of energy , a lot of research is needed .
+mistakes for sentence number 4 are:
+
+sentence number 5 is originaly in line 115160 and is:
+This dispels the environmental concerns that governments and industries have .
+mistakes for sentence number 5 are:
+
+sentence number 6 is originaly in line 113762 and is:
+Besides safety , people concern much about the work efficiency .
+mistakes for sentence number 6 are:
+[4, 5, 'Vform', 'are']
+
+sentence number 7 is originaly in line 48827 and is:
+Repeated medical treatments can be a financial burden and thus , create a trauma for the elderly .
+mistakes for sentence number 7 are:
+
+sentence number 8 is originaly in line 113065 and is:
+Butler , D. ( 2004 , May 20 ) .
+mistakes for sentence number 8 are:
+
+sentence number 9 is originaly in line 136629 and is:
+The committee of inquiry for the incidence had also pointed out that the temporary works pertaining to deep excavation were not regulated to the same degree as permanent works .
+mistakes for sentence number 9 are:
+[7, 8, 'Vt', ' ']
+[27, 27, 'ArtOrDet', 'the']
+
+sentence number 10 is originaly in line 156702 and is:
+Own freedom is compromised and with much hesitant , I do not agree that surveillance technology should be use to track people .
+mistakes for sentence number 10 are:
+[0, 1, 'Wci', 'Personal']
+[4, 5, 'Trans', 'thus']
+[7, 8, 'Wform', 'hesitation']
+[18, 19, 'Wform', 'used']
+
+sentence number 11 is originaly in line 40288 and is:
+Retrieved from : { http : //www.emeraldinsight.com/Insight/ViewContentServlet ? Filename = Published/EmeraldFullTextArticle/Articles/2730040301.html } [ HYPERLINK : http : //www.emeraldinsight.com/Insight/ViewContentServlet ? Filename = Published/EmeraldFullTextArticle/Articles/2730040301.html ]
+mistakes for sentence number 11 are:
+
+sentence number 12 is originaly in line 5744 and is:
+The needs of human beings increase .
+mistakes for sentence number 12 are:
+[5, 6, 'Vt', 'have']
+
+sentence number 13 is originaly in line 127010 and is:
+Robots can also help to reduce hand stress of the surgeons from long hours of surgery .
+mistakes for sentence number 13 are:
+
+sentence number 14 is originaly in line 69779 and is:
+In this era of globalization , engineering design has been emphasized by the governments of the countries all over the world , such as United State , Russia and France .
+mistakes for sentence number 14 are:
+[12, 13, 'ArtOrDet', ' ']
+[14, 17, 'Rloc-', ' ']
+[24, 24, 'Mec', 'the']
+[25, 26, 'Mec', 'States']
+
+sentence number 15 is originaly in line 44182 and is:
+In the recent years , global aging issues are an uprising concern .
+mistakes for sentence number 15 are:
+[9, 11, 'Wci', 'of']
+
+sentence number 16 is originaly in line 155137 and is:
+Research Online : http : //ro.uow.edu.au/infopapers/563 .
+mistakes for sentence number 16 are:
+
+sentence number 17 is originaly in line 109518 and is:
+Nuclear power 's new dawn .
+mistakes for sentence number 17 are:
+
+sentence number 18 is originaly in line 70441 and is:
+Secondly , instead of removing available engineering processes , they can also be modified so that its original function is still available but at the same time satisfying the need to reserve natural resources and protecting the environment .
+mistakes for sentence number 18 are:
+[16, 17, 'Pref', 'their']
+[18, 19, 'Nn', 'functions']
+[19, 20, 'SVA', 'are']
+[27, 28, 'Spar', 'satisfy']
+[31, 32, 'Mec', 'preserve']
+[35, 36, 'Spar', 'protect']
+
+sentence number 19 is originaly in line 40213 and is:
+Expanding the economy is a more effective strategy to ease the aging process compared to simply giving out public pension to the elderly .
+mistakes for sentence number 19 are:
+
+sentence number 20 is originaly in line 157664 and is:
+Secondly , the use of RFID can cause serious health hazard .
+mistakes for sentence number 20 are:
+
