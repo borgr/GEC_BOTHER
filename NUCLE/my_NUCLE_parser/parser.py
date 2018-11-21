@@ -1,27 +1,31 @@
 # a NUCLE parser for ME (mistake evaluation) project.
 
 import sys;
-
+import random;
 
 ATRIBUTES = "A"
 SENTENCE = "S"
 
 
 
-def get_sentance(source_file):
-    while :
-        line = source_file.readline()
-        while line[0] == ATRIBUTES:
 
 
+
+
+def get_sentance(lines):
+    line = "X" #some fale value for the do-while
+    while line.startswith(SENTENCE):
+        i = random.randint(0,lines.len)
+        line = lines[i]
+    return line
+
+def parse_sentance():
 
 
 def main():
-    file_name = sys.argv[1] #NUCLE db address
-    with open(file_name, 'r') as file:
-        cur_sentance = get_sentance(file)
-
-
+    file_name = sys.argv[1]  # NUCLE db address
+    lines = open(file_name).read().splitlines();
+    for i
 
 
 
