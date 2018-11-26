@@ -1,0 +1,95 @@
+sentence number 1 is originaly in line 71985 and is:
+For example, in Singapore, where the land is very small, engineers build a lot of condominiums and apartments to solve the problem of insufficient houses and manage to save some of the land for other purposes.
+mistakes for sentence number 1 are:
+[7, 8, 'ArtOrDet', ' ']
+[14, 15, 'Vt', 'built']
+[29, 30, 'Vt', 'managed']
+
+sentence number 2 is originaly in line 24919 and is:
+Thereby, public spending should be diverted to other areas to help the needy and unfortunate.
+mistakes for sentence number 2 are:
+[0, 2, 'WOinc', 'Therefore']
+
+sentence number 3 is originaly in line 47271 and is:
+Therefore, government's expenditure on the elderly should be allocated such that it is sufficient to help those elderly who are in need.
+mistakes for sentence number 3 are:
+
+sentence number 4 is originaly in line 2653 and is:
+" Most of these traffic emissions are produced from the combustion engine of gasoline vehicles.
+mistakes for sentence number 4 are:
+
+sentence number 5 is originaly in line 67104 and is:
+Our Education System.
+mistakes for sentence number 5 are:
+
+sentence number 6 is originaly in line 50702 and is:
+Ageing population may hurt Singapore most.
+mistakes for sentence number 6 are:
+
+sentence number 7 is originaly in line 124195 and is:
+In conclusion, Chernobyl is a result of flawed design of reactor and inappropriate operation by inadequate operators.
+mistakes for sentence number 7 are:
+[5, 6, 'ArtOrDet', 'the']
+
+sentence number 8 is originaly in line 51699 and is:
+As the post war babies age, coupled with the fact that many women are delaying marriage and having lesser children, the population of the elderly has become increasingly significant in proportion in the society of many developed countries today.
+mistakes for sentence number 8 are:
+
+sentence number 9 is originaly in line 130232 and is:
+* SFEN, " Chernobyl : truths, falsehoods and uncertainties, " April 1996
+mistakes for sentence number 9 are:
+
+sentence number 10 is originaly in line 29487 and is:
+Society is made up of people and the interest of people is no doubt very important and on par with the country's development.
+mistakes for sentence number 10 are:
+[12, 14, 'Wform', 'undoubtedly']
+
+sentence number 11 is originaly in line 156144 and is:
+There are many kinds of surveillance technology and RFID is one of them.
+mistakes for sentence number 11 are:
+
+sentence number 12 is originaly in line 62357 and is:
+This is because the current economy system looks for more efficient and competitive working force and the companies that hire the old do n't consider the elderly so they try to avoid engaging them.
+mistakes for sentence number 12 are:
+[5, 6, 'Wform', 'economic']
+[9, 9, 'ArtOrDet', 'a']
+[13, 14, 'Wci', 'work']
+[27, 29, 'Trans', 'and']
+
+sentence number 13 is originaly in line 32539 and is:
+A Graying World.
+mistakes for sentence number 13 are:
+
+sentence number 14 is originaly in line 122612 and is:
+Hence, we can feel safe to use the electricity and drive cars powered by Hydrogen which is supplied by VHTR.
+mistakes for sentence number 14 are:
+
+sentence number 15 is originaly in line 121132 and is:
+(2009), SSTAR : The US lead-cooled fast reactor (LFR), Journal of Nuclear Materials.
+mistakes for sentence number 15 are:
+
+sentence number 16 is originaly in line 87852 and is:
+3 Furthermore, it is the continent with the least supply of potable water.
+mistakes for sentence number 16 are:
+[0, 1, 'Cit', ' ']
+
+sentence number 17 is originaly in line 83810 and is:
+The two problems mentioned above are serious in China.
+mistakes for sentence number 17 are:
+
+sentence number 18 is originaly in line 3024 and is:
+Two problems hampering engineering design process in China.
+mistakes for sentence number 18 are:
+
+sentence number 19 is originaly in line 71578 and is:
+Designing of medical products which can make all human beings ; young and old as well as disabilities easier and safer is obviously important.
+mistakes for sentence number 19 are:
+[10, 11, 'Mec', ' ']
+[11, 18, 'Rloc-', ' ']
+[18, 19, 'Wci', 'healthier']
+[19, 21, 'Rloc-', ' ']
+
+sentence number 20 is originaly in line 137661 and is:
+Anonymous (2009, October 06).
+mistakes for sentence number 20 are:
+
