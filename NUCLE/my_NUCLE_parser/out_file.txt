@@ -1,95 +1,94 @@
-sentence number 1 is originaly in line 71985 and is:
-For example, in Singapore, where the land is very small, engineers build a lot of condominiums and apartments to solve the problem of insufficient houses and manage to save some of the land for other purposes.
+sentence number 1 is originaly in line 148347 and is:
+Secondly, having one genetic condition assessed, it gives the affected individual the freedom of making an informed choice concerning the type of job or employment that he or she can undertake, with the inclusion of one's safety and health.
 mistakes for sentence number 1 are:
-[7, 8, 'ArtOrDet', ' ']
-[14, 15, 'Vt', 'built']
-[29, 30, 'Vt', 'managed']
+[15, 16, 'Trans', 'to']
+[16, 17, 'Vform', 'make']
 
-sentence number 2 is originaly in line 24919 and is:
-Thereby, public spending should be diverted to other areas to help the needy and unfortunate.
+sentence number 2 is originaly in line 116618 and is:
+On one hand, people are facing the challenge of energy shortage because fossil fuels are nonrenewable.
 mistakes for sentence number 2 are:
-[0, 2, 'WOinc', 'Therefore']
+[1, 1, 'ArtOrDet', 'the']
 
-sentence number 3 is originaly in line 47271 and is:
-Therefore, government's expenditure on the elderly should be allocated such that it is sufficient to help those elderly who are in need.
+sentence number 3 is originaly in line 134558 and is:
+Nuclear power's new dawn [ Electronic version ].
 mistakes for sentence number 3 are:
 
-sentence number 4 is originaly in line 2653 and is:
-" Most of these traffic emissions are produced from the combustion engine of gasoline vehicles.
+sentence number 4 is originaly in line 115520 and is:
+(2007).
 mistakes for sentence number 4 are:
 
-sentence number 5 is originaly in line 67104 and is:
-Our Education System.
+sentence number 5 is originaly in line 31219 and is:
+Even so, this figure is attributed by the influx of foreign talents.
 mistakes for sentence number 5 are:
+[12, 13, 'Nn', 'talent']
 
-sentence number 6 is originaly in line 50702 and is:
-Ageing population may hurt Singapore most.
+sentence number 6 is originaly in line 43217 and is:
+This clearly shows that if a country were to neglect its infrastructure development, it will affect the economy negatively.
 mistakes for sentence number 6 are:
+[19, 20, 'Wci', 'greatly']
 
-sentence number 7 is originaly in line 124195 and is:
-In conclusion, Chernobyl is a result of flawed design of reactor and inappropriate operation by inadequate operators.
+sentence number 7 is originaly in line 140079 and is:
+As one of the most practical generation IV reactors, the supercritical water reactor has many advantages over the generation III reactors such as the higher efficiency.
 mistakes for sentence number 7 are:
-[5, 6, 'ArtOrDet', 'the']
 
-sentence number 8 is originaly in line 51699 and is:
-As the post war babies age, coupled with the fact that many women are delaying marriage and having lesser children, the population of the elderly has become increasingly significant in proportion in the society of many developed countries today.
+sentence number 8 is originaly in line 57615 and is:
+Currently, Singapore's CPF has the highest coverage of any retirement plan in Asia (Asher, 2006).
 mistakes for sentence number 8 are:
+[10, 11, 'Wci', 'all']
+[12, 13, 'Nn', 'plans']
 
-sentence number 9 is originaly in line 130232 and is:
-* SFEN, " Chernobyl : truths, falsehoods and uncertainties, " April 1996
+sentence number 9 is originaly in line 84153 and is:
+The scheme might have improved the situation to a certain extent ; however, it is evident that the problem has not been solved.
 mistakes for sentence number 9 are:
 
-sentence number 10 is originaly in line 29487 and is:
-Society is made up of people and the interest of people is no doubt very important and on par with the country's development.
+sentence number 10 is originaly in line 119123 and is:
+Hence, this makes it justifiable to spend more money to build VHTR plant.
 mistakes for sentence number 10 are:
-[12, 14, 'Wform', 'undoubtedly']
 
-sentence number 11 is originaly in line 156144 and is:
-There are many kinds of surveillance technology and RFID is one of them.
+sentence number 11 is originaly in line 5223 and is:
+Thus, both creations are very useful in the role they play in making our life a better one.
 mistakes for sentence number 11 are:
 
-sentence number 12 is originaly in line 62357 and is:
-This is because the current economy system looks for more efficient and competitive working force and the companies that hire the old do n't consider the elderly so they try to avoid engaging them.
+sentence number 12 is originaly in line 123679 and is:
+However, controversies over robotic surgery also arise concerning the safety, high cost and performance.
 mistakes for sentence number 12 are:
-[5, 6, 'Wform', 'economic']
-[9, 9, 'ArtOrDet', 'a']
-[13, 14, 'Wci', 'work']
-[27, 29, 'Trans', 'and']
+[6, 10, 'WOinc', 'have']
 
-sentence number 13 is originaly in line 32539 and is:
-A Graying World.
+sentence number 13 is originaly in line 14871 and is:
+RFID tags can be inserted into objects to monitor the sales and quality of products.
 mistakes for sentence number 13 are:
 
-sentence number 14 is originaly in line 122612 and is:
-Hence, we can feel safe to use the electricity and drive cars powered by Hydrogen which is supplied by VHTR.
+sentence number 14 is originaly in line 139416 and is:
+In addition, the Gen = 4 \ * ROMAN IV reactors will achieve more than what we expect.
 mistakes for sentence number 14 are:
 
-sentence number 15 is originaly in line 121132 and is:
-(2009), SSTAR : The US lead-cooled fast reactor (LFR), Journal of Nuclear Materials.
+sentence number 15 is originaly in line 37170 and is:
+Since everything provided by the government is considered as a right of people, the more subsidies for the elderly, the more demand will be created.
 mistakes for sentence number 15 are:
+[16, 16, 'ArtOrDet', 'the']
 
-sentence number 16 is originaly in line 87852 and is:
-3 Furthermore, it is the continent with the least supply of potable water.
+sentence number 16 is originaly in line 113525 and is:
+In contrast, the other five designs of reactors, which are Gas-cooled fast reactors, Lead-cooled fast reactors, Molten salt reactors, Supercritical-water-cooled reactors, and Very-high-temperature reactors, operate either at high temperature or under high pressure or even both.
 mistakes for sentence number 16 are:
-[0, 1, 'Cit', ' ']
 
-sentence number 17 is originaly in line 83810 and is:
-The two problems mentioned above are serious in China.
+sentence number 17 is originaly in line 57174 and is:
+Limiting the spending then handicaps the whole system reaction to the increasing number.
 mistakes for sentence number 17 are:
+[0, 14, 'Um', ' ']
 
-sentence number 18 is originaly in line 3024 and is:
-Two problems hampering engineering design process in China.
+sentence number 18 is originaly in line 99171 and is:
+An alternative to the use of nutrition products to ease aging process is the research and development of Cosmetic interventions such as skin treatments and plastic surgery.
 mistakes for sentence number 18 are:
 
-sentence number 19 is originaly in line 71578 and is:
-Designing of medical products which can make all human beings ; young and old as well as disabilities easier and safer is obviously important.
+sentence number 19 is originaly in line 50915 and is:
+If the government refuses to help these people who had once contributed to the country, who can they rely ?
 mistakes for sentence number 19 are:
-[10, 11, 'Mec', ' ']
-[11, 18, 'Rloc-', ' ']
-[18, 19, 'Wci', 'healthier']
-[19, 21, 'Rloc-', ' ']
+[20, 20, 'Wci', 'on']
 
-sentence number 20 is originaly in line 137661 and is:
-Anonymous (2009, October 06).
+sentence number 20 is originaly in line 91019 and is:
+It is n't easy to bring children up and parents have to scrimp and save just to give their children the best.
 mistakes for sentence number 20 are:
+[2, 3, 'Wtone', 'not']
+[6, 8, 'Wci', 'up']
+[8, 9, 'Trans', ';']
 

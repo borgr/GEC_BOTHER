@@ -69,6 +69,7 @@ def main():
         line = line.replace(' \'', '\'')
         out_file.write("sentence number " + str(k + 1) + " is originaly in line " + str(
             parsed_sentence[LINE_INX]) + " and is:\n" + line)
+        print(line)
         out_file.write("\nmistakes for sentence number " + str(k + 1) + " are:\n")
         for mistake in parsed_sentence[MISTAKES_INX]:
             out_file.write(str(mistake)+ "\n")
