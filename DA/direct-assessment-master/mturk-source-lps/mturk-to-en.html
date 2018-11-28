@@ -65,7 +65,9 @@ window.onload = function() {
   }
 </style>
 </p>
-<script type='text/javascript' src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js'> </script><script  type='text/javascript' src='https://ajax.aspnetcdn.com/ajax/jquery.ui/1.9.1/jquery-ui.min.js'>  </script><script type='text/javascript' >
+<script type='text/javascript' src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js'> </script>
+<script type='text/javascript' src='https://ajax.aspnetcdn.com/ajax/jquery.ui/1.9.1/jquery-ui.min.js'>  </script>
+<script type='text/javascript' >
 
     function shuffle (array) {
       var i = 0
@@ -96,7 +98,6 @@ window.onload = function() {
     $(function () {
 
     $('#amount').val(selectedValue);
-        
     var slider = $("#slider").slider({
  
             orientation: "horizontal",
@@ -106,7 +107,7 @@ window.onload = function() {
                 
       slide: function (event, ui) {
                 $('#amount').val(ui.value);
-                selectedValue = ui.value
+                selectedValue = ui.value;
       }
         });
 
@@ -159,13 +160,10 @@ window.onload = function() {
                     <tbody>
                       <tr>
                         <td>
-                        <table>
+                        <table> 
                           <tbody>
                             <tr>
-                              <td align="center" id="question_cell" width="100%"><img alt="" border="0" id="ref_pic" src="" /></td>
-                            </tr>
-                            <tr>
-                              <td align="center" width="100%"><img alt="" border="0" id="question_pic" src="" /></td>
+                              <td align="center" width="100%"><img alt="" border="0" id="question_pic" src="" />a</td>
                             </tr>
                           </tbody>
                         </table>
@@ -206,7 +204,7 @@ window.onload = function() {
                   <table border="0" bordercolor="green" width="100%">
                     <tbody>
                       <tr>
-                        <td align="right" id="next_button"><input class="flatButton" onclick="nextQuestion()" type="button" value="NEXT" /></td>
+                        <td align="right" id="next_button"><input class="flatButton" onclick="nextQuestion();" type="button" value="NEXT" /></td>
                       </tr>
                     </tbody>
                   </table>
@@ -224,6 +222,9 @@ window.onload = function() {
       <p><input id="final_answer" name="Q1" type="hidden" /></p>
       <script type="text/javascript" language="javascript">
 
+        	alert("dudi");
+  
+        	
 var SL = ${src};
 var TL = ${trg};
 var ITEM = ${item};
@@ -243,23 +244,25 @@ var sysid = sysids[qid];
 var tst = tsts[qid];
 
 var url = "http://www.cs.huji.ac.il/~ofirshifman/GEC_EM_project"
-var ref_dir = url+"/img/ref/"+SL+"-"+TL+"/"
-var img_dir = url+"/img/ad/"+ITEM+"/"+SL+"-"+TL+"/"
+var ref_dir = url + "/img/ref/" + SL   + "-" + TL + "/"
+var img_dir = url + "/img/ad/"  + ITEM + "/" + SL + "-" + TL + "/"
 
 var ref_img = ref_dir+sid+".png";
-var img = img_dir+rid.substring(0,4)+"/"+rid+".png";
-
+var img = img_dir+rid.substring(0,4)+"/"+rid+".png";  
+  
 document.getElementById("question_pic").src = img;
-document.getElementById("ref_pic").src = ref_img;  
+// document.getElementById("ref_pic").src = ref_img;  
 document.getElementById('done').innerHTML = "This HIT consists of 100 English assessments. You have completed "+index+".";
   
-function nextQuestion(){
+function nextQuestion() {
 
+  
   var a = sysid+"_"+sid+"_"+tst+"_"+index+"_"+"_"+document.getElementById("amount").value;
+  
 
-  if( index == 0 ){
+  if (index == 0) {
     ans = a;
-  }else{
+  } else {
     ans += "|"+a;
   }
 
@@ -277,24 +280,24 @@ function nextQuestion(){
   
   document.getElementById('done').innerHTML = "<span style='font-family: Arial;'>This HIT consists of 100 English assessments. You have completed "+index+".</span>";
   document.getElementById("question_pic").src=img;
-  document.getElementById("ref_pic").src=ref_img;
+  // document.getElementById("ref_pic").src=ref_img;
   
   $("#slider").slider('value', 0);
 
-  if( index == rids.length ){
+  if (index == rids.length) {
   
     document.getElementById('final_answer').value = ""+ans;
     document.getElementById("main_table").innerHTML = "<tbody><div><p>You have completed Has all 100 assessments.</p> <p> Please press the <b>\"Submit\"</b> button below to submit the HIT. Thank you for your participation.</p> <p>You can leave feedback here if you wish:</p></div><textarea name=\"comments\" cols=110 rows=10></textarea></tbody>" 
     document.getElementById('other_table').innerHTML = "";
     document.getElementById('slider_table').innerHTML = "";
-  //document.getElementById("submitButton").disabled = false;
+    // document.getElementById("submitButton").disabled = false;
   }
 }
 
-function validateForm(){
-  if( index == 100 ){
+function validateForm() {
+  if (index == 100) {
      return true;
-  }else{
+  } else {
      alert("Press \"Next\"");
      return false;
   }

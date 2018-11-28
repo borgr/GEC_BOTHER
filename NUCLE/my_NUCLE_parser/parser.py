@@ -11,6 +11,7 @@ SENTENCE = "S"
 LINE_INX = 0
 SENTANCE_INX = 1
 MISTAKES_INX = 2
+MIN_WORDS = 10
 
 # the list of mistakes and cerrections is as follows: [mistake starting index, mistake end index, mistake type, correction]
 NUM_OF_MISTAKE_ATTRIBUTES = 4
@@ -21,8 +22,8 @@ def get_random_inx(lines):
     while True:
         i = random.randint(0, len(lines))
         line = lines[i].split()
-        if len(line) > 4 and line[0] == SENTENCE and (
-                "http" not in line):  # it's a valid sentence - more then 4 words, and doesn't include http address
+        if len(line) > MIN_WORDS and line[0] == SENTENCE and (
+                "http" not in line):  # it's a valid sentence - more then MIN_WORDS words, and doesn't include http address
             break
     return i
 
