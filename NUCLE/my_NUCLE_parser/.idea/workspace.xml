@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee82a83-bb95-4d95-adc2-c2a655768400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/batchCreator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DA/direct-assessment-master/mturk-source-lps/mturk-to-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/direct-assessment-master/mturk-source-lps/mturk-to-en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/data/newstest2016/cs-en/newstest2016.cs-en.PJATK" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/data/references/newstest2016-csen-ref.en" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/data/references/newstest2016-csen-ref.en" afterDir="false" />
@@ -60,10 +59,6 @@
       <change beforePath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/out/img/ref/cs-en/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/out/img/ref/cs-en/7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/out/img/ref/cs-en/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/out/img/ref/cs-en/8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/out/img/ref/cs-en/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/direct-assessment-master/prep-hits/out/img/ref/cs-en/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out_file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser_out" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,10 +141,10 @@
     <session id="-1388606797">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -180,38 +175,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="247" column="36" selection-start-line="247" selection-start-column="36" selection-end-line="247" selection-end-column="36" />
-              <folding>
-                <element signature="e#54#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/batchCreator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="412" selection-start-line="412" selection-end-line="412" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -261,7 +225,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my_NUCLE_parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_NUCLE_parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -369,12 +346,20 @@
       <option name="presentableId" value="Default" />
       <updated>1542792320632</updated>
     </task>
+    <task id="LOCAL-00001" summary="11.3.2019">
+      <created>1552329655068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552329655068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="26" width="1928" height="1033" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2524013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -402,6 +387,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11.3.2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.3.2019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../release3.2/scripts/preprocess.py">
@@ -470,24 +459,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp">
+    <entry file="file://$PROJECT_DIR$/batchCreator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/batchCreator.py">
+    <entry file="file://$PROJECT_DIR$/temp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="752">
+          <caret line="412" selection-start-line="412" selection-end-line="412" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="247" column="36" selection-start-line="247" selection-start-column="36" selection-end-line="247" selection-end-column="36" />
+        <state relative-caret-position="1562">
+          <caret line="216" lean-forward="true" selection-start-line="216" selection-end-line="216" />
           <folding>
             <element signature="e#54#64#0" expanded="true" />
           </folding>
