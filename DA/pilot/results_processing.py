@@ -32,6 +32,8 @@ def c_sentence_average(id):
 
 
 def HIT_average(HIT_id):
+
+
     return average(HIT_scores(id))
 
 
