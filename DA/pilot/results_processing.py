@@ -1,6 +1,7 @@
-import math
+import pandas as pd
+import numpy as np
 
-RESULTS_FILE_ADDR = ""
+RESULTS_FILE_ADDR = "Batch_3548123_batch_results.csv"
 
 
 # gets an HIT id and return an array of size 15 with the indexes of the perfect sentences in the hit
@@ -18,6 +19,7 @@ def HIT_scores(HIT_id):
     res = []
     for i in range(1, HIT_SIZE + 1):
         # add this HIT score for sentence i to res.
+        pass
 
 
 # return an array of size 15 which contains this HIT perfect sentences scores
@@ -30,6 +32,8 @@ def c_sentence_average(id):
 
 
 def HIT_average(HIT_id):
+
+
     return average(HIT_scores(id))
 
 
@@ -43,8 +47,10 @@ def average(lst):
 
 
 def main():
-    pass
+    data = pd.read_csv(RESULTS_FILE_ADDR, index_col=0)
+    print(data.tail())
 
 
-if name == __main__:
+
+if __name__ == "__main__":
     main()

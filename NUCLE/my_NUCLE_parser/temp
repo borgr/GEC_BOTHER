@@ -1,0 +1,413 @@
+
+
+
+
+
+<crowd-slider id="slider2" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate2" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q3" style="display:none"> </strong>${original_text3} <br></br>
+<crowd-slider id="slider3" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate3" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q4" style="display:none"> </strong>${original_text4} <br></br>
+<crowd-slider id="slider4" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate4" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q5" style="display:none"> </strong>${original_text5} <br></br>
+<crowd-slider id="slider5" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate5" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q6" style="display:none"> </strong>${original_text6} <br></br>
+<crowd-slider id="slider6" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate6" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q7" style="display:none"> </strong>${original_text7} <br></br>
+<crowd-slider id="slider7" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate7" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q8" style="display:none"> </strong>${original_text8} <br></br>
+<crowd-slider id="slider8" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate8" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q9" style="display:none"> </strong>${original_text9} <br></br>
+<crowd-slider id="slider9" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate9" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q10" style="display:none"> </strong>${original_text10} <br></br>
+<crowd-slider id="slider10" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate10" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q11" style="display:none"> </strong>${original_text11} <br></br>
+<crowd-slider id="slider11" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate11" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q12" style="display:none"> </strong>${original_text12} <br></br>
+<crowd-slider id="slider12" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate12" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q13" style="display:none"> </strong>${original_text13} <br></br>
+<crowd-slider id="slider13" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate13" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q14" style="display:none"> </strong>${original_text14} <br></br>
+<crowd-slider id="slider14" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate14" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q15" style="display:none"> </strong>${original_text15} <br></br>
+<crowd-slider id="slider15" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate15" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q16" style="display:none"> </strong>${original_text16} <br></br>
+<crowd-slider id="slider16" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate16" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q17" style="display:none"> </strong>${original_text17} <br></br>
+<crowd-slider id="slider17" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate17" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q18" style="display:none"> </strong>${original_text18} <br></br>
+<crowd-slider id="slider18" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate18" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q19" style="display:none"> </strong>${original_text19} <br></br>
+<crowd-slider id="slider19" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate19" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q20" style="display:none"> </strong>${original_text20} <br></br>
+<crowd-slider id="slider20" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate20" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q21" style="display:none"> </strong>${original_text21} <br></br>
+<crowd-slider id="slider21" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate21" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q22" style="display:none"> </strong>${original_text22} <br></br>
+<crowd-slider id="slider22" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate22" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q23" style="display:none"> </strong>${original_text23} <br></br>
+<crowd-slider id="slider23" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate23" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q24" style="display:none"> </strong>${original_text24} <br></br>
+<crowd-slider id="slider24" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate24" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q25" style="display:none"> </strong>${original_text25} <br></br>
+<crowd-slider id="slider25" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate25" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q26" style="display:none"> </strong>${original_text26} <br></br>
+<crowd-slider id="slider26" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate26" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q27" style="display:none"> </strong>${original_text27} <br></br>
+<crowd-slider id="slider27" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate27" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q28" style="display:none"> </strong>${original_text28} <br></br>
+<crowd-slider id="slider28" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate28" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q29" style="display:none"> </strong>${original_text29} <br></br>
+<crowd-slider id="slider29" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate29" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q30" style="display:none"> </strong>${original_text30} <br></br>
+<crowd-slider id="slider30" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate30" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q31" style="display:none"> </strong>${original_text31} <br></br>
+<crowd-slider id="slider31" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate31" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q32" style="display:none"> </strong>${original_text32} <br></br>
+<crowd-slider id="slider32" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate32" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q33" style="display:none"> </strong>${original_text33} <br></br>
+<crowd-slider id="slider33" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate33" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q34" style="display:none"> </strong>${original_text34} <br></br>
+<crowd-slider id="slider34" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate34" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q35" style="display:none"> </strong>${original_text35} <br></br>
+<crowd-slider id="slider35" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate35" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q36" style="display:none"> </strong>${original_text36} <br></br>
+<crowd-slider id="slider36" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate36" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q37" style="display:none"> </strong>${original_text37} <br></br>
+<crowd-slider id="slider37" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate37" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q38" style="display:none"> </strong>${original_text38} <br></br>
+<crowd-slider id="slider38" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate38" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q39" style="display:none"> </strong>${original_text39} <br></br>
+<crowd-slider id="slider39" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate39" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q40" style="display:none"> </strong>${original_text40} <br></br>
+<crowd-slider id="slider40" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate40" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q41" style="display:none"> </strong>${original_text41} <br></br>
+<crowd-slider id="slider41" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate41" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q42" style="display:none"> </strong>${original_text42} <br></br>
+<crowd-slider id="slider42" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate42" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q43" style="display:none"> </strong>${original_text43} <br></br>
+<crowd-slider id="slider43" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate43" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q44" style="display:none"> </strong>${original_text44} <br></br>
+<crowd-slider id="slider44" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate44" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q45" style="display:none"> </strong>${original_text45} <br></br>
+<crowd-slider id="slider45" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate45" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q46" style="display:none"> </strong>${original_text46} <br></br>
+<crowd-slider id="slider46" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate46" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q47" style="display:none"> </strong>${original_text47} <br></br>
+<crowd-slider id="slider47" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate47" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q48" style="display:none"> </strong>${original_text48} <br></br>
+<crowd-slider id="slider48" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate48" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q49" style="display:none"> </strong>${original_text49} <br></br>
+<crowd-slider id="slider49" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate49" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q50" style="display:none"> </strong>${original_text50} <br></br>
+<crowd-slider id="slider50" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate50" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q51" style="display:none"> </strong>${original_text51} <br></br>
+<crowd-slider id="slider51" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate51" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q52" style="display:none"> </strong>${original_text52} <br></br>
+<crowd-slider id="slider52" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate52" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q53" style="display:none"> </strong>${original_text53} <br></br>
+<crowd-slider id="slider53" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate53" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q54" style="display:none"> </strong>${original_text54} <br></br>
+<crowd-slider id="slider54" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate54" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q55" style="display:none"> </strong>${original_text55} <br></br>
+<crowd-slider id="slider55" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate55" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q56" style="display:none"> </strong>${original_text56} <br></br>
+<crowd-slider id="slider56" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate56" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q57" style="display:none"> </strong>${original_text57} <br></br>
+<crowd-slider id="slider57" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate57" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q58" style="display:none"> </strong>${original_text58} <br></br>
+<crowd-slider id="slider58" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate58" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q59" style="display:none"> </strong>${original_text59} <br></br>
+<crowd-slider id="slider59" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate59" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q60" style="display:none"> </strong>${original_text60} <br></br>
+<crowd-slider id="slider60" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate60" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q61" style="display:none"> </strong>${original_text61} <br></br>
+<crowd-slider id="slider61" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate61" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q62" style="display:none"> </strong>${original_text62} <br></br>
+<crowd-slider id="slider62" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate62" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q63" style="display:none"> </strong>${original_text63} <br></br>
+<crowd-slider id="slider63" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate63" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q64" style="display:none"> </strong>${original_text64} <br></br>
+<crowd-slider id="slider64" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate64" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q65" style="display:none"> </strong>${original_text65} <br></br>
+<crowd-slider id="slider65" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate65" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q66" style="display:none"> </strong>${original_text66} <br></br>
+<crowd-slider id="slider66" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate66" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q67" style="display:none"> </strong>${original_text67} <br></br>
+<crowd-slider id="slider67" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate67" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q68" style="display:none"> </strong>${original_text68} <br></br>
+<crowd-slider id="slider68" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate68" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q69" style="display:none"> </strong>${original_text69} <br></br>
+<crowd-slider id="slider69" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate69" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q70" style="display:none"> </strong>${original_text70} <br></br>
+<crowd-slider id="slider70" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate70" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q71" style="display:none"> </strong>${original_text71} <br></br>
+<crowd-slider id="slider71" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate71" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q72" style="display:none"> </strong>${original_text72} <br></br>
+<crowd-slider id="slider72" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate72" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q73" style="display:none"> </strong>${original_text73} <br></br>
+<crowd-slider id="slider73" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate73" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q74" style="display:none"> </strong>${original_text74} <br></br>
+<crowd-slider id="slider74" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate74" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q75" style="display:none"> </strong>${original_text75} <br></br>
+<crowd-slider id="slider75" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate75" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q76" style="display:none"> </strong>${original_text76} <br></br>
+<crowd-slider id="slider76" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate76" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q77" style="display:none"> </strong>${original_text77} <br></br>
+<crowd-slider id="slider77" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate77" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q78" style="display:none"> </strong>${original_text78} <br></br>
+<crowd-slider id="slider78" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate78" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q79" style="display:none"> </strong>${original_text79} <br></br>
+<crowd-slider id="slider79" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate79" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q80" style="display:none"> </strong>${original_text80} <br></br>
+<crowd-slider id="slider80" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate80" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q81" style="display:none"> </strong>${original_text81} <br></br>
+<crowd-slider id="slider81" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate81" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q82" style="display:none"> </strong>${original_text82} <br></br>
+<crowd-slider id="slider82" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate82" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q83" style="display:none"> </strong>${original_text83} <br></br>
+<crowd-slider id="slider83" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate83" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q84" style="display:none"> </strong>${original_text84} <br></br>
+<crowd-slider id="slider84" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate84" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q85" style="display:none"> </strong>${original_text85} <br></br>
+<crowd-slider id="slider85" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate85" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q86" style="display:none"> </strong>${original_text86} <br></br>
+<crowd-slider id="slider86" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate86" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q87" style="display:none"> </strong>${original_text87} <br></br>
+<crowd-slider id="slider87" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate87" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q88" style="display:none"> </strong>${original_text88} <br></br>
+<crowd-slider id="slider88" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate88" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q89" style="display:none"> </strong>${original_text89} <br></br>
+<crowd-slider id="slider89" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate89" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q90" style="display:none"> </strong>${original_text90} <br></br>
+<crowd-slider id="slider90" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate90" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q91" style="display:none"> </strong>${original_text91} <br></br>
+<crowd-slider id="slider91" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate91" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q92" style="display:none"> </strong>${original_text92} <br></br>
+<crowd-slider id="slider92" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate92" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q93" style="display:none"> </strong>${original_text93} <br></br>
+<crowd-slider id="slider93" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate93" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q94" style="display:none"> </strong>${original_text94} <br></br>
+<crowd-slider id="slider94" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate94" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q95" style="display:none"> </strong>${original_text95} <br></br>
+<crowd-slider id="slider95" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate95" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q96" style="display:none"> </strong>${original_text96} <br></br>
+<crowd-slider id="slider96" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate96" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q97" style="display:none"> </strong>${original_text97} <br></br>
+<crowd-slider id="slider97" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate97" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q98" style="display:none"> </strong>${original_text98} <br></br>
+<crowd-slider id="slider98" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate98" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q99" style="display:none"> </strong>${original_text99} <br></br>
+<crowd-slider id="slider99" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate99" min="0" max="100"  required pin> </crowd-slider></p>
+
+<p id="q100" style="display:none"> </strong>${original_text100} <br></br>
+<crowd-slider id="slider100" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate100" min="0" max="100"  required pin> </crowd-slider></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <crowd-slider id="slider2" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate2" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider3" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate3" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider4" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate4" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider5" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate5" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider6" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate6" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider7" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate7" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider8" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate8" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider9" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate9" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider10" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate10" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider11" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate11" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider12" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate12" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider13" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate13" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider14" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate14" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider15" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate15" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider16" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate16" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider17" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate17" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider18" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate18" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider19" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate19" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider20" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate20" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider21" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate21" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider22" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate22" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider23" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate23" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider24" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate24" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider25" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate25" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider26" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate26" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider27" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate27" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider28" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate28" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider29" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate29" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider30" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate30" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider31" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate31" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider32" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate32" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider33" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate33" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider34" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate34" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider35" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate35" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider36" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate36" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider37" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate37" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider38" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate38" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider39" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate39" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider40" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate40" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider41" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate41" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider42" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate42" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider43" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate43" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider44" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate44" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider45" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate45" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider46" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate46" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider47" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate47" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider48" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate48" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider49" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate49" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider50" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate50" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider51" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate51" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider52" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate52" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider53" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate53" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider54" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate54" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider55" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate55" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider56" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate56" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider57" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate57" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider58" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate58" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider59" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate59" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider60" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate60" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider61" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate61" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider62" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate62" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider63" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate63" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider64" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate64" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider65" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate65" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider66" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate66" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider67" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate67" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider68" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate68" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider69" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate69" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider70" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate70" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider71" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate71" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider72" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate72" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider73" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate73" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider74" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate74" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider75" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate75" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider76" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate76" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider77" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate77" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider78" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate78" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider79" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate79" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider80" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate80" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider81" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate81" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider82" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate82" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider83" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate83" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider84" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate84" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider85" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate85" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider86" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate86" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider87" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate87" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider88" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate88" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider89" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate89" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider90" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate90" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider91" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate91" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider92" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate92" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider93" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate93" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider94" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate94" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider95" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate95" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider96" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate96" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider97" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate97" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider98" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate98" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider99" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate99" min="0" max="100"  required pin> </crowd-slider>
+    <crowd-slider id="slider100" onchange="enableNext();" style="display:none; width: 800px; height: 20px;" name="mistakeRate100" min="0" max="100"  required pin> </crowd-slider></td>

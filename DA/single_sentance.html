@@ -1,0 +1,27 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+    <p>
+      
+        Read the piece of text below and use the slider below indicate how much do you agree with the following statement:
+        
+      
+    </p>
+
+
+    <p><strong>The mistakes in the following text bother me (0 = it doesn't bother me at all, 100 = it really bothers me): <br></br><br></br>
+    </strong>${original_text}</p>
+
+  <p>
+
+        <p><crowd-slider style="width: 800px; height: 20px;" name="mistakeRate" min="1" max="100"  required pin/></p>
+        
+
+  </p>
+</crowd-form>

@@ -1,0 +1,300 @@
+sentence number 1 in batch number: 1 is originaly in line 141489 and is:
+In addition, sub systems are also implemented to detect problems and prevent significant radioactive releases.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 1 is originaly in line 101836 and is:
+This is to make sure the risk of operating nuclear power plants can be minimized tremendously.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 1 is originaly in line 122580 and is:
+We must know clearly about the benefit VHTR will bring to us once the research is successfully done.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 1 is originaly in line 92498 and is:
+Thirdly, it is our responsibility to take care of our parents whom grew us up since young.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 1 is originaly in line 46987 and is:
+But the question is : Will the government be firm enough to make the harsh decision ?
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 1 is originaly in line 65666 and is:
+Pfizer managed to patent the newly synthesised Sildenafil, incorporate it into pill form before marketing it as an oral treatment for erectile dysfunction.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 1 is originaly in line 142600 and is:
+This will be a good solution as it provides stable job and also ensuring that energy is aplenty for a long time.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 1 is originaly in line 15376 and is:
+In February 2005, when the State Department (US) asked for public comment on the implementation of Radio-Frequency Identification (RFID) in passport booklets, of the 2,335 comments received, 98.5 percent were negative, with 86 percent expressing security or privacy concerns, the department reported in an October 2005 notice in the Federal Register (Lewan, 2009).
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 1 is originaly in line 86960 and is:
+The hard tomato program and the discovery of Warfarin started differently.
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 1 is originaly in line 109475 and is:
+In addition, it is reported that the generation IV reactors will quietly switch themselves off and cool down in an event of an earthquake, a terrorist attack or human errors (Brockie, 2009).
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 1 is originaly in line 158509 and is:
+Hence, the use of such tagging devices should remain on the studies of the endangered wildlife and never on human.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 1 is originaly in line 94595 and is:
+The developed countries can also help developing countries to ease aging problem as it is a global problem.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 1 is originaly in line 30223 and is:
+The construction of the studio apartment, lift-upgrading project, extension of the retirement age and the implementation of healthcare subsidies and medical benefits have all gone a long way to help ease the aging process.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 1 is originaly in line 25001 and is:
+Secondly, it is by requiring people to provide in advance for their own old-age dependency.
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 1 is originaly in line 121814 and is:
+Furthermore, the terrorism attack would reduce the effectiveness of improvements in equipment.
+mistakes for sentence number 16 are:
+
+sentence number 1 in batch number: 2 is originaly in line 101299 and is:
+Even though the cost of building a nuclear plant is very high, the operating cost is relatively low.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 2 is originaly in line 139393 and is:
+In addition, nuclear waste may become tools for terrorists, which is very dangerous.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 2 is originaly in line 90206 and is:
+These are some of the benefits that can be seen around our housing estates.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 2 is originaly in line 128918 and is:
+In contrast, SFR has already benefited from considerable technological advancement.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 2 is originaly in line 11065 and is:
+Having a home is one of the most fundamental human needs.
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 2 is originaly in line 52776 and is:
+In other words, medicine can be used effectively to ease the aging process.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 2 is originaly in line 116426 and is:
+Secondly, the ineffective communication and misunderstanding between departments, between sponsors and contractors also lead to engineering accidents.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 2 is originaly in line 26293 and is:
+It creates a cohesive community where the elderly can integrate themselves into the society through participating in various social activities.
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 2 is originaly in line 96873 and is:
+When an elder opens that compartment, text instructions are displayed clearly on an LCD screen.
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 2 is originaly in line 66681 and is:
+More than 300,000 Indians migrate to the United States and over 75 percent of these people have had tertiary education (Finance and development, June 1999).
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 2 is originaly in line 86864 and is:
+In conclusion, CNG vehicle technology is a socially determined technology.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 2 is originaly in line 138713 and is:
+Retrieved October 16, 2009, from https : //inlportal.inl.gov/portal/server.pt ? open = 514&objID = 2251&parentn ame = CommunityPage&parentid = 13&mode = 2
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 2 is originaly in line 123671 and is:
+It is a newly developed technology to help enhance the quality of surgery.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 2 is originaly in line 78457 and is:
+It is true that sometimes technology innovation may be affected by some factors, but hopes are that determined engineers such as Mizogushi will eventually come up with inventions that can improve our quality of life.
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 2 is originaly in line 52802 and is:
+As a result, treatments for the aging process are now well assisted.
+mistakes for sentence number 16 are:
+
+sentence number 1 in batch number: 3 is originaly in line 58837 and is:
+The old age dependency ratio is estimated to increase with longevity and the decline of fertility.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 3 is originaly in line 142137 and is:
+According to GIF (2008), VHTR is recognized in terms of safety features of fuel and reactor.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 3 is originaly in line 36338 and is:
+Society might find it difficult to advance if the aged population is being left behind as the mindsets, cultures and values of these different age groups would not be able to shift together with time.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 3 is originaly in line 84873 and is:
+The other end of the leads is connected to the generator and a battery that lasts for a few years.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 3 is originaly in line 50385 and is:
+People tend to be emotionally unstable when they reach old age.
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 3 is originaly in line 140233 and is:
+For example, in the Chernobyl accident, the reactor melted down and exploded because of overheating inside the cores of reactor.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 3 is originaly in line 8133 and is:
+Let us now take a look at the military demands which plays a part in shaping this technological innovation as well.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 3 is originaly in line 12024 and is:
+Firstly, surveillance technology such as radio identification technology (RFID) can be used to track patients in the hospital where it will notify the nurse or hospital staffs if a patient begins to collapse.
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 3 is originaly in line 113618 and is:
+The use of psychology would rectify the design flaws and safety mechanism implemented to counter human errors.
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 3 is originaly in line 73240 and is:
+In addition, interviews on affected users can be done to understand how the injuries occur.
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 3 is originaly in line 140251 and is:
+Proponents claim that nuclear reprocessing will lead to serious complications such as nuclear race and terrorism.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 3 is originaly in line 75584 and is:
+Moreover, as China become more open to the world, she faces constant intensifying international competition.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 3 is originaly in line 115137 and is:
+This characteristic is advantageous as operating a reactor under such conditions is simpler compared to the extreme conditions such as high temperature required for the other designs.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 3 is originaly in line 140372 and is:
+Opponents mention that the cost of building a nuclear plant will be very expensive due to the high capital costs and licensing uncertainties associated with the construction (Goswami & Kreith, 2008).
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 3 is originaly in line 135593 and is:
+In the case of Chernobyl, the plant operators failed to make the right decision which then caused the reactor to explode.
+mistakes for sentence number 16 are:
+
+sentence number 1 in batch number: 4 is originaly in line 62959 and is:
+Thus, trends in the developing countries may change in the long run.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 4 is originaly in line 19634 and is:
+Therefore, government and policy makers have to put more effort to ease the aging process as the elderly are still experiencing inadequate protection.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 4 is originaly in line 11848 and is:
+In my view, surveillance technology such as RFID should not be banned because of its positive effects.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 4 is originaly in line 63868 and is:
+In the 1990s, the number of mobile phone subscribers was initially almost zero, but it shot up to half a billion people around the world in a very short period of time.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 4 is originaly in line 116872 and is:
+It showed another construction problem of the train - the car's ability to contain its occupants was severely compromised.
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 4 is originaly in line 74901 and is:
+In conclusion, the social and financial factors are main issues hampering the design processes of engineers.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 4 is originaly in line 12880 and is:
+As mentioned by the " American Medical Association " (Roberti 2007), RFID allows quick and accurate identification and access to patients' data in times of emergency.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 4 is originaly in line 74246 and is:
+However, seawater is not drinkable as it contains a very high level of sea salt and impurities.
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 4 is originaly in line 76297 and is:
+We would be unable to " Gather Information " effectively, as well as select the right solution to our problems if we were to encounter any.
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 4 is originaly in line 49782 and is:
+It can be utilized in more in-depth research that develops new and inexpensive medicinal drugs for the public.
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 4 is originaly in line 2489 and is:
+References Helmholtz Association of German Research Centres (2009, September 4).
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 4 is originaly in line 30433 and is:
+In the process of taking care of the aged, Singapore will have fewer funds to invest in the other areas that are pivotal to the country's development.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 4 is originaly in line 51774 and is:
+As such, it is possibly true to say that the current social policies can indeed help to ease the aging process to a large degree.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 4 is originaly in line 97526 and is:
+Furthermore, the money saved should be diverted into important areas relative to the country's destiny, such as education and economy.
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 4 is originaly in line 131896 and is:
+However, such claims tend to be speculative and over focused.
+mistakes for sentence number 16 are:
+
+sentence number 1 in batch number: 5 is originaly in line 148788 and is:
+Since the whole family shares the same set of genes, the information the individual provides through the genetic testing may have just as much meaning for the family as for him or herself (Kahn, 2000).
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 5 is originaly in line 62696 and is:
+Despite it, the government should not only focus on a particular policy in order to resolve the aging problems.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 5 is originaly in line 68389 and is:
+To conclude, external factors will affect the development of technology.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 5 is originaly in line 15980 and is:
+The rapid development of medical technology has made it possible to diagnose disease inheritance or determine genetic disorders by using genetic testing.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 5 is originaly in line 119934 and is:
+Bouchard, J., and Bennett,R., (2008) Generation IV Advanced Nuclear Energy Systems.
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 5 is originaly in line 41681 and is:
+Purpose of this financial scheme is to assist parents in the payment of the development and education of their children.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 5 is originaly in line 75672 and is:
+Due to the global economic crisis, currently Malaysia is under economic downturn.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 5 is originaly in line 64892 and is:
+Now there are a lot of researches done on environmentally-friendly energy and materials, so learning to make use of these research results can help to solve our problem a lot.
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 5 is originaly in line 134754 and is:
+Nuclear energy can be utilized to relieve the world's demand for depleting fossil fuel.
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 5 is originaly in line 155825 and is:
+Using surveillance technology to track people has benefitted people in three areas, socially, in the medical field and in the military sector.
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 5 is originaly in line 50527 and is:
+Besides, Medisave can be easily drained especially on chronic illnesses, which can tote up to a huge amount.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 5 is originaly in line 27132 and is:
+However, the amount of money invested way exceeds the amount they need.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 5 is originaly in line 140275 and is:
+On the other hand, VHTR technology has both electricity and hydrogen output.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 5 is originaly in line 102262 and is:
+Of these six reactors, the Very-High-Temperature Reactor (VHTR) and the Lead-cooled Fast Reactor (LFR) are the more promising reactor designs.
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 5 is originaly in line 27661 and is:
+The HDB provides additional grants through CPF for families to purchase flats within a certain radius of their parents.
+mistakes for sentence number 16 are:
+

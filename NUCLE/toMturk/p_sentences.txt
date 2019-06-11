@@ -1,0 +1,300 @@
+sentence number 1 in batch number: 1 is originaly in line 130349 and is:
+Experts use graphite and pottery material to make the main structure for VHTR.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 1 is originaly in line 50004 and is:
+Most Singaporean are expected to accumulate sufficient amount for retirement with the help of this system.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 1 is originaly in line 81916 and is:
+Cars drain our Earth's natural resources, thus inciting political skirmishes over oil, and overwhelming the roads of today's cities (Sperling & Gordon, 2009).
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 1 is originaly in line 86954 and is:
+The other one is discovered by serenity, and an example of it is the discovery of Warfarin, the effective rat killer.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 1 is originaly in line 112263 and is:
+June 26) Very High Temperature Gas Cooled Reactor (VHTR) 10, 3 Retrieved Octobor, 2009, from ttp : //gif.inel.gov/roadmap/pdfs/p_grns_june_25-27_presentation_gp32-00.pdf
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 1 is originaly in line 132521 and is:
+Indeed, nuclear energy should be funded for further research and development.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 1 is originaly in line 99465 and is:
+However, when we are old and forgetful, we are more likely to accept memory loss as part of aging.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 1 is originaly in line 129987 and is:
+Out of all gen IV reactors, only the supercritical water cooled reactor (SWCR) can fulfill these requirements, thus it should receive funding for research.
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 1 is originaly in line 119072 and is:
+In addition, it is important to note that VHTR is a much safer reactor also because the radioactive content of the fuel is contained even if the reactor reaches temperatures in excess of 500 ° C more than the normal operating temperature (Norman, 2007).
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 1 is originaly in line 205 and is:
+When uranium fission was discovered in 1938, it sparked widespread scientific interest due to the massive amount of energy released by the reaction.
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 1 is originaly in line 17901 and is:
+On the contrary, this is a minor issue as only those with access to hospital's database can interpret the information.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 1 is originaly in line 61954 and is:
+Hence, for a better future, public spending on the aged should be limited.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 1 is originaly in line 30318 and is:
+As a result, they might end up having more illnesses that can cause health to deteriorate.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 1 is originaly in line 90944 and is:
+If public spending on the aged is limited, it would help to reduce the amount of tax people have to pay to support these elderly in the society.
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 1 is originaly in line 4419 and is:
+Another difference is that serendipity is sometimes caused by additional observations of one research, while there is no further discovery as a " bonus " in a conventional research.
+mistakes for sentence number 16 are:
+
+sentence number 1 in batch number: 2 is originaly in line 94572 and is:
+It can ease the aging problem without giving burden on the government and poor people.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 2 is originaly in line 41165 and is:
+As a result of economic growth, the government will be more able to pay for the retired elderly.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 2 is originaly in line 75666 and is:
+However in our real life there engineering process is not hundred percent perfect, during the design process there are minor and major problems.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 2 is originaly in line 59703 and is:
+Therefore, the'extra money' that the elderly possess at the expense of the government may not result in the most efficient allocation of resources.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 2 is originaly in line 129696 and is:
+However, recent studies about materials show a lot of success in finding out a lot of materials that satisfy these requirements.
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 2 is originaly in line 13207 and is:
+This discrimination would be very unfair to the individuals involved (Norrgard, 2008).
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 2 is originaly in line 40083 and is:
+On the contrary, if issues related to the aging population are not dealt with appropriately, the social impact on a nation's development may be hindered.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 2 is originaly in line 9200 and is:
+Therefore, perseverance is a crucial factor to the discovery of serendipitous and research-based technologies.
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 2 is originaly in line 112273 and is:
+Compressed natural gas.Retrieved Octobor, 2009, from The Very-High-Temperature Reactor (VHTR) : https : //inlportal.inl.gov/portal/server.pt ? open = 514&objID = 2251&parentname = Co mmunityPage&parentid = 13&mode = 2
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 2 is originaly in line 36657 and is:
+With more companies manufacturing such wheelchairs, the cost of a wheelchair has declined sharply, thus making it more affordable.
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 2 is originaly in line 150463 and is:
+Also people might argue that for disorders in genes that are preventable or treatable, it will be good for individuals to have access to their genetic info.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 2 is originaly in line 139141 and is:
+More recently, environmental concerns and rising energy demands are putting nuclear power back into the energy equation.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 2 is originaly in line 16348 and is:
+Besides, GPS is also widely used to monitor the action of the terrorists.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 2 is originaly in line 148535 and is:
+Opponents of this position argue that the family members may hastily undergo a genetic test on receiving the negative news without careful consideration of the possible discrimination that they may face after the genetic test (Agatha M et al., 2009).
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 2 is originaly in line 98112 and is:
+(Oct 27, 2008) Strength training can ease aging's effects on women.
+mistakes for sentence number 16 are:
+
+sentence number 1 in batch number: 3 is originaly in line 95039 and is:
+However, unlimited public spending on the aged could encourage the elderly to be less self-sufficient or more dependent.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 3 is originaly in line 114606 and is:
+The fact that it is also able to produce both electricity and hydrogen makes it all the more practical.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 3 is originaly in line 139923 and is:
+First it has advanced safe design, which can automatically cool itself down when accident without additional operating system.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 3 is originaly in line 137306 and is:
+According to World Nuclear Association (WNA), the current energy mainly comes from oil and gas.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 3 is originaly in line 100196 and is:
+If the government continues to splurge a lot in funding the aged, the country's capital would ultimately become unbalanced and would be insufficient to spend on the other areas, for instance, education.
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 3 is originaly in line 140065 and is:
+In conclusion, I do not deny the fact that the use of psychology to improve engineering ethics and refine the thought process involved in the design stage helps in reducing the occurrence of accidents.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 3 is originaly in line 113689 and is:
+The water channels run through the core vertically where a temperature gradient will be built up.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 3 is originaly in line 31647 and is:
+In conclusion, in Singapore, limiting public spending to divert money to other areas of the country's development is a feasible option to address the long term aging population issue.
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 3 is originaly in line 41111 and is:
+To aid in this situation, the elderly should be influenced to be more financially responsible, and public spending on the aged should be limited so that money can be diverted to other areas of the country's development.
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 3 is originaly in line 47265 and is:
+Lastly, it is a moral right and a civic responsibility for us to take care of the elderly.
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 3 is originaly in line 94924 and is:
+Many countries like US have set aside a large sum of money to ensure the welfare of elderly people annually.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 3 is originaly in line 46576 and is:
+They will be the ones that will bring the nation to a greater height.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 3 is originaly in line 54858 and is:
+With prior knowledge, people will be mentally prepared for the aging process.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 3 is originaly in line 102550 and is:
+Three Mile Island and Chernobyl : What went wrong and why today's reactors are safe.
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 3 is originaly in line 165 and is:
+Hence the RTI system is very inexpensively and can be commonly used (Retinal Technologies, Inc. Launches Company and Revolutionizes Biometrics With Patented Retinal Scanning Technology, 2001).
+mistakes for sentence number 16 are:
+
+sentence number 1 in batch number: 4 is originaly in line 143029 and is:
+Although there are numerous public concerns on the safety of nuclear reactors, VHTR's promising potentials and benefits in the aspect of security, cost and performance far outweighs the concerns.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 4 is originaly in line 71856 and is:
+Radio allows the transmission of data over a distance literally through the air, which is not possible by the conventional cable lines.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 4 is originaly in line 120352 and is:
+In addition, hydrogen is not the only by product, heat and electricity will also be generated during the nuclear processing.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 4 is originaly in line 73823 and is:
+Certain types of food such as rice and fruits can be genetically modified to grow faster and increase food yield.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 4 is originaly in line 24315 and is:
+In this rat-raced world, everything seems to be progressing rapidly, leading to a higher standard of living.
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 4 is originaly in line 75272 and is:
+And because of no good treatment, many talents go abroad to carry on their study and work.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 4 is originaly in line 81569 and is:
+The engineering design process will be able to meet the need to form a new traffic system.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 4 is originaly in line 109717 and is:
+For example, the reactor uses independent, redundant and diversified Decay Heat Removal (DHR) loops to control damages and prevent potential radioactive releases (World Nuclear Association, 2008).
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 4 is originaly in line 48522 and is:
+Therefore, in the long term, it could hurt the service industry's economies and so, this policy contradicts the main objective of having a strong labor economy.
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 4 is originaly in line 101760 and is:
+The Pros and Cons of Nuclear Power as an Alternative Energy Source.
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 4 is originaly in line 33505 and is:
+With the increase of local businesses involving the aged population, there would naturally be new products and services in leisure, retail, asset management, insurance and even healthcare catered to the needs of the elderly.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 4 is originaly in line 125829 and is:
+Although some engineers and operators still oppose the use of psychology, for human safety, it is worthwhile to include psychology in an engineering design process.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 4 is originaly in line 64954 and is:
+It was called the murphy bed and was invented by William L. Murphy to solve space constraints that he faced while living in a small apatment.
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 4 is originaly in line 66777 and is:
+Chief engineers who have been in the field for a period of time would be valuable resources.
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 4 is originaly in line 149114 and is:
+Consent and Confidentiality in Genetic Practice : Guidance on Genetic Testing and Sharing Genetic Information.
+mistakes for sentence number 16 are:
+
+sentence number 1 in batch number: 5 is originaly in line 46783 and is:
+Without education and good infrastructures, the citizens will not be able to improve and maintain their standard of living.
+mistakes for sentence number 2 are:
+
+sentence number 2 in batch number: 5 is originaly in line 108467 and is:
+If this fails, it could lead to a catastrophic release of radioactivity.
+mistakes for sentence number 3 are:
+
+sentence number 3 in batch number: 5 is originaly in line 76225 and is:
+These two problems are interlinked, and they hamper the above five Engineering Design Process in many ways.
+mistakes for sentence number 4 are:
+
+sentence number 4 in batch number: 5 is originaly in line 15861 and is:
+(Hariton, 2006) This thorough understanding of consumers has certainly gone overboard.
+mistakes for sentence number 5 are:
+
+sentence number 5 in batch number: 5 is originaly in line 90763 and is:
+I strongly agree that public spending on the aged should be limited.
+mistakes for sentence number 6 are:
+
+sentence number 6 in batch number: 5 is originaly in line 76994 and is:
+Even if consumers do not go for pirated products, they will still go for second hand products.
+mistakes for sentence number 7 are:
+
+sentence number 7 in batch number: 5 is originaly in line 324 and is:
+Prototyping involves constructing the prototype and testing it under real conditions.
+mistakes for sentence number 8 are:
+
+sentence number 8 in batch number: 5 is originaly in line 28967 and is:
+" That's why fitness facilities, children's playground and elderly exercise equipment are put together " quoted Mr Mah BT (2008) in a housing speech.
+mistakes for sentence number 9 are:
+
+sentence number 9 in batch number: 5 is originaly in line 51164 and is:
+Other inventions such as slip proof tiles and solvents can effectively cut down the possibility of falls due to slippery surfaces.
+mistakes for sentence number 10 are:
+
+sentence number 10 in batch number: 5 is originaly in line 139332 and is:
+Nowadays, with the threat of green house effect and the increasing need for energy, people are urgently looking for new energy resources.
+mistakes for sentence number 11 are:
+
+sentence number 11 in batch number: 5 is originaly in line 18846 and is:
+A person's movements can be tracked if the RFID tag is associated with a person.
+mistakes for sentence number 12 are:
+
+sentence number 12 in batch number: 5 is originaly in line 30165 and is:
+The Singapore government acknowledged this requirement by introducing the studio apartments and the HDB lift-upgrading projects.
+mistakes for sentence number 13 are:
+
+sentence number 13 in batch number: 5 is originaly in line 63999 and is:
+i) Figure 1, Six main stages in the innovation-decision process References
+mistakes for sentence number 14 are:
+
+sentence number 14 in batch number: 5 is originaly in line 6734 and is:
+Therefore, no matter whether the creation is based on research or luck, as long as it benefits us in one way or the other, it is a great invention.
+mistakes for sentence number 15 are:
+
+sentence number 15 in batch number: 5 is originaly in line 125937 and is:
+The graphitic core structure, helium coolant, and coated fuel particles allow the VHTR to withstand accident temperatures without structural damage or fission product release.
+mistakes for sentence number 16 are:
+

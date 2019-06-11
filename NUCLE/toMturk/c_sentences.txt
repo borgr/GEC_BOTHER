@@ -1,0 +1,124 @@
+sentence number 1 in batch number: 1 is originaly in line 106714 and is:
+According to that Environmental working group, Yucca fills up 2495 tons of nuclear waste currently (The Charlotte Observer, Hauter, 2004).
+mistakes for sentence number 2 are:
+[2, 3, 'Wci', 'one']
+[3, 4, 'Mec', 'environmental']
+[4, 5, 'Rloc-', ' ']
+[8, 8, 'WOadv', 'currently']
+[15, 16, 'WOadv', ' ']
+
+sentence number 2 in batch number: 1 is originaly in line 74330 and is:
+Most places are accessible by roads, this in term boast the sales of automobiles and with the increase in sales.
+mistakes for sentence number 3 are:
+[6, 8, 'Srun', '.']
+[10, 11, 'Mec', 'boosted']
+[15, 21, 'Rloc-', ' ']
+
+sentence number 3 in batch number: 1 is originaly in line 87226 and is:
+Huge enterprises which relied on high technology are very few.
+mistakes for sentence number 4 are:
+[3, 4, 'Vt', 'rely']
+
+sentence number 4 in batch number: 1 is originaly in line 87389 and is:
+Construction of sky scrapers is relatively safe despite its height due to deep analytical insights in the construction of these buildings.
+mistakes for sentence number 5 are:
+[8, 9, 'Pref', 'their']
+
+sentence number 5 in batch number: 1 is originaly in line 134536 and is:
+The above three points prove that it is worth to build VHTRs because it will pay back in the long run.
+mistakes for sentence number 6 are:
+[13, 14, 'Pform', 'they']
+
+sentence number 6 in batch number: 1 is originaly in line 106213 and is:
+When GIF have found out the proper method of recycling, the public can live with ease nearby the nuclear reactor plant.
+mistakes for sentence number 7 are:
+[18, 19, 'ArtOrDet', ' ']
+[21, 22, 'Nn', 'plants']
+
+sentence number 7 in batch number: 1 is originaly in line 3326 and is:
+Gathering pertinent information is a crucial stage in engineering design processes, however, being neglected quite often.
+mistakes for sentence number 8 are:
+[11, 12, 'Mec', ';']
+[14, 15, 'Pref', 'it']
+
+sentence number 8 in batch number: 1 is originaly in line 70602 and is:
+This is due to the fuel processing in the car.
+mistakes for sentence number 9 are:
+[4, 5, 'ArtOrDet', ' ']
+
+sentence number 9 in batch number: 1 is originaly in line 141731 and is:
+Furthermore, the consequences of it not so well-known and researched on yet as nuclear technology has not been around for a very long time.
+mistakes for sentence number 10 are:
+[6, 6, 'V0', 'are']
+[11, 12, 'Prep', ' ']
+
+sentence number 10 in batch number: 1 is originaly in line 99431 and is:
+New shopping centres such as Orchard Centre and Ion Orchard have elderly-friendly facilities such as rams or leveled ground at the entrance, toilets for the disabled which is also user-friendly for the elderly.
+mistakes for sentence number 11 are:
+[15, 16, 'Mec', 'ramps']
+[17, 23, 'Um', 'ground']
+[28, 29, 'SVA', 'are']
+
+sentence number 11 in batch number: 1 is originaly in line 151833 and is:
+Having the same parents can mean that certain disease can run within the family and they are morally obligated to warn their relatives of the possible hazards that may trigger disease, For example, to prevent relatives from eating fava beans when one is detected to have G6PD deficiency.
+mistakes for sentence number 12 are:
+[32, 33, 'Mec', 'for']
+
+sentence number 12 in batch number: 1 is originaly in line 144101 and is:
+One of the strategies is by encouraging longer employment for citizens and lower barriers for the elderly employment.
+mistakes for sentence number 13 are:
+[5, 7, 'Vform', 'to']
+[16, 18, 'Wci', 'employment']
+
+sentence number 13 in batch number: 1 is originaly in line 146566 and is:
+There are certain disorders that exist such that they would have adverse effects on the health of individuals.
+mistakes for sentence number 14 are:
+[6, 7, 'Rloc-', ' ']
+[8, 10, 'Rloc-', ' ']
+
+sentence number 14 in batch number: 1 is originaly in line 12945 and is:
+In this case, the person's families are likely suffering from such diseases and missing the earlier diagnosis in the future, which are mainly caused by the person's concealment of his testing results.
+mistakes for sentence number 15 are:
+[7, 8, 'Nn', 'family']
+[8, 9, 'Vt', ' ']
+[10, 11, 'Vform', 'suffer']
+[15, 16, 'Vt', 'will']
+[16, 17, 'ArtOrDet', ' ']
+[17, 18, 'Wform', 'early']
+[19, 22, 'Rloc-', '.']
+[22, 37, 'Rloc-', ' ']
+
+sentence number 15 in batch number: 1 is originaly in line 50662 and is:
+With a demand of higher standard of living, the government may have to divert more public spending to look after the increasing needs of the aged.
+mistakes for sentence number 16 are:
+[3, 4, 'Wci', 'for']
+
+sentence number 16 in batch number: 1 is originaly in line 30678 and is:
+Indeed, some countries, despite facing ageing population, do not make expenditure on the elderly as their first priority, for example, Singapore.
+mistakes for sentence number 17 are:
+[7, 7, 'SVA', 'an']
+[24, 25, 'Mec', ' ']
+
+sentence number 17 in batch number: 1 is originaly in line 149531 and is:
+Thirdly, by knowing the results of the genetic test on the individuals might cause discriminations against them.
+mistakes for sentence number 18 are:
+[2, 3, 'Prep', ' ']
+
+sentence number 18 in batch number: 1 is originaly in line 118038 and is:
+It has better performance as well since it has high efficiency and both electricity and hydrogen as its reaction product.
+mistakes for sentence number 19 are:
+[18, 19, 'Wform', 'reactive']
+
+sentence number 19 in batch number: 1 is originaly in line 155176 and is:
+(Ball, K., Lyon, D., Wood, D.M., Norris, C. & Raab, C. 2006).
+mistakes for sentence number 20 are:
+[6, 20, 'Cit', 'et']
+
+sentence number 20 in batch number: 1 is originaly in line 88186 and is:
+But, electric refrigerator was selected over gas refrigerator because General Electric believed that larger profit can be made from the electric refrigerator.
+mistakes for sentence number 21 are:
+[1, 2, 'Mec', ' ']
+[2, 2, 'ArtOrDet', 'the']
+[7, 7, 'ArtOrDet', 'the']
+[16, 17, 'Vm', 'could']
+
