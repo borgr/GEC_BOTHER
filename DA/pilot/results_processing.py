@@ -11,57 +11,41 @@ def get_indexes(df,HIT_id):
 
 
 # gets an HIT id and return a bolean array of size 100 with True in the indexes of the perfect sentences in the hit
-def get_perfects(df,HIT_id):
+def get_perfect_idxs(df, HIT_id):
     return np.array(
         [df[col][HIT_id] for col in df if col.startswith('Input.is_perfect')])
 
 
+
 # gets an HIT id and return a bolean array of size 100 with True in the indexes of the control sentences in the hit
-def get_control(df,HIT_id):
+def get_control_idxs(df, HIT_id):
     return np.array(
         [df[col][HIT_id] for col in df if col.startswith('Input.is_control')])
 
-
+# return an array of size 100 which contains this HIT scores
 def get_scores(df,HIT_id):
     return np.array([df[col][HIT_id] for col in df if col.startswith('Answer.mistakeRate')])
 
+# return an array of size 100 which contains this HIT z-scores
 def get_z_scores(df,HIT_id):
     return stats.zscore(get_scores(df,HIT_id))
 
-
 # return an array which contains this c_sentence ranks (array size depends on the number of annotators for the sentence)
 def c_sentence_scores(df,id):
+
     pass  # TODO:  this.
-
-
-# return an array of size 100 which contains this HIT scores
-def HIT_scores(df,HIT_id):
-    res = []
-    for i in range(1, HIT_SIZE + 1):
-        # add this HIT score for sentence i to res.
-        pass
-
 
 # return an array of size 15 which contains this HIT perfect sentences scores
 def HIT_p_scores(df,HIT_id):
-    pass  # TODO:  this.
+    return get_z_scores(df,HIT_id)[get_perfect_idxs(df, HIT_id)]
 
 
 def c_sentence_average(df,id):
-    return average(c_sentence_scores(id))
+    return np.mean(c_sentence_scores(id))
 
-
-def HIT_average(df,HIT_id):
-    return average(HIT_scores(id))
-
-
+# returns the average z-score of perfect sentences
 def HIT_p_average(df,HIT_id):
-    return average(HIT_p_scores(id))
-
-
-# Python program to get average of a list
-def average(lst):
-    return sum(lst) / len(lst)
+    return np.mean(HIT_p_scores(df,HIT_id))
 
 
 def main():
@@ -76,8 +60,27 @@ def parse_data(path):
 
 
 if __name__ == "__main__":
+
+
     df = parse_data(RESULTS_FILE_ADDR)
-    print(get_scores(df,0))
-    print(get_z_scores(df,0))
+    controls = {}
+    c_table = pd.DataFrame()
+    c = set()
+    # print(c_table.columns.values)
+
+    # print(get_perfect_idxs(df, 0))
+    for i in range (5):
+        cur_control = get_z_scores(df,i)[get_control_idxs(df,i)]
+        cur_idxs = get_indexes(df,i)[get_control_idxs(df,i)]
+        c.update(cur_idxs.tolist())s
+
+
+
+            #
+            # c_table.loc[i] = [0]*(len(c_table.columns.tolist()))
+            # if not (cur_idxs[j] in c_table.columns.values):
+            #     c_table[cur_idxs[j]] = []
+            # c_table.set_value(cur_idxs[j], i, cur_control[j])
+    print(c)
 
 
