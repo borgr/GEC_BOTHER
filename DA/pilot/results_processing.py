@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from scipy import stats
-
 RESULTS_FILE_ADDR = "Batch_3548123_batch_results.csv"
 
 
@@ -79,5 +78,6 @@ def parse_data(path):
 if __name__ == "__main__":
     df = parse_data(RESULTS_FILE_ADDR)
     print(get_scores(df,0))
+    print(get_z_scores(df,0))
 
 
