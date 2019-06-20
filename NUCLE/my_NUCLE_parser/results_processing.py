@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from scipy import stats
 
-RESULTS_FILE_ADDR = "Batch_3548123_batch_results.csv"
+RESULTS_FILE_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\pilot\Batch_3548123_batch_results.csv"
 HITS_NUM =5
 MIN_CONTROL_REPET = 3
 
@@ -91,6 +91,12 @@ def print_hitter_stats(df,controlers,i):
         (control_cor_with_mean(controls, i))))
     print("average z-score on perfect sentences: " + str(get_average_p(df, i)))
 
+def get_all_z_scores(results_path):
+    df = parse_data(results_path)
+    z_scores = pd.DataFrame(columns=[col for col in df if col.startswith('Answer.mistakeRate')])
+    for i in range(5):
+        z_scores.loc[i] = get_z_scores(df, i)
+    return z_scores
 
 
 
@@ -98,11 +104,8 @@ if __name__ == "__main__":
     df = parse_data(RESULTS_FILE_ADDR)
     controls = get_all_controlers(df)
     controls = clean_controlers_df(controls, MIN_CONTROL_REPET)
-    print(df)
+    print(get_all_z_scores(RESULTS_FILE_ADDR))
 
-    for i in range(5):
-        print_hitter_stats(df,controls,i)
-        print()
 
 
 
