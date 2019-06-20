@@ -10,6 +10,8 @@ MISTAKE_TYPES = ["Vt", "Vm", "V0", "Vform", "SVA", "ArtOrDet", "Nn", "Npos", "Pf
 EVALUATION_FEATURES = ["Nucle_ID"] + MISTAKE_TYPES + ["TotalMistakes", "z-score"]
 TO_MTURK_FILE_PATH = r"C:\Users\ofir\Documents\University\year2\GEC Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\toMturk\mTurk_csv.csv"
 
+C = np.array([1, 3, 2, 4, 1, 2, -1, -3, 2, 1, 3, 4, 5, 1, -3, -6, 2, 1, 1, 2, 3, 1, -2, -5, 1, -2, 1, 4])
+
 
 def get_senteces(nucle_addr,to_mturk_csv_addr,results_from_mturk_addr):
     lines = open(nucle_addr).read().splitlines()
@@ -38,20 +40,35 @@ def mistakes_stats(sentences):
     df["perc_of_appearance"] =  df["total_appearance"]/df["total_appearance"]["TotalMistakes"]
     return df
 
-
 def get_X(sentences):
     return sentences.drop('z-score',1).drop('Nucle_ID',1)
 
-if __name__ == '__main__':
-    sentences = get_senteces(NUCLE_DB_ADDR, TO_MTURK_FILE_PATH,RESULTS_FILE_ADDR)
-    # mistakes_stats(sentences)
+def get_weights(sentences):
     y = np.array(sentences["z-score"])
     X = np.array(get_X(sentences))
-    #y = 1 * x_0 + 2 * x_1 + 3
-    print(get_X(sentences).shape)
-    # print(y)
-    reg = LinearRegression()
-    reg.fit(X, y)
-    print(len(reg.coef_), reg.coef_)
-    print(reg.intercept_ )
+    reg = LinearRegression().fit(X, y)
+    return reg.coef_
+
+def generate_y(xs):
+    y=[0]*500
+    for i in range(len(xs)):
+        y[i] = C.dot(xs[i,:])
+    return y
+
+
+
+if __name__ == '__main__':
+    sentences = get_senteces(NUCLE_DB_ADDR, TO_MTURK_FILE_PATH,RESULTS_FILE_ADDR)
+
+    stats = mistakes_stats(sentences)
+    # X = np.random.rand(500,28)
+    # sentences.iloc[:,-1]= generate_y(X)
+    # sentences.iloc[:,1:-2]= X
+
+    mistakes = pd.DataFrame(columns= MISTAKE_TYPES)
+    # mistakes.loc["weights"] = get_weights(sentences)
+    # mistakes.loc["perc_of_appearance"] = stats["perc_of_appearance"]
+    print(get_weights(sentences))
+    # mistakes.to_csv("mistakes_weights.csv")
+
 
