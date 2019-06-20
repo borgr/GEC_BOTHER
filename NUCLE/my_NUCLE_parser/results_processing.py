@@ -32,10 +32,6 @@ def get_scores(df,HIT_id):
 def get_z_scores(df,HIT_id):
     return stats.zscore(get_scores(df,HIT_id))
 
-# return an array which contains this c_sentence ranks (array size depends on the number of annotators for the sentence)
-def c_sentence_scores(df,id):
-
-    pass  # TODO:  this.
 
 # return an array of size 15 which contains this HIT perfect sentences scores
 def HIT_p_scores(df,HIT_id):
@@ -51,7 +47,7 @@ def HIT_p_average(df,HIT_id):
 
 
 def parse_data(path):
-    df = pd.read_csv(path, index_col=0)
+    df = pd.read_csv(path)
     cols = sorted(df.columns.tolist())
     return df[cols]
 
@@ -66,12 +62,10 @@ def get_all_controlers(df):
     return controls # hits in colomns, sentenses in rows
 
 def get_reaction_time(df,id):
-    return df.loc[[id]]["WorkTimeInSeconds"]
+    return df.iloc[id]["WorkTimeInSeconds"]
 
 def get_average_p(df,id):
     return np.mean(get_z_scores(df,id)[get_perfect_idxs(df,id)])
-
-
 
 def control_cor_with_mean(controls,id):
     cur = controls.iloc[[id]]
@@ -90,28 +84,26 @@ def clean_controlers_df(controlers, min_repet):
         del controls[c]
     return controls
 
+def print_hitter_stats(df,controlers,i):
+    print("Hitter number " + str(i) + ":")
+    print("Work time in minutes: " + str(get_reaction_time(df, i)/60))
+    print("corolation amoung control sentences (pearson-r, p-val): " + str(
+        (control_cor_with_mean(controls, i))))
+    print("average z-score on perfect sentences: " + str(get_average_p(df, i)))
+
+
+
+
 if __name__ == "__main__":
     df = parse_data(RESULTS_FILE_ADDR)
-    for i in range(5):
-        print(get_reaction_time(df,i))
-
     controls = get_all_controlers(df)
     controls = clean_controlers_df(controls, MIN_CONTROL_REPET)
+    print(df)
 
+    for i in range(5):
+        print_hitter_stats(df,controls,i)
+        print()
 
-
-    # for i in range(HITS_NUM):
-    #     # print(control_cor_with_mean(controls,i))
-    #     print("for HIT " + str(i) + " got (pearson-r, p-val) : "+ str(control_cor_with_mean(controls,i)))
-
-
-    # controls.to_csv("controls.csv") # safe to file
-
-    # controls = pd.melt(controls,value_name="z_score").drop([], axis=1)
-    # print(controls)
-    # controls = controls.dropna()
-    # print(controls)
-    # ax1 = controls.plot.scatter(x=controls.columns.tolist(),y=controls.values)
 
 
 
