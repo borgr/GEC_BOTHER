@@ -45,11 +45,11 @@ def get_X(sentences):
 
 def get_weights(sentences):
     y = np.array(sentences["z-score"])
-    X = np.array(get_X(sentences))
+    X = np.array(get_X(sentences).drop('TotalMistakes',1)) # TODO: should we use total mistakes or not?
     reg = LinearRegression().fit(X, y)
     return reg.coef_
 
-def generate_y(xs):
+def generate_y(xs):  # TODO: for DEBUG
     y=[0]*500
     for i in range(len(xs)):
         y[i] = C.dot(xs[i,:])
@@ -59,8 +59,8 @@ def generate_y(xs):
 
 if __name__ == '__main__':
     sentences = get_senteces(NUCLE_DB_ADDR, TO_MTURK_FILE_PATH,RESULTS_FILE_ADDR)
-
-    stats = mistakes_stats(sentences)
+    print(sentences.head())
+    print(mistakes_stats(sentences))
     # X = np.random.rand(500,28)
     # sentences.iloc[:,-1]= generate_y(X)
     # sentences.iloc[:,1:-2]= X

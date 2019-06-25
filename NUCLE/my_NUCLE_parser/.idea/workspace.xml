@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee82a83-bb95-4d95-adc2-c2a655768400" name="Default Changelist" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ctrl_m_sentences.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ctrl_m_sentences.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../toMturk/c_sentences.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../toMturk/c_sentences.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../toMturk/mTurk_csv.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../toMturk/m_sentences.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../toMturk/m_sentences.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../toMturk/p_sentences.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../toMturk/p_sentences.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../~$כום פגישה 1 ומשימות.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c_sentences.csv" afterPath="$PROJECT_DIR$/c_sentences.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c_sentences.txt" afterPath="$PROJECT_DIR$/c_sentences.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ctrl_p_sentences.csv" afterPath="$PROJECT_DIR$/ctrl_p_sentences.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mTurk_csv.csv" afterPath="$PROJECT_DIR$/mTurk_csv.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_sentences.csv" afterPath="$PROJECT_DIR$/m_sentences.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_sentences.txt" afterPath="$PROJECT_DIR$/m_sentences.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_parser.py" afterPath="$PROJECT_DIR$/my_parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_sentences.csv" afterPath="$PROJECT_DIR$/p_sentences.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_sentences.txt" afterPath="$PROJECT_DIR$/p_sentences.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results_analysis.py" afterPath="$PROJECT_DIR$/results_analysis.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,11 +141,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="results_analysis.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="results_analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="31" />
+            <state relative-caret-position="1550">
+              <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -179,21 +198,41 @@
       <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="425">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_parser.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="my_parser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="158">
+              <caret line="266" column="37" lean-forward="false" selection-start-line="266" selection-start-column="37" selection-end-line="266" selection-end-column="37" />
               <folding>
                 <element signature="e#54#64#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/random.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -218,6 +257,19 @@
       <find>MY_P_BASE_ADDR</find>
       <find>M_CSV_ADDR</find>
       <find>1186</find>
+      <find>create_mTurk_csv</find>
+      <find>pri</find>
+      <find>not_chosen_sentences</find>
+      <find>pr</find>
+      <find>prin</find>
+      <find>writerow</find>
+      <find>print</find>
+      <find>get</find>
+      <find>lines</find>
+      <find>lines =</find>
+      <find>csv.writer</find>
+      <find>mTurk_csv_file</find>
+      <find>lines =</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,11 +282,11 @@
         <option value="$PROJECT_DIR$/parser.py" />
         <option value="$PROJECT_DIR$/temp" />
         <option value="$PROJECT_DIR$/batchCreator.py" />
-        <option value="$PROJECT_DIR$/my_parser.py" />
         <option value="$PROJECT_DIR$/../../DA/pilot/results_processing.py" />
         <option value="$PROJECT_DIR$/results_processing.py" />
         <option value="$PROJECT_DIR$/sentence_to_vec.py" />
         <option value="$PROJECT_DIR$/results_analysis.py" />
+        <option value="$PROJECT_DIR$/my_parser.py" />
       </list>
     </option>
   </component>
@@ -303,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sentence_to_vec">
+  <component name="RunManager" selected="Python.parser">
     <configuration name="batchCreator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,11 +466,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3495935" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -454,9 +507,14 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="26" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="not_chosen_p_sentensces" language="Python" />
+        <watch expression="[str(i + 1), line_str_inx, line, not has_mistakes, &quot;english&quot;]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../release3.2/scripts/preprocess.py">
@@ -552,24 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#54#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -606,10 +646,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/results_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="31" />
+        <state relative-caret-position="1550">
+          <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="266" column="37" lean-forward="false" selection-start-line="266" selection-start-column="37" selection-end-line="266" selection-end-column="37" />
+          <folding>
+            <element signature="e#54#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
