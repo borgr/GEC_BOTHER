@@ -2,15 +2,16 @@
 import csv
 import random
 import pandas as pd
+
 # from tqdm import tqdm
 
 # sentence is a tuple as follows: (the nucle original sentence, list of mistakes)
 # -------- Constants: --------
-MIN_WORDS = 7
-MIN_WORDS_PERFECT = 12
-NUM_OF_BATCHES = 5
+MIN_WORDS = 7  # minimum words per sentence
+
+NUM_OF_BATCHES = 295  # acprocimetly taking all of NUCLE (after some cleaning)
 SENTENCES_PER_BATCH = 100
-CTROL_SENTENCES = 20
+CTROL_SENTENCES = 200
 PERFECT_RATE = 0.15
 CTROL_RATE = 0.15  # per single batch
 CTROL_PERFECT_RATE = 0  # 0 means that for now there are no perfect control sentences
@@ -18,7 +19,6 @@ M_RATE = 1 - PERFECT_RATE - CTROL_RATE
 P_PER_BATCH = int(PERFECT_RATE * SENTENCES_PER_BATCH)
 M_PER_BATCH = int(M_RATE * SENTENCES_PER_BATCH)
 c_PER_BATCH = int(CTROL_RATE * SENTENCES_PER_BATCH)
-
 ATRIBUTES = "A"
 SENTENCE = "S"
 LINE_INX = 0
@@ -27,9 +27,10 @@ MISTAKES_INX = 2
 ATTRIBUTES_INX = 1
 NUM_OF_MISTAKE_ATTRIBUTES = 4
 
+# files addresses:
 BASE_ADDR = "C:\\Users\\ofir\\Documents\\University\\year2\\GEC Project\\GEC_ME_PROJECT-master\\GEC_ME_PROJECT\\NUCLE\\"
-MY_P_BASE_ADDR = BASE_ADDR + "my_NUCLE_parser\\"
-TO_MTURK_BASE_ADDR = MY_P_BASE_ADDR #BASE_ADDR + "toMturk\\"
+MY_P_BASE_ADDR = BASE_ADDR + "my_NUCLE_parser\\csvs\\"
+TO_MTURK_BASE_ADDR = MY_P_BASE_ADDR  # BASE_ADDR + "toMturk\\"
 M_FILE_ADDR = MY_P_BASE_ADDR + "m_sentences"
 C_FILE_ADDR = MY_P_BASE_ADDR + "c_sentences"
 P_FILE_ADDR = MY_P_BASE_ADDR + "p_sentences"
@@ -42,10 +43,12 @@ P_CSV_ADDR = P_FILE_ADDR + ".csv"
 MTURK_CSV_ADDR = TO_MTURK_BASE_ADDR + "mTurk_csv.csv"
 NUCLE_DB_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\release3.2\data\conll14st-preprocessed.m2"  # NUCLE db address
 
+# if these are found in the sentence, we won't use it:
 BAD_CHARS = {";", "*", "[", "]"}
+HEADERS = ["batch index", "sentence NUCLE ID", "original_text", "is perfect",
+           "original_language"]
 
 # -------- Global Vars: --------
-chosen_sentences = set()
 not_chosen_m_sentensces = set()
 not_chosen_p_sentensces = set()
 
@@ -61,7 +64,7 @@ def count_sentences(file_name):
             if lines[i].startswith(ATRIBUTES):
                 not_chosen_m_sentensces.add(i - 1)
             else:
-                not_chosen_p_sentensces.add(i-1)
+                not_chosen_p_sentensces.add(i - 1)
         if lines[i].startswith(SENTENCE):
             flag = True
         else:
@@ -75,8 +78,8 @@ def count_sentences(file_name):
     print(atr)
 
 
-# -------- choose sentenses randomly and create 3 Data sets: m_sentences, c_sentences, p_sentences: --------
 def create_data_sets(file_name):
+    """ choose sentenses randomly and create 3 Data sets: m_sentences, c_sentences, p_sentences: """
     # open files:
     lines = open(file_name).read().splitlines()
     txt_sentences_file = open(M_FILE_ADDR + ".txt", "w")
@@ -91,24 +94,24 @@ def create_data_sets(file_name):
     ctrl_txt_sentences_file = open(C_FILE_ADDR + ".txt", "w")
     ctrl_txt_perfect_file = open(MY_P_BASE_ADDR + "ctrl_p_sentences.txt", "w")
     ctrl_csv_sentence_writer = csv.writer(csv_c_file)
-    ctrl_csv_perfect_writer = csv.writer(open(MY_P_BASE_ADDR + "ctrl_p_sentences.csv", "w"))
+    ctrl_csv_perfect_writer = csv.writer(
+        open(MY_P_BASE_ADDR + "ctrl_p_sentences.csv", "w"))
 
     # write headers:
-    csv_sentence_writer.writerow(
-        ["batch index", "sentence NUCLE ID", "original_text", "is perfect", "original_language"])
-    csv_perfect_writer.writerow(
-        ["batch index", "sentence NUCLE ID", "original_text", "is perfect", "original_language"])
-    ctrl_csv_sentence_writer.writerow(
-        ["batch index", "sentence NUCLE ID", "original_text", "is perfect", "original_language"])
-    ctrl_csv_perfect_writer.writerow(
-        ["batch index", "sentence NUCLE ID", "original_text", "is perfect", "original_language"])
+    csv_sentence_writer.writerow(HEADERS)
+    csv_perfect_writer.writerow(HEADERS)
+    ctrl_csv_sentence_writer.writerow(HEADERS)
+    ctrl_csv_perfect_writer.writerow(HEADERS)
 
     # write files:
-    write_out(lines, csv_sentence_writer, txt_sentences_file, SENTENCES_PER_BATCH * (M_RATE), NUM_OF_BATCHES, True)
-    write_out(lines, csv_perfect_writer, txt_perfect_file, SENTENCES_PER_BATCH * PERFECT_RATE, NUM_OF_BATCHES, False)
-    write_out(lines, ctrl_csv_sentence_writer, ctrl_txt_sentences_file, (1 - CTROL_PERFECT_RATE) * CTROL_SENTENCES, 1,
-              True)
-    write_out(lines, ctrl_csv_perfect_writer, ctrl_txt_perfect_file, CTROL_SENTENCES * (CTROL_PERFECT_RATE), 1, False)
+    write_out(lines, csv_sentence_writer, txt_sentences_file,
+              SENTENCES_PER_BATCH * (M_RATE), NUM_OF_BATCHES, True)
+    write_out(lines, csv_perfect_writer, txt_perfect_file,
+              SENTENCES_PER_BATCH * PERFECT_RATE, NUM_OF_BATCHES, False)
+    write_out(lines, ctrl_csv_sentence_writer, ctrl_txt_sentences_file,
+              (1 - CTROL_PERFECT_RATE) * CTROL_SENTENCES, 1, True)
+    write_out(lines, ctrl_csv_perfect_writer, ctrl_txt_perfect_file,
+              CTROL_SENTENCES * (CTROL_PERFECT_RATE), 1, False)
 
     # close files:
     txt_perfect_file.close()
@@ -121,9 +124,10 @@ def create_data_sets(file_name):
 
 
 def get_random_inx(lines, has_mistakes):
+    """return an available index for a perfect sentence if has_mistakes == False,
+    and for a sentence with mistakes else"""
     while True:
         legal = True
-        # print(random.sample(not_chosen_m_sentensces, 1)[0])
         if has_mistakes:
             i = random.sample(not_chosen_m_sentensces, 1)[0]
         else:
@@ -133,19 +137,26 @@ def get_random_inx(lines, has_mistakes):
             if c in line:
                 legal = False
                 break
-        if has_mistakes:
+        for word in line:
+            if "http" in word:
+                legal = False
+                break
+        if has_mistakes:  # remove the senteeces from available set:
             not_chosen_m_sentensces.remove(i)
         else:
             not_chosen_p_sentensces.remove(i)
-        if len(line) > MIN_WORDS and line[0] == SENTENCE and ("http" not in line) and legal:  # it's a valid sentence - more then MIN_WORDS words, and doesn't include http address, doesnt have illigal chars and hasn't been chosen yet
+        if (not line[1].startswith("(")) and legal and ((len(
+                line) > MIN_WORDS) or has_mistakes):  # it's a valid sentence - more then MIN_WORDS words, and doesn't include http address, doesnt have illigal chars and hasn't been chosen yet
             break
     return i
 
 
 def parse_mistake(line):
+    """parse a mistake line"""
     if line.startswith(ATRIBUTES):
         mistake = line.replace('|', ' ').split()
-        mistake = mistake[ATTRIBUTES_INX:ATTRIBUTES_INX + NUM_OF_MISTAKE_ATTRIBUTES]  # 1:5 in NUCLE as it is
+        mistake = mistake[
+                  ATTRIBUTES_INX:ATTRIBUTES_INX + NUM_OF_MISTAKE_ATTRIBUTES]  # 1:5 in NUCLE as it is
         mistake[0] = int(mistake[0])
         mistake[1] = int(mistake[1])
         if mistake[3] == 'REQUIRED':
@@ -155,6 +166,7 @@ def parse_mistake(line):
 
 
 def parse_sentence(lines, i):
+    """"""
     line = lines[i][2:]
     sentence = (i + 1, line, [])
     while True:
@@ -168,36 +180,41 @@ def parse_sentence(lines, i):
     return sentence
 
 
-def write_out(lines, csv_writer, out_text_file, sentences_per_batch, num_of_batches, has_mistakes):
+def write_out(lines, csv_writer, out_text_file, sentences_per_batch,
+              num_of_batches, has_mistakes):
     for i in range(num_of_batches):
         k = 0
         while (k < sentences_per_batch):
-            print(i,k)
-            parsed_sentence = (parse_sentence(lines, get_random_inx(lines,has_mistakes)))
+            print(i, k)
+            parsed_sentence = (
+                parse_sentence(lines, get_random_inx(lines, has_mistakes)))
             is_perfect = (len(parsed_sentence[MISTAKES_INX]) == 0)
             line = parsed_sentence[SENTANCE_INX]
-            if (is_perfect == has_mistakes) or (is_perfect and (len(line.split()) < MIN_WORDS_PERFECT)):  # if looking
-                #  for sentances with mistakes, don't write perfect ones and the same other way around. + if it's a
-                #  perfect sentence, it has to be longer than MIN_WORDS_PERFECT
-                continue
             k += 1
-            line = line.replace(' ,', ',')  # just to make the sentence look a bit nicer
+            line = line.replace(' ,',
+                                ',')  # just to make the sentence look a bit nicer
             line = line.replace(' .', '.')
             line = line.replace('( ', '(')
             line = line.replace(' )', ')')
             line = line.replace(' \'', '\'')
+            line = line.replace(' !', '!')
+            line = line.replace(' %', '%')
+            line = line.replace('$ ', '$')
             line_str_inx = str(parsed_sentence[LINE_INX])
-            out_text_file.write("sentence number " + str(k) + " in batch number: " + str(
-                i + 1) + " is originaly in line " + line_str_inx + " and is:\n" + line)
-            if (len(line.split()) < 9):
-                pass
-                    # print(line_str_inx,is_perfect, len(line.split()), line)
-            csv_writer.writerow([str(i + 1), line_str_inx, line, not has_mistakes, "english"])
-            out_text_file.write("\nmistakes for sentence number " + str(k + 1) + " are:\n")
+            if (is_perfect == has_mistakes) or (len(line.split()) < MIN_WORDS):  # if looking
+                #  for sentances with mistakes, don't write perfect ones and the same other way around. + sentence must have MIN_WORDS
+                continue
+            out_text_file.write(
+                "sentence number " + str(k) + " in batch number: " + str(
+                    i + 1) + " is originaly in line " + line_str_inx + " and is:\n" + line)
+            csv_writer.writerow(
+                [str(i + 1), line_str_inx, line, not has_mistakes, "english"])
+            out_text_file.write(
+                "\nmistakes for sentence number " + str(k + 1) + " are:\n")
             for mistake in parsed_sentence[MISTAKES_INX]:
                 out_text_file.write(str(mistake) + "\n")
             out_text_file.write('\n')
-            print(line_str_inx,is_perfect, len(line.split()), line)
+            print(line_str_inx, is_perfect, len(line.split()), line)
     return
 
 
@@ -207,8 +224,10 @@ def create_mTurk_csv(p_sentences, m_sentences, c_sentences):
     # open file and write the headers:
     mTurk_csv_file = open(MTURK_CSV_ADDR, "w")
     mTurk_csv_writer = csv.writer(mTurk_csv_file)
-    headers = ["batch"] + [(",Nucle_ID" + str(i) + ",original_text" + str(i) + ",is_perfect" + str(i) +
-                            ",is_control" + str(i)) for i in range(1, SENTENCES_PER_BATCH + 1)]
+    headers = ["batch"] + [(",Nucle_ID" + str(i) + ",original_text" + str(
+        i) + ",is_perfect" + str(i) +
+                            ",is_control" + str(i)) for i in
+                           range(1, SENTENCES_PER_BATCH + 1)]
     headers = "".join(headers).split(",")
     mTurk_csv_writer.writerow(headers)
 
@@ -216,9 +235,9 @@ def create_mTurk_csv(p_sentences, m_sentences, c_sentences):
     for i in range(NUM_OF_BATCHES):
         c_batch = get_c_batch(c_sentences)
         write_batch(i, p_sentences[i * P_PER_BATCH: (i + 1) * P_PER_BATCH],
-                    m_sentences[(i * M_PER_BATCH): (i + 1) * M_PER_BATCH], c_batch, mTurk_csv_writer)
+                    m_sentences[(i * M_PER_BATCH): (i + 1) * M_PER_BATCH],
+                    c_batch, mTurk_csv_writer)
     mTurk_csv_file.close()
-
 
 
 def get_c_batch(c_sentences):
@@ -227,6 +246,7 @@ def get_c_batch(c_sentences):
     while (len(c_batch) < c_PER_BATCH):
         k = random.randint(0, CTROL_SENTENCES - 1)
         if k not in c_batch_indexes:
+            print(k, len(c_sentences))
             c_batch.append(c_sentences[k])
             c_batch_indexes.add(k)
     return c_batch
@@ -272,26 +292,27 @@ def csv_to_arr(addr):
         reader = csv.reader(csv_file)
         return [row for row in reader]
 
+
 def clean_file(sentences):
     return [x for x in sentences if x]
 
+
 def write_to_mturk():
-    #create MTurk csv:
-    p_sentences = clean_file(csv_to_arr(FINAL_P_FILE_ADDR)[1:])  # cut out the headers
+    # create MTurk csv:
+    p_sentences = clean_file(
+        csv_to_arr(FINAL_P_FILE_ADDR)[1:])  # cut out the headers
     m_sentences = clean_file(csv_to_arr(FINAL_M_FILE_ADDR)[1:])
     c_sentences = clean_file(csv_to_arr(FINAL_C_FILE_ADDR)[1:])
+    print(len(c_sentences))
     create_mTurk_csv(p_sentences, m_sentences, c_sentences)
 
 
 def main():
-    #create data sets (put in comment if want to keep the files as the are):
+    # create data sets (put in comment if want to keep the files as the are):
     count_sentences(NUCLE_DB_ADDR)
     create_data_sets(NUCLE_DB_ADDR)
 
 
 if __name__ == '__main__':
-    main()
+    #main()
     write_to_mturk()
-
-
-
