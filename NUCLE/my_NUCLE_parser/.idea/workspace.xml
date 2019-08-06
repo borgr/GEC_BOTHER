@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee82a83-bb95-4d95-adc2-c2a655768400" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_sentences.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_sentences.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ctrl_p_sentences.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ctrl_p_sentences.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mTurk_csv.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m_sentences.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m_sentences.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p_sentences.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p_sentences.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../DA/pilot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../DA/pilot/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/my_NUCLE_parser.iml" afterPath="$PROJECT_DIR$/.idea/my_NUCLE_parser.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvs/c_sentences.csv" afterPath="$PROJECT_DIR$/csvs/c_sentences.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvs/c_sentences.txt" afterPath="$PROJECT_DIR$/csvs/c_sentences.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvs/mTurk_csv.csv" afterPath="$PROJECT_DIR$/csvs/mTurk_csv.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvs/m_sentences.csv" afterPath="$PROJECT_DIR$/csvs/m_sentences.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvs/m_sentences.txt" afterPath="$PROJECT_DIR$/csvs/m_sentences.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvs/p_sentences.csv" afterPath="$PROJECT_DIR$/csvs/p_sentences.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvs/p_sentences.txt" afterPath="$PROJECT_DIR$/csvs/p_sentences.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_parser.py" afterPath="$PROJECT_DIR$/my_parser.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +29,7 @@
       <file leaf-file-name="results_processing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results_processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
+            <state relative-caret-position="2325">
               <caret line="95" column="92" lean-forward="false" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="92" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -57,8 +51,8 @@
       <file leaf-file-name="my_parser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="295" column="4" lean-forward="false" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+            <state relative-caret-position="-446">
+              <caret line="152" column="60" lean-forward="false" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
               <folding>
                 <element signature="e#54#64#0" expanded="true" />
               </folding>
@@ -66,10 +60,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/WPy64-3720/python-3.7.2.amd64/Lib/random.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
+            <state relative-caret-position="7975">
               <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
               <folding />
             </state>
@@ -79,7 +83,7 @@
       <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="6300">
               <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
               <folding />
             </state>
@@ -106,12 +110,10 @@
       <find>M_CSV_ADDR</find>
       <find>1186</find>
       <find>create_mTurk_csv</find>
-      <find>pri</find>
       <find>not_chosen_sentences</find>
       <find>pr</find>
       <find>prin</find>
       <find>writerow</find>
-      <find>print</find>
       <find>get</find>
       <find>lines</find>
       <find>lines =</find>
@@ -124,6 +126,11 @@
       <find>chosen_sentences</find>
       <find>C</find>
       <find>MIN_WORDS_PERFECT</find>
+      <find>print</find>
+      <find>perf</find>
+      <find>TEMP</find>
+      <find>BAD_CHARS</find>
+      <find>pri</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,7 +157,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
@@ -269,9 +276,9 @@
     </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.results_prossesing" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sentence_to_vec" />
-      <item index="2" class="java.lang.String" itemvalue="Python.batchCreator" />
-      <item index="3" class="java.lang.String" itemvalue="Python.parser" />
+      <item index="1" class="java.lang.String" itemvalue="Python.parser" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sentence_to_vec" />
+      <item index="3" class="java.lang.String" itemvalue="Python.batchCreator" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -305,25 +312,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21602787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39953542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3124274" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -345,21 +352,62 @@
           <line>54</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/my_parser.py</url>
-          <line>249</line>
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="not_chosen_p_sentensces" language="Python" />
         <watch expression="[str(i + 1), line_str_inx, line, not has_mistakes, &quot;english&quot;]" language="Python" />
+        <watch expression="len(c_sentences)" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/results_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="95" column="92" lean-forward="false" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7975">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7375">
+          <caret line="295" column="4" lean-forward="false" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+          <folding>
+            <element signature="e#54#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/results_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1450">
@@ -374,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11100">
           <caret line="444" column="0" lean-forward="false" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -382,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66400">
           <caret line="2656" column="0" lean-forward="false" selection-start-line="2656" selection-start-column="0" selection-end-line="2656" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -390,7 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98475">
           <caret line="3939" column="0" lean-forward="false" selection-start-line="3939" selection-start-column="0" selection-end-line="3939" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65250">
           <caret line="2656" column="0" lean-forward="false" selection-start-line="2656" selection-start-column="0" selection-end-line="2656" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="444" column="0" lean-forward="false" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="3939" column="0" lean-forward="false" selection-start-line="3939" selection-start-column="0" selection-end-line="3939" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +605,7 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
+        <state relative-caret-position="7975">
           <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
           <folding />
         </state>
@@ -571,7 +613,7 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="6300">
           <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
           <folding />
         </state>
@@ -579,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/results_processing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
+        <state relative-caret-position="2325">
           <caret line="95" column="92" lean-forward="false" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="92" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -587,10 +629,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/WPy64-3720/python-3.7.2.amd64/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="295" column="4" lean-forward="false" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+        <state relative-caret-position="-446">
+          <caret line="152" column="60" lean-forward="false" selection-start-line="152" selection-start-column="60" selection-end-line="152" selection-end-column="60" />
           <folding>
             <element signature="e#54#64#0" expanded="true" />
           </folding>
