@@ -28,7 +28,7 @@ NUM_OF_MISTAKE_ATTRIBUTES = 4
 
 # files addresses:
 
-BASE_ADDR = "C:\\Users\\ofir\\Documents\\University\\year2\\GEC Project\\GEC_ME_PROJECT-master\\GEC_ME_PROJECT\\NUCLE\\"
+BASE_ADDR = "C:\\Users\\ofir\\Documents\\University\\year2\\GEC_Project\\GEC_ME_PROJECT-master\\GEC_ME_PROJECT\\NUCLE\\"
 MY_P_BASE_ADDR = BASE_ADDR + "my_NUCLE_parser\\csvs\\"
 TO_MTURK_BASE_ADDR = MY_P_BASE_ADDR
 M_FILE_ADDR = MY_P_BASE_ADDR + "m_sentences"
@@ -41,7 +41,7 @@ M_CSV_ADDR = M_FILE_ADDR + ".csv"
 C_CSV_ADDR = C_FILE_ADDR + ".csv"
 P_CSV_ADDR = P_FILE_ADDR + ".csv"
 MTURK_CSV_ADDR = TO_MTURK_BASE_ADDR + "mTurk_csv.csv"
-NUCLE_DB_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\release3.2\data\conll14st-preprocessed.m2"  # NUCLE db address
+NUCLE_DB_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\release3.2\data\conll14st-preprocessed.m2"  # NUCLE db address
 
 # if these are found in the sentence, we won't use it:
 BAD_CHARS = {";", "*", "[", "]", "&"}
@@ -365,6 +365,10 @@ def create_sections():
     create_data_sets(NUCLE_DB_ADDR)
 
 
+
+
+
 if __name__ == '__main__':
-    create_sections()
-    write_to_mturk()
+    pass
+
+
