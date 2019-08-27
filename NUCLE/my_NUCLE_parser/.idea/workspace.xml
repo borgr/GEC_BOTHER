@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bee82a83-bb95-4d95-adc2-c2a655768400" name="Default Changelist" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/before-scores.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controls_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/debug.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/debug_errant.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/filtered_sentences.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mistakes_stats.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mistakes_weights.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mistakes_weights_with_regression.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mistakes_weights_with_regression_errant.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ranks.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ranks_errant.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentences_mistakes_scores.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentences_mistakes_scores_errant.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/z-scores.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results_analysis.py" afterPath="$PROJECT_DIR$/results_analysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results_processing.py" afterPath="$PROJECT_DIR$/results_processing.py" />
-    </list>
+    <list default="true" id="bee82a83-bb95-4d95-adc2-c2a655768400" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
