@@ -7,7 +7,7 @@ from results_analysis import analyze, plot_mistakes, demo_analyze
 
 ### FILES ###
 #original MTurk csv file:
-RESULTS_FILE_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\Batch_3727145_batch_results .csv"
+RESULTS_FILE_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\Batch_3727145_batch_results.csv"
 #results as a melted shape (one sentence per line):
 MELTED_DF_ADDR =  r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\new_df.csv"
 #results as a melted shape with z-scores:
@@ -280,14 +280,12 @@ def clean_data(df):
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(STAND_DF_ADDR)
-    df = clean_data(df)
-    # workers_stats(df)
-
-
+    # df = pd.read_csv(STAND_DF_ADDR)
+    # df = clean_data(df)
+    # # workers_stats(df)
     # mistakes = pd.read_csv(r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\debug.csv", index_col=0)
     # plot_mistakes(mistakes)
-    analyze(df)
+    analyze(0,True)
     # demo_analyze()
 
 

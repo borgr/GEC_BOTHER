@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee82a83-bb95-4d95-adc2-c2a655768400" name="Default Changelist" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csvs/p_sentences.csv" afterPath="$PROJECT_DIR$/csvs/p_sentences.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_parser.py" afterPath="$PROJECT_DIR$/my_parser.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/before-scores.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controls_df.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/debug_errant.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/filtered_sentences.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mistakes_stats.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mistakes_weights.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mistakes_weights_with_regression.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mistakes_weights_with_regression_errant.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ranks.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ranks_errant.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sentences_mistakes_scores.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sentences_mistakes_scores_errant.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/z-scores.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results_analysis.py" afterPath="$PROJECT_DIR$/results_analysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results_processing.py" afterPath="$PROJECT_DIR$/results_processing.py" />
     </list>
@@ -25,8 +36,8 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/indexes/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="4380" column="0" lean-forward="false" selection-start-line="4380" selection-start-column="0" selection-end-line="4380" selection-end-column="0" />
+            <state relative-caret-position="248">
+              <caret line="4964" column="0" lean-forward="false" selection-start-line="4964" selection-start-column="0" selection-end-line="4964" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -35,7 +46,7 @@
       <file leaf-file-name="series.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/series.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="175">
               <caret line="867" column="0" lean-forward="false" selection-start-line="867" selection-start-column="0" selection-end-line="867" selection-end-column="0" />
               <folding />
             </state>
@@ -45,11 +56,21 @@
       <file leaf-file-name="results_analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="350">
+              <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="batchCreator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/batchCreator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,44 +95,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results_processing.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="results_processing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results_processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1099">
-              <caret line="222" column="16" lean-forward="true" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
+            <state relative-caret-position="265">
+              <caret line="287" column="8" lean-forward="false" selection-start-line="287" selection-start-column="8" selection-end-line="287" selection-end-column="8" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_methods.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/numpy/core/_methods.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fromnumeric.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/numpy/core/fromnumeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="3117" column="0" lean-forward="false" selection-start-line="3117" selection-start-column="0" selection-end-line="3117" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="1464" column="0" lean-forward="false" selection-start-line="1464" selection-start-column="0" selection-end-line="1464" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -127,27 +118,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_mean_time</find>
-      <find>set_index</find>
-      <find>prin</find>
-      <find>tqdm</find>
-      <find>DFG</find>
-      <find>plt.sh</find>
-      <find>csv</find>
-      <find>control_df</find>
-      <find>TOTAL</find>
-      <find>MISTAKE_TYPES</find>
-      <find>sentences = get_X(sentences)</find>
-      <find>reg</find>
-      <find>controls_df</find>
-      <find>cle</find>
       <find>GEC Project</find>
       <find>utf</find>
       <find>line</find>
       <find>addr</find>
       <find>MISTAKES_INX</find>
       <find>start</find>
-      <find>to_csv</find>
       <find>to_c</find>
       <find>44544</find>
       <find>155649</find>
@@ -157,6 +133,21 @@
       <find>head</find>
       <find>boosting</find>
       <find>pri</find>
+      <find>melt</find>
+      <find>anal</find>
+      <find>plot</find>
+      <find>mean</find>
+      <find>red</find>
+      <find>if errant:</find>
+      <find>errant</find>
+      <find>err</find>
+      <find>errant</find>
+      <find>mistakes_weights</find>
+      <find>box</find>
+      <find>to_csv</find>
+      <find>boost</find>
+      <find>aram erran</find>
+      <find>Batch_3727145_batch_results</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,8 +163,8 @@
         <option value="$PROJECT_DIR$/../../DA/pilot/results_processing.py" />
         <option value="$PROJECT_DIR$/sentence_to_vec.py" />
         <option value="$PROJECT_DIR$/my_parser.py" />
-        <option value="$PROJECT_DIR$/results_analysis.py" />
         <option value="$PROJECT_DIR$/results_processing.py" />
+        <option value="$PROJECT_DIR$/results_analysis.py" />
       </list>
     </option>
   </component>
@@ -187,7 +178,7 @@
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1942" />
-    <option name="height" value="1042" />
+    <option name="height" value="1062" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -362,7 +353,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3121453" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33407325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31742507" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36958936" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -390,12 +381,31 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="48" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/results_analysis.py</url>
+          <line>224</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/results_analysis.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/results_analysis.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="means[id]" language="Python" />
         <watch expression="__py_debug_temp_var_739275286" />
+        <watch expression="len(weights)" language="Python" />
+        <watch expression="mistakes.shape" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -531,13 +541,6 @@
     <entry file="file:///usr/lib/python3.6/codecs.py" />
     <entry file="file:///usr/lib/python3.6/_bootlocale.py" />
     <entry file="file:///usr/lib/python3.6/random.py" />
-    <entry file="file://$PROJECT_DIR$/batchCreator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-2129160156/_io.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -673,26 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4380" column="0" lean-forward="false" selection-start-line="4380" selection-start-column="0" selection-end-line="4380" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/indexing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="867" column="0" lean-forward="false" selection-start-line="867" selection-start-column="0" selection-end-line="867" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -705,10 +692,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_parser.py">
+    <entry file="file://$PROJECT_DIR$/csvs/p_sentences.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        <state relative-caret-position="158">
+          <caret line="8073" column="162" lean-forward="false" selection-start-line="8073" selection-start-column="154" selection-end-line="8073" selection-end-column="162" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="4964" column="0" lean-forward="false" selection-start-line="4964" selection-start-column="0" selection-end-line="4964" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="867" column="0" lean-forward="false" selection-start-line="867" selection-start-column="0" selection-end-line="867" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -729,31 +732,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csvs/p_sentences.txt">
+    <entry file="file://$PROJECT_DIR$/my_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="8073" column="162" lean-forward="false" selection-start-line="8073" selection-start-column="154" selection-end-line="8073" selection-end-column="162" />
+        <state relative-caret-position="190">
+          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/results_processing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1099">
-          <caret line="222" column="16" lean-forward="true" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
+        <state relative-caret-position="265">
+          <caret line="287" column="8" lean-forward="false" selection-start-line="287" selection-start-column="8" selection-end-line="287" selection-end-column="8" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batchCreator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
