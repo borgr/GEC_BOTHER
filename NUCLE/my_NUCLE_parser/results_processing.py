@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 import numpy as np
 from scipy import stats
@@ -6,14 +8,14 @@ import matplotlib.pyplot as plt
 from results_analysis import analyze, plot_mistakes, demo_analyze
 
 ### FILES ###
-#original MTurk csv file:
-RESULTS_FILE_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\Batch_3727145_batch_results.csv"
-#results as a melted shape (one sentence per line):
-MELTED_DF_ADDR =  r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\new_df.csv"
-#results as a melted shape with z-scores:
-STAND_DF_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\z-scores.csv"
-#control sentences address:
-CTRL_DF_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\controls_df.csv"
+# original MTurk csv file:
+RESULTS_FILES_ADDR = [r"DA/results/Batch_3727145_batch_results.csv", r"DA/results/Batch_4228576_batch_results.csv"]
+# results as a melted shape (one sentence per line):
+MELTED_DF_ADDR = r"DA/results/new_df.csv"
+# results as a melted shape with z-scores:
+STAND_DF_ADDR = r"DA/results/z-scores.csv"
+# control sentences address:
+CTRL_DF_ADDR = r"DA/results/controls_df.csv"
 
 ### CONSTANTS:
 HITS_NUM = 290
@@ -23,11 +25,10 @@ DF_SEN_COLS = ["Input.Nucle_ID", "Input.original_text", "Input.is_perfect", "Inp
                "Answer.mistakeRate"]
 DF_HIT_COLS = ["HITId", "WorkerId", "WorkTimeInSeconds", "Input.batch", "MistakeZScore"]
 DF_COLS = DF_HIT_COLS + DF_SEN_COLS
-#data cleaning:
+# data cleaning:
 MIN_WORKING_TIME = 350  # in seconds (=5.83 minutes)
 CTRL_CORR_LIM = -0.4  # filtering by correlation threshold
 PERFECT_TTEST_ALPHA = 0.05  # the alpha for the t.test of perfect sentences
-
 
 
 def standardize_worker(df):
@@ -53,18 +54,26 @@ def standardize_data(df):
         worker_df = df.loc[worker]
         x = standardize_worker(worker_df)
         df.loc[worker] = x
-    # df.to_csv("z-scores.csv", sep=",", encoding='utf-8')
+    df.reset_index(inplace=True)
+    df.to_csv(STAND_DF_ADDR, sep=",", encoding='utf-8')
+    return df
 
 
-def parse_data(path):
+def parse_data(path, force=False):
     """
     get results as the return from MTurk and create melted df (one row for each sentence score)
-    :param path: MTurk csv addr
-    :return: melted df. saves it as "new_df.csv" as well
+    :param path: MTurk csv addr or a dataframe concatanating serveral batches
+    :return: melted df. saves it as MELTED_DF_ADDR as well
     """
-    orig_df = pd.read_csv(path)
+    if not force and os.path.isfile(MELTED_DF_ADDR):
+        print("Data already exists, not parsing. Pass force=True to parse_data() from scratch")
+        return pd.read_csv(MELTED_DF_ADDR)
+    try:
+        orig_df = pd.read_csv(path)
+    except ValueError:
+        orig_df = path
     new_df = pd.DataFrame(columns=DF_COLS)
-    for i in tqdm(range(HITS_NUM)):
+    for i in tqdm(range(len(orig_df))):
         for j in range(1, HIT_SIZE + 1):
             new_row = []
             for col in DF_COLS:
@@ -76,7 +85,7 @@ def parse_data(path):
                 x = orig_df[col]
                 new_row.append(x.iloc[i])
             new_df.loc[(i * HIT_SIZE) + j] = new_row
-    # new_df.to_csv("new_df.csv", sep=",", encoding='utf-8')
+    new_df.to_csv(MELTED_DF_ADDR, sep=",", encoding='utf-8')
     return new_df
 
 
@@ -95,16 +104,17 @@ def parse_control_sentences(df):
         if len(scores) < MIN_CONTROL_REPET:
             black_list.add(sen)
         else:
-            averages[sen] = (np.mean(scores), len(scores)) #tuple: average and number of annotators
+            averages[sen] = (np.mean(scores), len(scores))  # tuple: average and number of annotators
     sentences = sentences - black_list
     controls_df = df.loc[df["Input.Nucle_ID"].isin(sentences)]
     excluded_average = []  # not including this notation
     for index, row in controls_df.iterrows():
         ave = averages[row['Input.Nucle_ID']]
-        excluded_average.append(calc_excluded_average(row["MistakeZScore"], ave[0],ave[1]))
+        excluded_average.append(calc_excluded_average(row["MistakeZScore"], ave[0], ave[1]))
     controls_df.insert(2, "ExcludedAverage", excluded_average)
     # controls_df.to_csv("controls_df.csv", sep=",", encoding='utf-8')
     return controls_df
+
 
 def calc_excluded_average(score, average, n):
     """
@@ -114,7 +124,8 @@ def calc_excluded_average(score, average, n):
     :param n: number of scores per sentence
     :return: excluded average
     """
-    return ((average*n)-score)/(n-1)
+    return ((average * n) - score) / (n - 1)
+
 
 def get_perfects_mean(worker_df):
     """
@@ -125,7 +136,7 @@ def get_perfects_mean(worker_df):
     return np.mean(worker_df.loc[worker_df['Input.is_perfect']]["MistakeZScore"])
 
 
-def filter_by_time(df,time_lim):
+def filter_by_time(df, time_lim):
     """
     filter data by the worker working time - if worker minimum time is lower than time limit it will be removed
     :param df: sentences data frame
@@ -156,7 +167,7 @@ def workers_stats(df):
         worker_df = df.loc[worker]
         pz_score = get_perfects_mean(worker_df)
         times = set(worker_df["WorkTimeInSeconds"])
-        times = [(time/60) for time in times]
+        times = [(time / 60) for time in times]
         all_times = all_times + times
         zscores.append(pz_score)
         # if len(times) >1:
@@ -166,14 +177,13 @@ def workers_stats(df):
         #     print("working times (in minutes): ", times, "mean time is: ", np.mean(times))
         #     print()
     # print(sorted(all_times))
-    plt.scatter(x=list(range(290)),y=sorted(all_times)[:290])
+    plt.scatter(x=list(range(290)), y=sorted(all_times)[:290])
     plt.title("HITS sorted by working time")
     plt.xlabel("HIT number")
     plt.ylabel("working time (minutes)")
     # print("num of positives: ", len([i for i in zscores if i>0]))
     # plt.scatter(x=list(range(len(workers))),y=sorted(zscores))
     plt.show()
-
 
 
 def filter_by_perfect(df, alpha):
@@ -189,13 +199,14 @@ def filter_by_perfect(df, alpha):
         worker_df = df.loc[df['WorkerId'] == worker]
         perfects = worker_df.loc[worker_df['Input.is_perfect'] == True]["MistakeZScore"]
         non_perfect = worker_df.loc[worker_df['Input.is_perfect'] == False]["MistakeZScore"]
-        x=  stats.ttest_ind(non_perfect,perfects, equal_var=True)
-        if (x[1] < (alpha*2)) and np.mean(perfects)>0:
+        x = stats.ttest_ind(non_perfect, perfects, equal_var=True)
+        if (x[1] < (alpha * 2)) and np.mean(perfects) > 0:
             black_list.add(worker)
     df = df.loc[df['WorkerId'].isin(workers - black_list)]
     return df, black_list
 
-def filter_by_corr(df,controls_df, cor_lim):
+
+def filter_by_corr(df, controls_df, cor_lim):
     """
     filter workers whose control sentences scores were significantly uncorrelated with the rest of the workers
     :param df: mekted df
@@ -215,7 +226,8 @@ def filter_by_corr(df,controls_df, cor_lim):
         all_corrs.append(cor[0])
         if cor[0] < cor_lim:
             black_list.add(worker)
-        else: corrs.append(cor[0])
+        else:
+            corrs.append(cor[0])
     # plt.scatter(list(range(len(all_corrs))),sorted(all_corrs))
     # plt.title('Control sentences score correlations')
     # plt.xlabel('worker')
@@ -259,19 +271,20 @@ def plot_cor_sentences(control_df):
     plt.show()
     print("mean:", np.mean(list((plot_ctrol_df['mean']))))
 
+
 def clean_data(df):
     """
     clean MTurk workers from the data by time, perfect sentences score and control sentences score.
     :param df: standardized melted df
-    :return: the df without the lines that  were assessed by the declined workers
+    :return: the df without the lines that were assessed by the declined workers
     """
     print("df len before: ", df.shape[0])
-    df, b = filter_by_time(df,MIN_WORKING_TIME)
+    df, b = filter_by_time(df, MIN_WORKING_TIME)
     print("df len after time: ", df.shape[0], ", cleaned by time: ", len(b))
-    df, b = filter_by_perfect(df,PERFECT_TTEST_ALPHA)
+    df, b = filter_by_perfect(df, PERFECT_TTEST_ALPHA)
     print("df len after perfect: ", df.shape[0], ", cleaned by perfect: ", len(b))
     control_df = parse_control_sentences(df)
-    df, b = filter_by_corr(df, control_df,CTRL_CORR_LIM)
+    df, b = filter_by_corr(df, control_df, CTRL_CORR_LIM)
     # plot_cor_sentences(control_df)
     print("df len after control: ", df.shape[0], ", cleaned by control: ", len(b))
     # df.to_csv("filtered_sentences.csv", sep=",", encoding='utf-8')
@@ -280,16 +293,16 @@ def clean_data(df):
 
 
 if __name__ == "__main__":
+    print(os.path.abspath(os.path.normpath(RESULTS_FILES_ADDR[0])))
+    dfs = [pd.read_csv(os.path.normpath(path)) for path in RESULTS_FILES_ADDR]
+    df = pd.concat(dfs).reset_index()
+    force = True
+    melted = parse_data(df, force)
+    zdf = standardize_data(melted)
     # df = pd.read_csv(STAND_DF_ADDR)
-    # df = clean_data(df)
-    # # workers_stats(df)
+    clean_df = clean_data(zdf)
+    workers_stats(melted)
     # mistakes = pd.read_csv(r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\debug.csv", index_col=0)
     # plot_mistakes(mistakes)
-    analyze(0,True)
+    analyze(clean_df, True)
     # demo_analyze()
-
-
-
-
-
-

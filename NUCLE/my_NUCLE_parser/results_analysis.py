@@ -8,11 +8,11 @@ from tqdm import tqdm
 from my_parser import NUCLE_DB_ADDR, parse_sentence, MISTAKES_INX
 
 ### FILES ###
-RESULTS_FILE_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\Batch_3727145_batch_results.csv"
-TO_MTURK_FILE_PATH = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\toMturk\mTurk_csv.csv"
-SENTENCES_MISTAKES_SCORE = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\sentences_mistakes_scores.csv"
-ERRANT_SENTENCES_MISTAKES_SCORE = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\DA\results\sentences_mistakes_scores_errant.csv"
-ERRANT_DB_ADDR = r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\errant-master\out_auto_m2"
+RESULTS_FILE_ADDR = r"DA/results/Batch_3727145_batch_results.csv"
+TO_MTURK_FILE_PATH = r"NUCLE/toMturk/mTurk_csv.csv"
+SENTENCES_MISTAKES_SCORE = r"DA/results/sentences_mistakes_scores.csv"
+ERRANT_SENTENCES_MISTAKES_SCORE = r"DA/results/sentences_mistakes_scores_errant.csv"
+ERRANT_DB_ADDR = r"errant-master/out_auto_m2"
 
 # featurs:
 NUCLE_MISTAKE_TYPES = ["Vt", "Vm", "V0", "Vform", "SVA", "ArtOrDet", "Nn", "Npos", "Pform", "Pref", "Prep",
@@ -46,8 +46,10 @@ def nucle_to_errant_id_dict(nucle_addr, errant_addr):
     :param errant_addr: ERRANT m2 file addr
     :return:
     """
-    nucle_lines = open(nucle_addr).read().splitlines()
-    errant_lines = open(errant_addr).read().splitlines()
+    with open(nucle_addr) as fl:
+        nucle_lines = fl.read().splitlines()
+    with open(errant_addr, encoding="ISO-8859-2") as fl:
+        errant_lines = fl.read().splitlines()
     n_counter, e_counter, n_len = 0, 0, len(nucle_lines)
     d = dict()
     while True:
@@ -85,8 +87,10 @@ def get_senteces_by_df(nucle_addr, df, errant):
     :return: df in which every sentence is a vector of mistakes with z-score
     """
     if errant:
+        global EVALUATION_FEATURES
         EVALUATION_FEATURES = ["Nucle_ID"] + ERRANT_MISTAKE_TYPES + ["TotalMistakes", "z-score"]
-    lines = open(nucle_addr).read().splitlines()
+    with open(nucle_addr, encoding="ISO-8859-2") as fl:
+        lines = fl.read().splitlines()
     sentences = pd.DataFrame(columns=EVALUATION_FEATURES)
     d = nucle_to_errant_id_dict(NUCLE_DB_ADDR, ERRANT_DB_ADDR)
     for index, row in tqdm(df.iterrows()):
@@ -100,7 +104,7 @@ def get_senteces_by_df(nucle_addr, df, errant):
             sentences.loc[index][mistake[2]] += 1
             sentences.loc[index]["TotalMistakes"] += 1
         sentences.loc[index]["z-score"] = df.loc[index]["MistakeZScore"]
-    # sentences.to_csv("sentences_mistakes_scores_errant.csv", sep=",", encoding='utf-8')
+    sentences.to_csv("sentences_mistakes_scores_errant.csv", sep=",", encoding='utf-8')
     return sentences
 
 
@@ -251,7 +255,6 @@ def plot_mistakes(all_mistakes, mistakes, ranks, errant):
     plt.xticks(rotation=90)
     plt.show()
 
-
     # # graph 4 - ranks:
     # melted_ranks = pd.melt(ranks)
     # melted_ranks["weights"] = 0
@@ -267,18 +270,19 @@ def plot_mistakes(all_mistakes, mistakes, ranks, errant):
     # plt.show()
 
 
-def analyze(df,errant):
+def analyze(df, errant):
     """
     gets df of senteces as vectors and analize them - save stats and plot graphs
     :param df:  pandas df of sentences as a vector of mistakes and a z-score. 0 if using file.
     :param errant: if true, use errant id, else use nucle id.
     :return: mistakes stats
     """
-    if df != 0:
-        sentences = get_senteces_by_df(ERRANT_DB_ADDR,df,True)  #if changes filter use this instead of loading from file
+    if df is not None:
+        sentences = get_senteces_by_df(ERRANT_DB_ADDR, df,
+                                       True)  # if changes filter use this instead of loading from file
     else:
         sentences = pd.read_csv(
-        ERRANT_SENTENCES_MISTAKES_SCORE)  # can be used on ERRANT_SENTENCES_MISTAKES_SCORE or SENTENCES_MISTAKES_SCORE
+            ERRANT_SENTENCES_MISTAKES_SCORE)  # can be used on ERRANT_SENTENCES_MISTAKES_SCORE or SENTENCES_MISTAKES_SCORE
         sentences = sentences.loc[:, ~sentences.columns.str.contains('^Unnamed')]
     sentences = sentences.loc[~(sentences["TotalMistakes"] == 0), :]
     mistakes = mistakes_stats(sentences)
@@ -297,16 +301,16 @@ def analyze(df,errant):
 
 def demo_analyze():
     """
-    anlyze-like funtion, loads the bootstrapped data from file instead of re-creating it.
+    anlyze-like function, loads the bootstrapped data from file instead of re-creating it.
     :return:
     """
     all_mistakes = pd.read_csv(
-        r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\debug.csv",
+        r"NUCLE\my_NUCLE_parser\debug.csv",
         index_col=0)
     mistakes = pd.read_csv(
-        r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\mistakes_weights_with_regression.csv",
+        r"NUCLE\my_NUCLE_parser\mistakes_weights_with_regression.csv",
         index_col=0)
     ranks = pd.read_csv(
-        r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\ranks.csv",
+        r"NUCLE\my_NUCLE_parser\ranks.csv",
         index_col=0)
     plot_mistakes(all_mistakes, mistakes, ranks, False)
