@@ -9,6 +9,8 @@ from results_analysis import analyze, plot_mistakes, demo_analyze
 
 ### FILES ###
 # original MTurk csv file:
+from GEC_ME_PROJECT.NUCLE.my_NUCLE_parser.results_analysis import SENTENCES_MISTAKES_SCORE
+
 RESULTS_FILES_ADDR = [r"DA/results/Batch_3727145_batch_results.csv", r"DA/results/Batch_4228576_batch_results.csv"]
 # results as a melted shape (one sentence per line):
 MELTED_DF_ADDR = r"DA/results/new_df.csv"
@@ -55,7 +57,7 @@ def standardize_data(df):
         x = standardize_worker(worker_df)
         df.loc[worker] = x
     df.reset_index(inplace=True)
-    df.to_csv(STAND_DF_ADDR, sep=",", encoding='utf-8')
+    df.to_csv(STAND_DF_ADDR, sep=",", encoding='utf-8', index=False)
     return df
 
 
@@ -72,8 +74,8 @@ def parse_data(path, force=False):
         orig_df = pd.read_csv(path)
     except ValueError:
         orig_df = path
-    new_df = pd.DataFrame(columns=DF_COLS)
-    for i in tqdm(range(len(orig_df))):
+    new_df = []
+    for i in tqdm(list(range(len(orig_df)))):
         for j in range(1, HIT_SIZE + 1):
             new_row = []
             for col in DF_COLS:
@@ -84,8 +86,10 @@ def parse_data(path, force=False):
                     col = col + str(j)
                 x = orig_df[col]
                 new_row.append(x.iloc[i])
-            new_df.loc[(i * HIT_SIZE) + j] = new_row
-    new_df.to_csv(MELTED_DF_ADDR, sep=",", encoding='utf-8')
+            # new_df.loc[(i * HIT_SIZE) + j] = new_row
+            new_df.append(new_row)
+    new_df = pd.DataFrame(new_df, columns=DF_COLS)
+    new_df.to_csv(MELTED_DF_ADDR, sep=",", encoding='utf-8', index=False)
     return new_df
 
 
@@ -161,6 +165,7 @@ def workers_stats(df):
     """
     all_times = []
     zscores = []
+    df = df.copy()
     workers = set(df["WorkerId"])
     df.set_index(['WorkerId'], inplace=True)
     for worker in workers:
@@ -270,6 +275,7 @@ def plot_cor_sentences(control_df):
     # plt.scatter(range(len(set(control_df['Input.Nucle_ID']))),means, color='maroon')
     plt.show()
     print("mean:", np.mean(list((plot_ctrol_df['mean']))))
+    print("Consider changing the correlation of filtering according to this")
 
 
 def clean_data(df):
@@ -285,24 +291,29 @@ def clean_data(df):
     print("df len after perfect: ", df.shape[0], ", cleaned by perfect: ", len(b))
     control_df = parse_control_sentences(df)
     df, b = filter_by_corr(df, control_df, CTRL_CORR_LIM)
-    # plot_cor_sentences(control_df)
+    plot_cor_sentences(control_df)
     print("df len after control: ", df.shape[0], ", cleaned by control: ", len(b))
-    # df.to_csv("filtered_sentences.csv", sep=",", encoding='utf-8')
-
+    df.to_csv(SENTENCES_MISTAKES_SCORE, sep=",", encoding='utf-8', index=False)
     return df
 
 
 if __name__ == "__main__":
-    print(os.path.abspath(os.path.normpath(RESULTS_FILES_ADDR[0])))
-    dfs = [pd.read_csv(os.path.normpath(path)) for path in RESULTS_FILES_ADDR]
-    df = pd.concat(dfs).reset_index()
     force = True
-    melted = parse_data(df, force)
-    zdf = standardize_data(melted)
-    # df = pd.read_csv(STAND_DF_ADDR)
-    clean_df = clean_data(zdf)
-    workers_stats(melted)
-    # mistakes = pd.read_csv(r"C:\Users\ofir\Documents\University\year2\GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\debug.csv", index_col=0)
+    collapse_errant = True
+    if not force and os.path.isfile(SENTENCES_MISTAKES_SCORE):
+        print("Skipping preprocessing, already done")
+        clean_df = pd.read_csv(SENTENCES_MISTAKES_SCORE)
+    else:
+        print(os.path.abspath(os.path.normpath(RESULTS_FILES_ADDR[0])))
+        dfs = [pd.read_csv(os.path.normpath(path)) for path in RESULTS_FILES_ADDR]
+        df = pd.concat(dfs).reset_index()
+        force = True
+        melted = parse_data(df, force)
+        workers_stats(melted)
+        zdf = standardize_data(melted)
+        # df = pd.read_csv(STAND_DF_ADDR)
+        clean_df = clean_data(zdf)
+    # mistakes = pd.read_csv(r" GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\debug.csv", index_col=0)
     # plot_mistakes(mistakes)
-    analyze(clean_df, True)
+    analyze(clean_df, True, collapse_errant=collapse_errant, force=force)
     # demo_analyze()

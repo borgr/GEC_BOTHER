@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
@@ -11,8 +13,10 @@ from my_parser import NUCLE_DB_ADDR, parse_sentence, MISTAKES_INX
 RESULTS_FILE_ADDR = r"DA/results/Batch_3727145_batch_results.csv"
 TO_MTURK_FILE_PATH = r"NUCLE/toMturk/mTurk_csv.csv"
 SENTENCES_MISTAKES_SCORE = r"DA/results/sentences_mistakes_scores.csv"
+SENTENCES_MISTAKES_SCORE = r"DA/results/sentences_mistakes_scores.csv"
 ERRANT_SENTENCES_MISTAKES_SCORE = r"DA/results/sentences_mistakes_scores_errant.csv"
 ERRANT_DB_ADDR = r"errant-master/out_auto_m2"
+CONFIDENCE = 0.9
 
 # featurs:
 NUCLE_MISTAKE_TYPES = ["Vt", "Vm", "V0", "Vform", "SVA", "ArtOrDet", "Nn", "Npos", "Pform", "Pref", "Prep",
@@ -20,7 +24,10 @@ NUCLE_MISTAKE_TYPES = ["Vt", "Vm", "V0", "Vform", "SVA", "ArtOrDet", "Nn", "Npos
                        "Wa", "Wform", "Wtone", "Srun", "Smod", "Spar", "Sfrag", "Ssub", "WOinc", "WOadv",
                        "Trans",
                        "Mec", "Rloc-", "Cit", "Others", "Um"]
-
+COARSE_ERRANT_TYPES = ['VERB:FORM', 'VERB:TENSE', 'NOUN', 'PREP', 'PRON', 'SPELL',
+       'ADV', 'NOUN:POSS', 'ORTH', 'DET', 'OTHER', 'ADJ', 'CONJ', 'NOUN:NUM',
+       'CONTR', 'PUNCT', 'PART', 'NOUN:INFL', 'VERB:SVA', 'WO', 'VERB',
+       'VERB:INFL', 'UNK', 'MORPH', 'ADJ:FORM']
 ERRANT_MISTAKE_TYPES = ['R:VERB:FORM', 'R:VERB:TENSE', 'M:NOUN', 'U:PREP', 'M:VERB:TENSE', 'R:PRON',
                         'R:SPELL',
                         'R:ADV', 'U:NOUN:POSS', 'R:ORTH', 'M:DET', 'U:OTHER', 'R:NOUN', 'U:ADV', 'M:ADJ',
@@ -36,7 +43,7 @@ ERRANT_MISTAKE_TYPES = ['R:VERB:FORM', 'R:VERB:TENSE', 'M:NOUN', 'U:PREP', 'M:VE
                         'R:PART', 'R:MORPH', 'R:DET', 'M:VERB', 'R:ADJ:FORM']
 
 EVALUATION_FEATURES = ["Nucle_ID"] + NUCLE_MISTAKE_TYPES + ["TotalMistakes", "z-score"]
-NUM_OF_BOOTSTRAP_ITER = 10000
+NUM_OF_BOOTSTRAP_ITER = 1000
 
 
 def nucle_to_errant_id_dict(nucle_addr, errant_addr):
@@ -60,7 +67,6 @@ def nucle_to_errant_id_dict(nucle_addr, errant_addr):
                 e_counter += 1
             d[n_counter] = e_counter
             e_counter += 1
-            print(n_counter)
         n_counter += 1
     return d
 
@@ -79,13 +85,16 @@ def get_ERRANT_atributes():
     return a
 
 
-def get_senteces_by_df(nucle_addr, df, errant):
+def get_senteces_by_df(nucle_addr, df, errant, force=True):
     """
     :param nucle_addr: original m2 NUCLE file
     :param df: melted filtered df
     :param errant: if true, use errant id, else use nucle id.
     :return: df in which every sentence is a vector of mistakes with z-score
     """
+    if not force and os.path.isfile(ERRANT_SENTENCES_MISTAKES_SCORE):
+        res = pd.read_csv(ERRANT_SENTENCES_MISTAKES_SCORE)
+        return res
     if errant:
         global EVALUATION_FEATURES
         EVALUATION_FEATURES = ["Nucle_ID"] + ERRANT_MISTAKE_TYPES + ["TotalMistakes", "z-score"]
@@ -93,7 +102,7 @@ def get_senteces_by_df(nucle_addr, df, errant):
         lines = fl.read().splitlines()
     sentences = pd.DataFrame(columns=EVALUATION_FEATURES)
     d = nucle_to_errant_id_dict(NUCLE_DB_ADDR, ERRANT_DB_ADDR)
-    for index, row in tqdm(df.iterrows()):
+    for index, row in tqdm(df.iterrows(), total=len(df)):
         sentences.loc[index] = [0] * len(EVALUATION_FEATURES)
         id = row["Input.Nucle_ID"] - 1
         if errant:
@@ -104,7 +113,7 @@ def get_senteces_by_df(nucle_addr, df, errant):
             sentences.loc[index][mistake[2]] += 1
             sentences.loc[index]["TotalMistakes"] += 1
         sentences.loc[index]["z-score"] = df.loc[index]["MistakeZScore"]
-    sentences.to_csv("sentences_mistakes_scores_errant.csv", sep=",", encoding='utf-8')
+    sentences.to_csv(ERRANT_SENTENCES_MISTAKES_SCORE, sep=",", encoding='utf-8', index=False)
     return sentences
 
 
@@ -135,9 +144,9 @@ def get_X(sentences):
 
 def get_weights(sentences, reg_flag):
     """
-    perforn linear regression and return the weights
+    perform linear regression and return the weights
     :param sentences: df of sentences as a vector of mistakes and a z-score
-    :param reg_flag: if Ture - include number of mistakes in the regression, else - don't include it
+    :param reg_flag: if True - include number of mistakes in the regression, else - don't include it
     :return: regression weights a a vector.
     """
     y = np.array(sentences["z-score"])
@@ -151,37 +160,51 @@ def get_weights(sentences, reg_flag):
     return reg.coef_ - bias
 
 
-def bootstrap_weights(sentences, errant):
+def bootstrap_weights(sentences, errant, collapse_errant, force=True):
     """
     resample and estimate data values NUM_OF_BOOTSTRAP_ITER times.
+    :param collapse_errant: If true, uses coarser set of errant categories
     :param sentences: df of sentences as a vector of mistakes and a z-score
     :param errant: if true, use errant id, else use nucle id.
+    :param force: if true recalculates even if results can be loaded
     :return:
     mistakes - a df of mistake stats
     mistakes.transpose()["upper"] - a vector of top 97.5% scores for the different mistake types
     mistakes.transpose()["lower"] - a vector of bottom 2.5% scores for the different mistake types
     ranks - a df of mistake's ranks over the iterations
     """
+    mistakes_path = "debug_errant.csv"
+    ranks_path = "ranks_errant.csv"
+    if os.path.isfile(mistakes_path) and os.path.isfile(ranks_path) and not force:
+        return pd.read_csv(mistakes_path), pd.read_csv(ranks_path)
     if errant:
-        types = ERRANT_MISTAKE_TYPES
+        if collapse_errant:
+            types = COARSE_ERRANT_TYPES
+        else:
+            types = ERRANT_MISTAKE_TYPES
     else:
         types = NUCLE_MISTAKE_TYPES
-    mistakes = pd.DataFrame(columns=types)
-    ranks = pd.DataFrame(columns=types)
-    for i in tqdm(range(NUM_OF_BOOTSTRAP_ITER)):
+    mistakes = []
+    ranks = []
+    for i in tqdm(list(range(NUM_OF_BOOTSTRAP_ITER))):
         sample = sentences.sample(n=sentences.shape[0], replace=True)
         weights = list(get_weights(sample, False))
-        mistakes.loc["iter" + str(i)] = weights
+        mistakes.append(weights)
+        # arg_sort
         rank_row = [0] * len(weights)
         for j, x in enumerate(sorted(range(len(weights)), key=lambda y: weights[y])):
             rank_row[x] = j
-        ranks.loc["iter" + str(i)] = rank_row
+        ranks.append(rank_row)
+    mistakes = pd.DataFrame(mistakes, columns=types)
+    ranks = pd.DataFrame(ranks, columns=types)
     uppers = []
     upper_ranks = []
     lowers = []
     lower_ranks = []
+    k = int(NUM_OF_BOOTSTRAP_ITER * (1 - CONFIDENCE) / 2)
+    print(f"considering {k} from top out of {len(mistakes)} == {NUM_OF_BOOTSTRAP_ITER}")
+    print(f"Changing the confidence percentage doesn't change importance... why?")
     for mis in mistakes:
-        k = int(NUM_OF_BOOTSTRAP_ITER * 0.025)
         uppers.append(np.partition(mistakes[mis], -k)[-k])
         lowers.append(np.partition(mistakes[mis], -(NUM_OF_BOOTSTRAP_ITER - k))[-(NUM_OF_BOOTSTRAP_ITER - k)])
         upper_ranks.append(np.partition(ranks[mis], -k)[-k])
@@ -193,12 +216,12 @@ def bootstrap_weights(sentences, errant):
     mistakes.loc["lower_ranks"] = lower_ranks
     mistakes.loc["upper_ranks"] = upper_ranks
     mistakes.loc["mean_rank"] = [np.mean(ranks[mt]) for mt in ranks]
-    mistakes.to_csv("debug_errant.csv", sep=",", encoding='utf-8')  # save for debug
-    ranks.to_csv("ranks_errant.csv", sep=",", encoding='utf-8')  # save for debug
+    mistakes.to_csv(mistakes_path, sep=",", encoding='utf-8', index=False)  # save for cache
+    ranks.to_csv(ranks_path, sep=",", encoding='utf-8', index=False)  # save for cache
     return mistakes, ranks
 
 
-def plot_mistakes(all_mistakes, mistakes, ranks, errant):
+def plot_mistakes(all_mistakes, mistakes, ranks, errant, collapse_errant):
     """
     plot graph of mistakes scores
     :param all_mistakes: a df with all bootstrap repeats scores
@@ -208,7 +231,10 @@ def plot_mistakes(all_mistakes, mistakes, ranks, errant):
     :return: None. plot 3 graphs.
     """
     if errant:
-        types = ERRANT_MISTAKE_TYPES
+        if collapse_errant:
+            types = COARSE_ERRANT_TYPES
+        else:
+            types = ERRANT_MISTAKE_TYPES
     else:
         types = NUCLE_MISTAKE_TYPES
 
@@ -240,10 +266,13 @@ def plot_mistakes(all_mistakes, mistakes, ranks, errant):
     plt.ylabel('linear regression weight')
     plt.title('ERRANT error categories sorted by "bothering" with estimated 95% CI based on boostrapping')
     plt.xticks(rotation=90)
+    save_to = f"{CONFIDENCE}_weights.png"
+    plt.savefig(save_to)
+    print(f"saving to {os.path.abspath(save_to)}")
     plt.show()
 
     # graph 3 - ranks:
-    mistakes.sort_values(by=['weights'], inplace=True)
+    mistakes.sort_values(by=['mean_rank'], inplace=True)
     # x = [mis for mis in mistakes.index if mis != "TotalMistakes"] #sorted labels
     means = np.array(mistakes["mean_rank"])
     conf = np.array([[mistakes["lower_rank"][mis], mistakes["upper_rank"][mis]] for mis in mistakes.index])
@@ -251,8 +280,10 @@ def plot_mistakes(all_mistakes, mistakes, ranks, errant):
     plt.bar(mistakes.index, means, yerr=yerr, color="darksalmon")
     plt.xlabel('error categories')
     plt.ylabel("linear regression weight's rank")
-    plt.title('ERRANT error categories average rank (with 95% CI) based on bootstrapping 10K repeats')
+    plt.title(
+        f'ERRANT error categories average rank (with {CONFIDENCE}% CI) based on bootstrapping {NUM_OF_BOOTSTRAP_ITER} repeats')
     plt.xticks(rotation=90)
+    plt.savefig(f"{CONFIDENCE}_ranks.png")
     plt.show()
 
     # # graph 4 - ranks:
@@ -261,7 +292,7 @@ def plot_mistakes(all_mistakes, mistakes, ranks, errant):
     # for mistake in NUCLE_MISTAKE_TYPES:
     #     val = mistakes["weights"][mistake]
     #     melted_ranks["weights"][melted_ranks["variable"] == mistake] = val
-    # melted_ranks.sort_values(by=['weights'], inplace=True)
+    # melted_ranks.sort_values(by=['mean_rank'], inplace=True)
     # # print("melted ranks: \n",melted_ranks.head(50))
     # bx = sns.barplot(x="variable", y="value", data=melted_ranks)
     # bx.set_xticklabels(ax.get_xticklabels(), rotation=90)
@@ -270,32 +301,56 @@ def plot_mistakes(all_mistakes, mistakes, ranks, errant):
     # plt.show()
 
 
-def analyze(df, errant):
+def _coarse_col(col):
+    if ":" in col:
+        return ":".join(col.split(":")[1:])
+    return col
+
+def coarse_errant(sentences):
+    """
+    converts a sentences df with errant types to coarser types (without U R M)
+    :param sentences:
+    :return:
+    """
+    df = pd.DataFrame()
+    for col in sentences.columns:
+        new_col = _coarse_col(col)
+        if new_col in df.columns:
+            df[new_col] += sentences[col]
+        else:
+            df[new_col] = sentences[col]
+    assert ['Nucle_ID'] + COARSE_ERRANT_TYPES + ['TotalMistakes', 'z-score'] == list(df.columns)
+    return df
+
+def analyze(df, errant, collapse_errant=True, force=True):
     """
     gets df of senteces as vectors and analize them - save stats and plot graphs
     :param df:  pandas df of sentences as a vector of mistakes and a z-score. 0 if using file.
     :param errant: if true, use errant id, else use nucle id.
     :return: mistakes stats
     """
+    if not force:
+        print("Not forcing, note that different error types should overwrite cache")
     if df is not None:
         sentences = get_senteces_by_df(ERRANT_DB_ADDR, df,
-                                       True)  # if changes filter use this instead of loading from file
+                                       True, force=force)  # if changes filter use this instead of loading from file
     else:
         sentences = pd.read_csv(
             ERRANT_SENTENCES_MISTAKES_SCORE)  # can be used on ERRANT_SENTENCES_MISTAKES_SCORE or SENTENCES_MISTAKES_SCORE
-        sentences = sentences.loc[:, ~sentences.columns.str.contains('^Unnamed')]
     sentences = sentences.loc[~(sentences["TotalMistakes"] == 0), :]
+    if collapse_errant:
+        sentences = coarse_errant(sentences)
     mistakes = mistakes_stats(sentences)
     mistakes["weights"] = list(get_weights(sentences, False)) + [0]
     mistakes["regularized_weights"] = get_weights(sentences, True)
-    all_mistakes, ranks = bootstrap_weights(sentences, errant)
+    all_mistakes, ranks = bootstrap_weights(sentences, errant, collapse_errant, force=force)
     mistakes["upper"], mistakes["lower"], mistakes["upper_rank"], mistakes["lower_rank"], = \
         all_mistakes.transpose()["upper"], all_mistakes.transpose()["lower"], all_mistakes.transpose()[
             "upper_ranks"], all_mistakes.transpose()["lower_ranks"]
     mistakes["mean_rank"] = all_mistakes.transpose()["mean_rank"]
-    mistakes.to_csv("mistakes_weights_with_regression_errant.csv", sep=",", encoding='utf-8')
+    mistakes.to_csv("mistakes_weights_with_regression_errant.csv", sep=",", encoding='utf-8', index=False)
     all_mistakes.drop(["upper", "lower", "lower_ranks", "upper_ranks", "mean_rank"], inplace=True)
-    plot_mistakes(all_mistakes, mistakes, ranks, errant)
+    plot_mistakes(all_mistakes, mistakes, ranks, errant, collapse_errant)
     return mistakes
 
 
