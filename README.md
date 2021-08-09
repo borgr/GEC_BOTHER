@@ -1,20 +1,19 @@
-GIT: https://github.cs.huji.ac.il/ofirshifman/GEC_ME_PROJECT
-
 Project files:
 
 DA\results:
 1.	Batch_3727145_batch_results.csv – original Mturk output csv.
-2.	filtered_results_with_zscores.csv – the filtered results with z-scores.
-3.	controls_df.csv – control sentences data only.
-4.	sentences_mistakes_scores.csv – sentences as a vector of NUCLE mistakes with z-scores.
-5.	sentences_mistakes_scores_errant.csv – sentences as a vector of ERRANT mistakes with z-scores.
-6.	mistakes_weights.csv – more statistic information about NUCLE weights.
-7.	mistakes_weights_errant.csv - more statistic information about ERRANT weights.
-8.	bootstrap.csv – 10,000 iterations bootstrap results
-9.	bootstrap_errant.csv - 10,000 iterations bootstrap results on ERRANT
-10.	ranks.csv - 10,000 iterations bootstrap mistakes ranking
-11.	ranks_errant.csv - 10,000 iterations bootstrap ERRANT mistakes ranking
-12.	graphs – graphs folder.
+2.	Batch_4228576_batch_results.csv – original Mturk output csv.
+3.	filtered_results_with_zscores.csv – the filtered results with z-scores.
+4.	controls_df.csv – control sentences data only.
+5.	sentences_mistakes_scores.csv – sentences as a vector of NUCLE mistakes with z-scores.
+6.	sentences_mistakes_scores_errant.csv – sentences as a vector of ERRANT mistakes with z-scores.
+7.	mistakes_weights.csv – more statistic information about NUCLE weights.
+8.	mistakes_weights_errant.csv - more statistic information about ERRANT weights.
+9.	bootstrap.csv – 10,000 iterations bootstrap results
+10.	bootstrap_errant.csv - 10,000 iterations bootstrap results on ERRANT
+11.	ranks.csv - 10,000 iterations bootstrap mistakes ranking
+12.	ranks_errant.csv - 10,000 iterations bootstrap ERRANT mistakes ranking
+13.	graphs – graphs folder.
 
 NUCLE\my_NUCLE_parser:
 13.	my_parser.py – this file parse NUCLE corpus into several databases (regular, perfect and control sentences), according to different filters that serves to create the MTurk csv file.
