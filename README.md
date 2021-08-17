@@ -1,3 +1,10 @@
+The project measures how bothering are certain grammatical errors.
+See paper in TBD
+Most code is based on Ofir Shifman's Lab project (attached too although it is in Hebrew, and only on half the final data)
+
+Main file to run to create further batches for annotation in Mturk `batchCreator.py`
+Main file to run to recalculate based on batches is `results_processing.py`
+
 Project files:
 
 DA\results:
