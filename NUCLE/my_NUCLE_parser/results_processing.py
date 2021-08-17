@@ -39,23 +39,26 @@ def standardize_worker(df):
     :param df: melted df of a single worker
     :return: melted df of a single worker with z-scores
     """
-    df["MistakeZScore"] = stats.zscore(df["Answer.mistakeRate"])
+    # df["MistakeZScore"] = stats.zscore(df["Answer.mistakeRate"]) # older pandas versions
+    df = df.assign(MistakeZScore=stats.zscore(df["Answer.mistakeRate"]))
     return df
 
 
-def standardize_data(df):
+def standardize_data(df, force=True):
     """
     add z-scores to all workers
     :param df: melted df
+    :param force: if True (default) recalculates, otherwise reads from file
     :return: melted df with z-scores
     """
+    if not force and os.path.isfile(STAND_DF_ADDR):
+        return pd.read_csv(STAND_DF_ADDR)
     df.sort_values('WorkerId')
     workers = set(df["WorkerId"])
     df.set_index(['WorkerId'], inplace=True)
     for worker in workers:
         worker_df = df.loc[worker]
-        x = standardize_worker(worker_df)
-        df.loc[worker] = x
+        df.loc[worker] = standardize_worker(worker_df)
     df.reset_index(inplace=True)
     df.to_csv(STAND_DF_ADDR, sep=",", encoding='utf-8', index=False)
     return df
@@ -75,6 +78,7 @@ def parse_data(path, force=False):
     except ValueError:
         orig_df = path
     new_df = []
+    print("Parsing Mturk batches")
     for i in tqdm(list(range(len(orig_df)))):
         for j in range(1, HIT_SIZE + 1):
             new_row = []
@@ -256,7 +260,8 @@ def plot_cor_sentences(control_df):
     plot_ctrol_df["mean"] = 0
     for id in set(plot_ctrol_df['Input.Nucle_ID']):
         means[id] = np.mean(plot_ctrol_df.loc[plot_ctrol_df['Input.Nucle_ID'] == id, "MistakeZScore"])
-        plot_ctrol_df["mean"][plot_ctrol_df['Input.Nucle_ID'] == id] = means[id]
+        plot_ctrol_df.loc[plot_ctrol_df['Input.Nucle_ID'] == id, "mean"] = means[id]
+        # plot_ctrol_df.loc["mean"][plot_ctrol_df['Input.Nucle_ID'] == id] = means[id] # old pandas version
     plot_ctrol_df.sort_values(by=['mean'], inplace=True)
     i = 0
     b = set()
@@ -286,34 +291,34 @@ def clean_data(df):
     """
     print("df len before: ", df.shape[0])
     df, b = filter_by_time(df, MIN_WORKING_TIME)
-    print("df len after time: ", df.shape[0], ", cleaned by time: ", len(b))
+    print("df len after time: ", df.shape[0], ", annotators cleaned by time: ", len(b))
     df, b = filter_by_perfect(df, PERFECT_TTEST_ALPHA)
-    print("df len after perfect: ", df.shape[0], ", cleaned by perfect: ", len(b))
+    print("df len after perfect: ", df.shape[0], ", annotators cleaned by perfect: ", len(b))
     control_df = parse_control_sentences(df)
     df, b = filter_by_corr(df, control_df, CTRL_CORR_LIM)
     plot_cor_sentences(control_df)
-    print("df len after control: ", df.shape[0], ", cleaned by control: ", len(b))
+    print("df len after control: ", df.shape[0], ", annotators cleaned by control: ", len(b))
     df.to_csv(SENTENCES_MISTAKES_SCORE, sep=",", encoding='utf-8', index=False)
     return df
 
 
 if __name__ == "__main__":
-    force = True
+    force = False
     collapse_errant = True
     if not force and os.path.isfile(SENTENCES_MISTAKES_SCORE):
         print("Skipping preprocessing, already done")
         clean_df = pd.read_csv(SENTENCES_MISTAKES_SCORE)
     else:
-        print(os.path.abspath(os.path.normpath(RESULTS_FILES_ADDR[0])))
+        print("reading from", [os.path.abspath(os.path.normpath(fl)) for fl in RESULTS_FILES_ADDR])
         dfs = [pd.read_csv(os.path.normpath(path)) for path in RESULTS_FILES_ADDR]
         df = pd.concat(dfs).reset_index()
-        force = True
+        # force = True
         melted = parse_data(df, force)
         workers_stats(melted)
-        zdf = standardize_data(melted)
-        # df = pd.read_csv(STAND_DF_ADDR)
+        zdf = standardize_data(melted, force)
         clean_df = clean_data(zdf)
     # mistakes = pd.read_csv(r" GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\debug.csv", index_col=0)
     # plot_mistakes(mistakes)
+    force = True
     analyze(clean_df, True, collapse_errant=collapse_errant, force=force)
     # demo_analyze()
