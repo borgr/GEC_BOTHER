@@ -1,23 +1,28 @@
 import os
+from enum import Enum
 
 import pandas as pd
 import numpy as np
 from scipy import stats
 from tqdm import tqdm
 import matplotlib.pyplot as plt
-from results_analysis import analyze, plot_mistakes, demo_analyze
+
+from GEC_ME_PROJECT.NUCLE.my_NUCLE_parser.AnnotationTypes import AnnotationType
+from results_analysis import analyze, plot_mistakes, demo_analyze, get_sentences_mistakes_scores_path, RESULTS_DIR, \
+    get_preprocessed_path
 
 ### FILES ###
 # original MTurk csv file:
 from GEC_ME_PROJECT.NUCLE.my_NUCLE_parser.results_analysis import SENTENCES_MISTAKES_SCORE
 
-RESULTS_FILES_ADDR = [r"DA/results/Batch_3727145_batch_results.csv", r"DA/results/Batch_4228576_batch_results.csv"]
+RESULTS_FILES_ADDR = [os.path.join(RESULTS_DIR, r"Batch_3727145_batch_results.csv"),
+                      os.path.join(RESULTS_DIR, r"Batch_4228576_batch_results.csv")]
 # results as a melted shape (one sentence per line):
-MELTED_DF_ADDR = r"DA/results/new_df.csv"
+MELTED_DF_ADDR = os.path.join(RESULTS_DIR, r"new_df.csv")
 # results as a melted shape with z-scores:
-STAND_DF_ADDR = r"DA/results/z-scores.csv"
+STAND_DF_ADDR = os.path.join(RESULTS_DIR, r"z-scores.csv")
 # control sentences address:
-CTRL_DF_ADDR = r"DA/results/controls_df.csv"
+CTRL_DF_ADDR = os.path.join(RESULTS_DIR, r"controls_df.csv")
 
 ### CONSTANTS:
 HITS_NUM = 290
@@ -298,16 +303,17 @@ def clean_data(df):
     df, b = filter_by_corr(df, control_df, CTRL_CORR_LIM)
     plot_cor_sentences(control_df)
     print("df len after control: ", df.shape[0], ", annotators cleaned by control: ", len(b))
-    df.to_csv(SENTENCES_MISTAKES_SCORE, sep=",", encoding='utf-8', index=False)
+    df.to_csv(get_preprocessed_path(tpe), sep=",", encoding='utf-8', index=False)
     return df
 
 
 if __name__ == "__main__":
     force = False
-    collapse_errant = True
-    if not force and os.path.isfile(SENTENCES_MISTAKES_SCORE):
+    tpe = AnnotationType.COLLAPSED_ERRANT
+    tpe = AnnotationType.SERCL
+    if not force and os.path.isfile(get_preprocessed_path(tpe)):
         print("Skipping preprocessing, already done")
-        clean_df = pd.read_csv(SENTENCES_MISTAKES_SCORE)
+        clean_df = pd.read_csv(get_preprocessed_path(tpe))
     else:
         print("reading from", [os.path.abspath(os.path.normpath(fl)) for fl in RESULTS_FILES_ADDR])
         dfs = [pd.read_csv(os.path.normpath(path)) for path in RESULTS_FILES_ADDR]
@@ -319,6 +325,7 @@ if __name__ == "__main__":
         clean_df = clean_data(zdf)
     # mistakes = pd.read_csv(r" GEC_Project\GEC_ME_PROJECT-master\GEC_ME_PROJECT\NUCLE\my_NUCLE_parser\debug.csv", index_col=0)
     # plot_mistakes(mistakes)
-    force = True
-    analyze(clean_df, True, collapse_errant=collapse_errant, force=force)
+    force = False
+    force_bootstrap = False
+    analyze(clean_df, tpe, force=force, force_bootstrap=force_bootstrap)
     # demo_analyze()
