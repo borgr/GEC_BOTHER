@@ -1,0 +1,1220 @@
+sentence number 1 in batch number: 1 is originaly in line 89820 and is:
+Furthermore, with a more educated society, more people are acquired with the knowledge to better take care of themselves and hence help lessen the amount of healthcare spending.
+mistakes for sentence number 2 are:
+[2, 3, 'Prep', 'in']
+[11, 12, 'Wci', 'equipped']
+
+sentence number 2 in batch number: 1 is originaly in line 132377 and is:
+CITATION Ita09 \ l 1033 (Italy, 2009) In fact, Italy had more than 80% of its energy supplied by other countries CITATION nuc08 \ l 1033 (Italy n., 2008).
+mistakes for sentence number 3 are:
+[0, 10, 'Cit', ' ']
+[26, 37, 'Cit', ' ']
+
+sentence number 3 in batch number: 1 is originaly in line 103686 and is:
+These two incidents have highlighted the power of nuclear energy, which has caused so much controversy as to whether it has become a liability or a source of energy to the world.
+mistakes for sentence number 4 are:
+[21, 23, 'Wci', 'is']
+
+sentence number 4 in batch number: 1 is originaly in line 108301 and is:
+It is often argued that the SCWR is rather safe in comparison with other generation IV reactor concepts because it operates at rather low temperature, ranging from 510 to 550 ° C (Butler, 2004).
+mistakes for sentence number 5 are:
+[24, 25, 'Nn', 'temperatures']
+
+sentence number 5 in batch number: 1 is originaly in line 49817 and is:
+In conclusion, the government should limit public spending on the aged and focus more on the major future developments which can help Singapore tackle the main problems that the majority of the local population faces, and also the roots of the aging population.
+mistakes for sentence number 6 are:
+[40, 41, 'Wform', 'root']
+
+sentence number 6 in batch number: 1 is originaly in line 137701 and is:
+Actually, it can make the use of 99% of fuel.
+mistakes for sentence number 7 are:
+[5, 6, 'ArtOrDet', ' ']
+
+sentence number 7 in batch number: 1 is originaly in line 18595 and is:
+These are laws that the physician adheres to, which the patient may be un-familiarised with and overlook, despite pre- test counselling.
+mistakes for sentence number 8 are:
+[4, 5, 'ArtOrDet', ' ']
+[5, 6, 'Nn', 'physicians']
+[6, 7, 'SVA', 'adhere']
+[14, 15, 'Wform', 'unfamiliar']
+
+sentence number 8 in batch number: 1 is originaly in line 145554 and is:
+Secondly, detractors argue that genetic information of carriers will cause unnecessary worry for their family members, especially for multi- factorial diseases.
+mistakes for sentence number 9 are:
+[0, 2, 'Trans', ' ']
+[5, 5, 'ArtOrDet', 'the']
+[19, 20, 'Wci', 'in']
+
+sentence number 9 in batch number: 1 is originaly in line 97016 and is:
+So, the suggestion to cut down spending for the old age people is not a good solution to use the money for other areas development.
+mistakes for sentence number 10 are:
+[25, 25, 'Wci', 'of']
+
+sentence number 10 in batch number: 1 is originaly in line 67270 and is:
+For example, my mother just want to use the traditional line-phone than the cell-phone because making a call with the hand-phone is quite complex than just picking the line-phone and dialing.
+mistakes for sentence number 11 are:
+[5, 8, 'Wci', 'will']
+[12, 13, 'Trans', 'and']
+[23, 24, 'Wci', 'more']
+[28, 28, 'Others', 'up']
+[30, 30, 'Others', 'handset']
+[32, 32, 'Others', 'the']
+
+sentence number 11 in batch number: 1 is originaly in line 38563 and is:
+For example, since the mid 90's, the common usage of wire mesh stents for treatment of artery blockages are partly gained from economic returns and survival rates in the treatment of heart diseases.
+mistakes for sentence number 12 are:
+[23, 36, 'Um', ' ']
+
+sentence number 12 in batch number: 1 is originaly in line 1863 and is:
+To address such increasing social needs, the concept of a virtual world was taken into consideration.
+mistakes for sentence number 13 are:
+[14, 17, 'Um', ' ']
+
+sentence number 13 in batch number: 1 is originaly in line 135339 and is:
+For VHTR the safety features are manned manually by safety officers and it is not as reliable as human will make mistake.
+mistakes for sentence number 14 are:
+[2, 3, 'ArtOrDet', ' ']
+[4, 5, 'Rloc-', ' ']
+[5, 6, 'SVA', 'is']
+[6, 7, 'Wci', 'maintained']
+[15, 16, 'Rloc-', ' ']
+[18, 19, 'Nn', 'humans']
+[21, 22, 'Nn', 'mistakes']
+
+sentence number 14 in batch number: 1 is originaly in line 25894 and is:
+In this aspect, the government is entirely supportive of children fulfilling the filial obligations.
+mistakes for sentence number 15 are:
+[12, 13, 'Wci', 'their']
+
+sentence number 15 in batch number: 1 is originaly in line 66768 and is:
+This has brought rise to various government bodies efficient in international operating and manufacturing standards.
+mistakes for sentence number 16 are:
+[2, 3, 'Wci', 'given']
+
+sentence number 16 in batch number: 1 is originaly in line 66836 and is:
+There is no doubt about the trouble caused by such condition to engineering projects.
+mistakes for sentence number 17 are:
+[10, 11, 'Wci', 'a']
+
+sentence number 17 in batch number: 1 is originaly in line 152964 and is:
+They also point out governments did n't abuse the information at their hand since they are also monitored by people.Additionally, surveillance create everyone a feeling of being watched, so they become self-policing, which can decrease criminal rate and save administrative expenditure (Michel Foucault,1979).
+mistakes for sentence number 18 are:
+[4, 4, 'Others', 'that']
+[5, 7, 'Vm', 'would']
+[10, 11, 'Prep', 'on']
+[12, 13, 'Nn', 'hands']
+[19, 19, 'ArtOrDet', 'the']
+[23, 24, 'SVA', 'creates']
+[24, 24, 'Wci', 'in']
+[32, 33, 'Wci', 'one']
+[33, 34, 'SVA', 'becomes']
+[39, 40, 'Wform', 'crime']
+[40, 41, 'Nn', 'rates']
+[46, 48, 'Cit', 'Foucault']
+
+sentence number 18 in batch number: 1 is originaly in line 154545 and is:
+This surveillance technology equipments are installed in buses, common places or schools and with the constant video monitoring, detailed evidence of any suspicious movement or criminal activity can be assessed.
+mistakes for sentence number 19 are:
+[3, 5, 'Nn', 'equipment']
+
+sentence number 19 in batch number: 1 is originaly in line 86752 and is:
+Furthermore, it is often at a high risk for investing in skunkworks.
+mistakes for sentence number 20 are:
+[9, 10, 'Prep', 'to']
+[10, 11, 'Wform', 'invest']
+
+sentence number 20 in batch number: 1 is originaly in line 80205 and is:
+The civil ware in US interrupted the ice trade.
+mistakes for sentence number 21 are:
+[2, 3, 'Mec', 'war']
+[4, 4, 'ArtOrDet', 'the']
+
+sentence number 21 in batch number: 1 is originaly in line 84732 and is:
+Hence, government should encourage independent learning so that students will be more creative and innovative to facilitate engineering design process.
+mistakes for sentence number 22 are:
+[2, 3, 'Nn', 'governments']
+
+sentence number 22 in batch number: 1 is originaly in line 106626 and is:
+Although nuclear power can give mass product of electrical power compared to other forms of electrical energy, its safety issue makes the public concern about nuclear power production.
+mistakes for sentence number 23 are:
+[4, 5, 'Wci', 'produce']
+[5, 7, 'Wci', 'a']
+[20, 21, 'Rloc-', ' ']
+[24, 25, 'Wform', 'concerned']
+
+sentence number 23 in batch number: 1 is originaly in line 13100 and is:
+Ultimately, it still does not solve the root of these problems and the unforeseen situations in the future.
+mistakes for sentence number 24 are:
+[13, 14, 'Nn', ' ']
+
+sentence number 24 in batch number: 1 is originaly in line 145696 and is:
+Hence it is important to inform the carrier's relatives so that they could go for the testing to check whether they are carriers or have inherited disposition to the disease.
+mistakes for sentence number 25 are:
+[1, 1, 'Mec', ',']
+[13, 14, 'Vt', 'can']
+[26, 26, 'ArtOrDet', 'an']
+[28, 29, 'Prep', 'toward']
+
+sentence number 25 in batch number: 1 is originaly in line 146048 and is:
+In addition, the family may consult genetic counselors to seek for advices so as to reduce emotional problems.
+mistakes for sentence number 26 are:
+[12, 13, 'Nn', 'advice']
+[13, 15, 'Wci', 'on']
+[17, 19, 'Um', ' ']
+
+sentence number 26 in batch number: 1 is originaly in line 12484 and is:
+Hence, the individual should bear in mind the impacts that may arise and decide if they should reveal such results.
+mistakes for sentence number 27 are:
+[16, 17, 'Pref', 'he']
+
+sentence number 27 in batch number: 1 is originaly in line 69751 and is:
+For the staffs, if they were corrupt, they would not focus on their jobs any more.
+mistakes for sentence number 28 are:
+[2, 3, 'Nn', 'staff']
+[6, 7, 'Vt', 'are']
+
+sentence number 28 in batch number: 1 is originaly in line 84596 and is:
+These are the universal steps in the process which followed by most of the engineers.
+mistakes for sentence number 29 are:
+[9, 9, 'V0', 'is']
+[12, 14, 'SVA', ' ']
+
+sentence number 29 in batch number: 1 is originaly in line 86831 and is:
+More owners of private cars country wanted to convert their petrol-driven vehicles to also run on CNG.
+mistakes for sentence number 30 are:
+[5, 6, 'Rloc-', ' ']
+
+sentence number 30 in batch number: 1 is originaly in line 16863 and is:
+This is very useful towards families with young juveniles and aging parents because their location could be tracked easily if they are lost in the crowd and thus preventing them from any possible harm they may encounter.
+mistakes for sentence number 31 are:
+[4, 5, 'Prep', 'for']
+[28, 29, 'Sfrag', 'this']
+
+sentence number 31 in batch number: 1 is originaly in line 21315 and is:
+Last but not least, Singapore must spend money on a large numbers of other essential areas of development, such as education, infrastructure, defense, investments...
+mistakes for sentence number 32 are:
+[12, 13, 'Nn', 'number']
+[28, 30, 'Others', 'investmentsand']
+
+sentence number 32 in batch number: 1 is originaly in line 7155 and is:
+After all, the simulation done on computers can not be compared to what the students experienced.
+mistakes for sentence number 33 are:
+[16, 16, 'Vt', 'have']
+
+sentence number 33 in batch number: 1 is originaly in line 10406 and is:
+Dirty water are usually collected through piping systems from lakes, drains and household, and transported to a treatment plant.
+mistakes for sentence number 34 are:
+[2, 3, 'SVA', 'is']
+
+sentence number 34 in batch number: 1 is originaly in line 136572 and is:
+This incidence had also resulted in 4 fatalities and 3 casualties.
+mistakes for sentence number 35 are:
+[1, 2, 'Wci', 'incident']
+[2, 3, 'Vt', 'has']
+
+sentence number 35 in batch number: 1 is originaly in line 93018 and is:
+The aspect of education in a country is one of those that can indirectly help in easing the aging population problem.
+mistakes for sentence number 36 are:
+[0, 3, 'Rloc-', ' ']
+[3, 4, 'Mec', 'Education']
+[9, 11, 'Wci', 'area']
+
+sentence number 36 in batch number: 1 is originaly in line 131611 and is:
+This raises such awareness that the waste may be leaked either inadvertently or purposefully, any of which would cause another disastrous catastrophe.
+mistakes for sentence number 37 are:
+[2, 3, 'Rloc-', ' ']
+[4, 4, 'Others', 'of']
+[5, 6, 'ArtOrDet', ' ']
+[14, 18, 'Trans', 'and']
+[18, 19, 'Vm', 'may']
+
+sentence number 37 in batch number: 1 is originaly in line 132897 and is:
+All the alternative energy mentioned are green compared to the burning of fossil fuels in terms of emission to environment.
+mistakes for sentence number 38 are:
+[4, 4, 'Wci', 'sources']
+[19, 19, 'ArtOrDet', 'the']
+
+sentence number 38 in batch number: 1 is originaly in line 100026 and is:
+Probably elderly depression would be prevented from happening to the old person with active mind and lots of emotional support.
+mistakes for sentence number 39 are:
+[0, 1, 'Rloc-', ' ']
+[1, 2, 'Mec', 'Elderly']
+[3, 4, 'Vm', 'may']
+[9, 12, 'Nn', 'old']
+[14, 15, 'Nn', 'minds']
+
+sentence number 39 in batch number: 1 is originaly in line 10998 and is:
+Look around and you would most probably notice people driving in their cars, talking on their phones or busy typing away on their personal computers.
+mistakes for sentence number 40 are:
+[4, 5, 'Vm', 'will']
+
+sentence number 40 in batch number: 1 is originaly in line 34977 and is:
+In conclusion, by spending more on both economy and education, we will be able to decrease effects of the aging problem.
+mistakes for sentence number 41 are:
+[8, 8, 'ArtOrDet', 'the']
+[18, 18, 'ArtOrDet', 'the']
+
+sentence number 41 in batch number: 1 is originaly in line 29358 and is:
+But it is important to realize that, channeling funds into the education sector for example may bring about more productive future generation who would in turn help to support the old aged in time to come.
+mistakes for sentence number 42 are:
+[14, 16, 'Rloc-', ' ']
+[22, 23, 'Nn', 'generations']
+[31, 32, 'Rloc-', ' ']
+
+sentence number 42 in batch number: 1 is originaly in line 107570 and is:
+In fact, the Chernobyl accident arises from chain of human errors.
+mistakes for sentence number 43 are:
+[6, 7, 'Vt', 'arose']
+[8, 8, 'ArtOrDet', 'a']
+
+sentence number 43 in batch number: 1 is originaly in line 102281 and is:
+This high outlet temperature allows it to have high efficiency (> 50%) electrical generation and also gives it the ability to produce hydrogen (OECD Nuclear Energy Agency, 2009).
+mistakes for sentence number 44 are:
+[7, 10, 'Wci', 'be']
+[15, 16, 'Others', 'in']
+
+sentence number 44 in batch number: 1 is originaly in line 112277 and is:
+This arises public concern, due to the previous nuclear accidents which happened at Three Mile Island and Chernobyl, in 1979 and 1986 separately.
+mistakes for sentence number 45 are:
+[1, 2, 'Wci', 'raises']
+
+sentence number 45 in batch number: 1 is originaly in line 75400 and is:
+The scheme would provide advices on how a green building should be built and what additional features should be included.
+mistakes for sentence number 46 are:
+[4, 5, 'Nn', 'advice']
+
+sentence number 46 in batch number: 1 is originaly in line 61665 and is:
+As more people live longer, it is even more necessary for proper public spending to enhance various social security systems as the aged is more vulnerable to be discriminated in a capital-driven society nowadays.
+mistakes for sentence number 47 are:
+[8, 9, 'Rloc-', ' ']
+[9, 10, 'Rloc-', ' ']
+[22, 25, 'SVA', 'tthe']
+[30, 30, 'Wci', 'against']
+
+sentence number 47 in batch number: 1 is originaly in line 69582 and is:
+The first folding phone was Motorola 328C born January 1999.Nokia 7110 is the first mobile phone with a wap browser which was released in October 1999.
+mistakes for sentence number 48 are:
+[8, 8, 'Wci', 'in']
+[9, 10, 'Mec', '1999']
+
+sentence number 48 in batch number: 1 is originaly in line 30705 and is:
+Also, incentives should be provided to students who wish to proceed to higher education level, meaning the tertiary level.
+mistakes for sentence number 49 are:
+[13, 13, 'ArtOrDet', 'a']
+[17, 18, 'Wci', 'specifically']
+
+sentence number 49 in batch number: 1 is originaly in line 4676 and is:
+What exactly hamper the engineering design innovations in China ?
+mistakes for sentence number 50 are:
+[2, 3, 'SVA', 'hampers']
+
+sentence number 50 in batch number: 1 is originaly in line 23443 and is:
+With re- employment, employers can provide jobs to their mature workers and also offer them a different job position with different salary and terms.
+mistakes for sentence number 51 are:
+[1, 3, 'Mec', 're-employment']
+
+sentence number 51 in batch number: 1 is originaly in line 11979 and is:
+Others reason for instance in medical insurance case that it is unfair to charge individual with genetic defects at a higher rate since the defects are not what they want (Norrgard, 2008).
+mistakes for sentence number 52 are:
+[5, 5, 'ArtOrDet', 'the']
+[14, 14, 'ArtOrDet', 'an']
+
+sentence number 52 in batch number: 1 is originaly in line 6658 and is:
+Technologies have the capabilities of solving problems and improving on our daily life.
+mistakes for sentence number 53 are:
+[9, 10, 'Prep', ' ']
+
+sentence number 53 in batch number: 1 is originaly in line 151378 and is:
+Proponents of this claim argue that, disclosure of such results will destroy the dream of having own family.
+mistakes for sentence number 54 are:
+[17, 19, 'Wci', 'a']
+
+sentence number 54 in batch number: 1 is originaly in line 61856 and is:
+Limitation in public spending brings a deeper meaning that the government does n't acknowledge their contributions to the country.
+mistakes for sentence number 55 are:
+[0, 2, 'Trans', 'Limiting']
+[4, 8, 'Wci', 'has']
+
+sentence number 55 in batch number: 1 is originaly in line 10704 and is:
+Although families who needed a car as a mode of transport did not usually require traveling for long distances, there is a psychological perception of having their freedom being restricted.
+mistakes for sentence number 56 are:
+[14, 15, 'Wci', 'need']
+[15, 16, 'Wci', 'to']
+
+sentence number 56 in batch number: 1 is originaly in line 121428 and is:
+Some enthusiasts have voiced out that it is simply too costly to own a Skycar.
+mistakes for sentence number 57 are:
+[3, 5, 'Wci', 'remarked']
+
+sentence number 57 in batch number: 1 is originaly in line 120969 and is:
+From these numbers, it is obvious that the performance of nuclear plants is sufficient enough to support the consumption of a large population, which helps the lack-of-natural-resources nations be independent of coal or oil import.
+mistakes for sentence number 58 are:
+[15, 16, 'Rloc-', ' ']
+[28, 30, 'WOinc', 'nations']
+
+sentence number 58 in batch number: 1 is originaly in line 45850 and is:
+This means that there will be a better output of production thus more business and more income for a better economy.
+mistakes for sentence number 59 are:
+[0, 21, 'Um', ' ']
+
+sentence number 59 in batch number: 1 is originaly in line 70373 and is:
+In order to make sure the product works well, engineers have to test it before they launched the product.
+mistakes for sentence number 60 are:
+[17, 18, 'Vt', 'launch']
+
+sentence number 60 in batch number: 1 is originaly in line 81188 and is:
+It is only accepted and marketed by the company after sending samples out to each Fortune 500 companies for them to test the product and received good feedbacks on the product.
+mistakes for sentence number 61 are:
+[10, 10, 'Sfrag', 'someone']
+[14, 15, 'ArtOrDet', 'the']
+[18, 20, 'Rloc-', ' ']
+[24, 31, 'Rloc-', ' ']
+
+sentence number 61 in batch number: 1 is originaly in line 125058 and is:
+In addition nuclear waste produced by MSR s is not soluble in water thus reducing chances possible contamination.
+mistakes for sentence number 62 are:
+[6, 8, 'Mec', 'MSRs']
+[16, 16, 'Mec', 'of']
+
+sentence number 62 in batch number: 1 is originaly in line 52468 and is:
+Furthermore, the nutrition industry has also jumped in this battle against aging problem with milk and other products like quintessence that can help the aged from the depression of bone strength and the cells of the heart from damage like that benefit of milk thistle and many more.
+mistakes for sentence number 63 are:
+[12, 12, 'ArtOrDet', 'the']
+[20, 21, 'Mec', 'Quintessence']
+[22, 49, 'Um', ' ']
+
+sentence number 63 in batch number: 1 is originaly in line 93228 and is:
+In the medical field, there are many ongoing researches to find medical cure to slow down or stop the process of deteriorating memory.
+mistakes for sentence number 64 are:
+[6, 7, 'SVA', 'is']
+[7, 8, 'ArtOrDet', 'a']
+[9, 10, 'Nn', 'research']
+[13, 14, 'Nn', 'cures']
+
+sentence number 64 in batch number: 1 is originaly in line 85321 and is:
+One of the fascinating problem faced, is the human body itself.
+mistakes for sentence number 65 are:
+[4, 5, 'Wform', 'problems']
+
+sentence number 65 in batch number: 1 is originaly in line 13311 and is:
+In conclusion, individual requesting genetic testing should have the final say in whether to reveal the results of such testing so as to protect oneself from discrimination and invasion of privacy.
+mistakes for sentence number 66 are:
+[3, 4, 'Nn', 'individuals']
+[14, 14, 'Wci', 'or']
+[21, 23, 'Wci', ' ']
+
+sentence number 66 in batch number: 1 is originaly in line 48180 and is:
+Moreover, a significant share of Gross National Product (GNP) went into pension schemes : 0.58 per cent and 1.22 per cent, respectively in Malaysia and Singapore (Yoon and Hendricks, 2006).
+mistakes for sentence number 67 are:
+[6, 6, 'ArtOrDet', 'the']
+
+sentence number 67 in batch number: 1 is originaly in line 25057 and is:
+As a result, there has been a rising trend of senior volunteers over the years.
+mistakes for sentence number 68 are:
+[9, 10, 'Wci', 'number']
+
+sentence number 68 in batch number: 1 is originaly in line 1115 and is:
+If the refrigerator was remained as it was invented in 1910s and no further development has been made to improve its quality, the refrigerator would just be an unsuccessful invention due to its low efficiency and high cost.
+mistakes for sentence number 69 are:
+[3, 4, 'Vform', 'had']
+[10, 10, 'ArtOrDet', 'the']
+[15, 16, 'Vt', 'had']
+
+sentence number 69 in batch number: 1 is originaly in line 136235 and is:
+Besides, in order to make the reaction safer, in Japan, the engineers have found out the methods to prevent the chemical reactions of sodium itself and the leak of sodium by using double-wall piping method, high reliable equipment with double-wall tube and sensitive leak detector.
+mistakes for sentence number 70 are:
+[10, 15, 'WOadv', 'the']
+[39, 40, 'Wform', 'highly']
+
+sentence number 70 in batch number: 1 is originaly in line 80892 and is:
+Years later he experimented it as a rat killer, and found out it is a very effective rodenticide.
+mistakes for sentence number 71 are:
+[12, 13, 'Trans', 'that']
+[14, 15, 'Vt', 'was']
+
+sentence number 71 in batch number: 1 is originaly in line 92194 and is:
+Until recently, there is always much concern about the consequences of over spending on the welfare of the aging population.
+mistakes for sentence number 72 are:
+[4, 5, 'Vt', 'was']
+[5, 6, 'Rloc-', ' ']
+
+sentence number 72 in batch number: 1 is originaly in line 146605 and is:
+For example, some relatives would have the thinking that the genetic risk of the carrier would bring about bad reputation to them and they would start to distant themselves and try to lose all contact from him.
+mistakes for sentence number 73 are:
+[19, 19, 'ArtOrDet', 'a']
+[23, 24, 'Trans', 'so']
+[25, 26, 'Vm', 'may']
+[28, 29, 'Wform', 'distance']
+[33, 34, 'Wci', 'eliminate']
+[36, 37, 'Prep', 'with']
+
+sentence number 73 in batch number: 1 is originaly in line 65264 and is:
+In order to carry out many research and analysis, much time has to be spent for the technology to be successfully invented.
+mistakes for sentence number 74 are:
+[5, 6, 'Wci', 'extensive']
+
+sentence number 74 in batch number: 1 is originaly in line 117229 and is:
+Therefore psychologists are necessary to be involved in the design process to detect the human error and to be the new gate keeper of engineering design.
+mistakes for sentence number 75 are:
+[4, 4, 'Mec', ',']
+
+sentence number 75 in batch number: 1 is originaly in line 106498 and is:
+They failed to consider that the broken reactors were the first generation reactors and technology by then was not mature and well developed.
+mistakes for sentence number 76 are:
+[0, 1, 'Trans', 'However']
+[1, 2, 'Vt', 'fail']
+[15, 16, 'Prep', ' ']
+[20, 21, 'Trans', 'nor']
+
+sentence number 76 in batch number: 1 is originaly in line 83712 and is:
+In summary, the consumption concept that consumption before payment is the main reason of credit cards' production.
+mistakes for sentence number 77 are:
+[4, 5, 'Rloc-', ' ']
+[7, 8, 'V0', 'should']
+[14, 15, 'Prep', 'for']
+
+sentence number 77 in batch number: 1 is originaly in line 122689 and is:
+Graphite is a good one compared with the ordinary moderator which is water since graphite is heat resistant.
+mistakes for sentence number 78 are:
+[13, 13, 'Mec', ',']
+
+sentence number 78 in batch number: 1 is originaly in line 28939 and is:
+The policy will not only benefit the purchaser in cutting cost but will also help to propagate the importance of filial obligation in the society.
+mistakes for sentence number 79 are:
+[3, 6, 'WOadv', 'benefit']
+[9, 10, 'Ssub', 'terms']
+[11, 12, 'Srun', ',']
+[21, 22, 'Wci', 'piety']
+[23, 24, 'ArtOrDet', ' ']
+
+sentence number 79 in batch number: 1 is originaly in line 107122 and is:
+The layer of rubber helps reducing the vibration.
+mistakes for sentence number 80 are:
+[4, 5, 'Vt', 'helped']
+[5, 6, 'Vform', 'reduce']
+
+sentence number 80 in batch number: 1 is originaly in line 53991 and is:
+From the elder's point of view, the more public expenses governments spend for them, the better the situation is.
+mistakes for sentence number 81 are:
+[2, 7, 'WOinc', 'point']
+[14, 15, 'Wci', 'on']
+[21, 22, 'Vt', 'would']
+
+sentence number 81 in batch number: 1 is originaly in line 61252 and is:
+The Joint Selection Scheme is that it allows families to choose the flats on priority in order for the married children and parents to stay in separate HDB flats but close together in the same neighboring town or estate (Kalyani K. Mehta, 2002).
+mistakes for sentence number 82 are:
+[4, 7, 'Rloc-', ' ']
+[13, 16, 'Wci', 'in']
+[17, 18, 'Wci', 'so']
+[18, 19, 'ArtOrDet', ' ']
+[23, 24, 'Vm', 'can']
+[32, 32, 'Mec', ',']
+
+sentence number 82 in batch number: 1 is originaly in line 56359 and is:
+The various aspects of the benefits of CPF includes retirement, healthcare, home ownership, family protection and asset enhancement.
+mistakes for sentence number 83 are:
+[8, 9, 'Rloc-', 'include']
+
+sentence number 83 in batch number: 1 is originaly in line 8797 and is:
+Based on Khandani (2005), product safety is an important stage of engineering design, which assures that usage of the design, will not cause any injury to humans.
+mistakes for sentence number 84 are:
+[0, 5, 'Cit', 'incorrect']
+
+sentence number 84 in batch number: 1 is originaly in line 1708 and is:
+Although there is a limitation of requiring stone floor for those people whose floors are wooden, for most people research objectives, this method can gain the most efficient result.
+mistakes for sentence number 85 are:
+[0, 32, 'Um', ' ']
+
+sentence number 85 in batch number: 1 is originaly in line 82950 and is:
+With all the improvement and continuous development, it make the future generation of UAV to be better than what we have today.
+mistakes for sentence number 86 are:
+[9, 10, 'SVA', 'makes']
+
+sentence number 86 in batch number: 1 is originaly in line 10803 and is:
+People's need was met by the air vortex flow formed automatically.
+mistakes for sentence number 87 are:
+[2, 3, 'Nn', 'needs']
+[3, 4, 'SVA', 'were']
+[10, 11, 'Trans', 'which']
+
+sentence number 87 in batch number: 1 is originaly in line 60106 and is:
+The next policy that is suggested is to give rebate to those who purchase a house that is close to their parents.
+mistakes for sentence number 88 are:
+[9, 10, 'Nn', 'rebates']
+
+sentence number 88 in batch number: 1 is originaly in line 22412 and is:
+To a large extent, aging process has been alleviated with the current social policies and implementation that emphasise individual responsibility, familial commitment and residual model policies- often known as government intervention.
+mistakes for sentence number 89 are:
+[5, 5, 'ArtOrDet', 'the']
+[10, 11, 'Prep', 'by']
+[11, 12, 'ArtOrDet', ' ']
+
+sentence number 89 in batch number: 1 is originaly in line 84360 and is:
+According to the survey conducted by Nielsen (2009) : 256 million people visited a search engine in December 2006 81% of the global Internet population.
+mistakes for sentence number 90 are:
+[10, 11, 'Mec', ',']
+[20, 21, 'Mec', '.']
+[21, 21, 'Others', 'This']
+
+sentence number 90 in batch number: 1 is originaly in line 45706 and is:
+The people are the asset of Singapore and they have contributed to the country's strong economic position.
+mistakes for sentence number 91 are:
+[4, 5, 'Nn', 'assets']
+
+sentence number 91 in batch number: 1 is originaly in line 68086 and is:
+Even though electric-powered vehicles were relatively more superior in the technicalities, due to the factors mentioned above, the technicalities were marginal and people were not affected by the potential problems they might face if they choose the gasoline-powered vehicles.
+mistakes for sentence number 92 are:
+[10, 11, 'Wci', 'technical']
+[20, 21, 'Wci', 'technical']
+[22, 23, 'Um', ' ']
+[27, 28, 'Wci', 'fazed']
+[37, 38, 'Wci', 'chose']
+
+sentence number 92 in batch number: 1 is originaly in line 63879 and is:
+Secondly, personal communication is also one of the factors that shaped this technology.
+mistakes for sentence number 93 are:
+[11, 11, 'Vt', 'have']
+
+sentence number 93 in batch number: 1 is originaly in line 92025 and is:
+Besides, if we were to slow down the country's development, this might hinder our economic growth which in turn, will affect the public spending on the aged indirectly.
+mistakes for sentence number 94 are:
+[20, 20, 'Mec', ',']
+[25, 26, 'ArtOrDet', ' ']
+
+sentence number 94 in batch number: 1 is originaly in line 141334 and is:
+Therefore, technology can reduce the risks of nuclear power and therefore ensuring the safety of it.
+mistakes for sentence number 95 are:
+[12, 13, 'Vt', 'ensure']
+
+sentence number 95 in batch number: 1 is originaly in line 6059 and is:
+However, it is clear that these inventions are not produced overnight and human beings had put in a lot of time and efforts to develop and generate them.
+mistakes for sentence number 96 are:
+[8, 9, 'Vt', 'have']
+[15, 16, 'Vt', 'have']
+[23, 24, 'Nn', 'effort']
+
+sentence number 96 in batch number: 1 is originaly in line 40703 and is:
+The forty square meter apartments include facilities like lifts on every floor, hand railings and alarm systems that were specially designed for elderly.
+mistakes for sentence number 97 are:
+[19, 20, 'Vt', 'are']
+[23, 23, 'ArtOrDet', 'the']
+
+sentence number 97 in batch number: 1 is originaly in line 17326 and is:
+This resulted in the loss of personal space and constantly live in fear as they tend to be very cautious in their every movements.
+mistakes for sentence number 98 are:
+[1, 2, 'Vt', 'results']
+[9, 10, 'Others', 'people']
+
+sentence number 98 in batch number: 1 is originaly in line 155151 and is:
+Over the years, surveillance technology has advanced drastically and it has slowly integrate into our daily life where video cameras can be commonly seen monitoring us in shopping centre, workplaces and residential areas.
+mistakes for sentence number 99 are:
+[13, 14, 'Wform', 'integrated']
+[30, 30, 'Wform', "'s"]
+
+sentence number 99 in batch number: 1 is originaly in line 38218 and is:
+The most considerable strategy is that stressing filial obligation and increasing the willingness of tomorrow's grown children to support their own elderly parents through informal and family channels.
+mistakes for sentence number 100 are:
+[28, 30, 'Cit', 'channelno']
+
+sentence number 100 in batch number: 1 is originaly in line 21908 and is:
+National budget will also come under pressure as growing number of elderly supported by relatively fewer younger people.
+mistakes for sentence number 101 are:
+[1, 2, 'Nn', 'budgets']
+[8, 8, 'ArtOrDet', 'a']
+[12, 12, 'Vform', 'are']
+
+sentence number 101 in batch number: 1 is originaly in line 67990 and is:
+According to the article, " World's Most Congested Cities " (Robert Malone, 2006), there are about 750 million vehicles (and counting) in the world, and at least 50 million cars are being manufactured in the world each year.
+mistakes for sentence number 102 are:
+[13, 14, 'Cit', ' ']
+
+sentence number 102 in batch number: 1 is originaly in line 103290 and is:
+The coolant comprises of a molten salt.
+mistakes for sentence number 103 are:
+[3, 4, 'Prep', ' ']
+
+sentence number 103 in batch number: 1 is originaly in line 77564 and is:
+Finally, after comparing both the ways of production, we will realize that both also have their pros and cons but in my perspective, production in the skunkworks environment is better mainly because of the freedom in inventing new things.
+mistakes for sentence number 104 are:
+[5, 6, 'ArtOrDet', ' ']
+
+sentence number 104 in batch number: 1 is originaly in line 70492 and is:
+In conclusion, to ensure a sufficient supply of natural resources and a healthy environment for us and our future generations to live in, engineering processes can meet our need by removing and introducing or modifying available engineering processes and making the correct decisions in engineering processes can fulfill that need.
+mistakes for sentence number 105 are:
+[30, 31, 'Nn', 'needs']
+[42, 43, 'ArtOrDet', ' ']
+[45, 46, 'Prep', 'through']
+[46, 47, 'Pref', 'these']
+[48, 52, 'Rloc-', ' ']
+
+sentence number 105 in batch number: 1 is originaly in line 23421 and is:
+However, policies on the aged in Singapore have significantly help to reduce the problems they faced.
+mistakes for sentence number 106 are:
+[10, 11, 'Vform', 'heled']
+[16, 17, 'Vt', 'face']
+
+sentence number 106 in batch number: 1 is originaly in line 7455 and is:
+Example of this is the electrosurgical device.
+mistakes for sentence number 107 are:
+[0, 1, 'ArtOrDet', 'An']
+
+sentence number 107 in batch number: 1 is originaly in line 21680 and is:
+Besides that, what did the Singapore government did was introduced the Baby Bonus schemes to the public with the objective of encouraging the public to have more children.
+mistakes for sentence number 108 are:
+[4, 5, 'Rloc-', ' ']
+[10, 11, 'Vform', 'introduce']
+[14, 15, 'Nn', 'scheme']
+
+sentence number 108 in batch number: 1 is originaly in line 49105 and is:
+Besides, aging can lead to low population.
+mistakes for sentence number 109 are:
+[6, 6, 'ArtOrDet', 'a']
+
+sentence number 109 in batch number: 1 is originaly in line 81463 and is:
+Examples of such engineering design are the building of ramps at the main entrance of the flats, building handrails at the side of the stairs and also the wheelchair bound bus.
+mistakes for sentence number 110 are:
+[0, 1, 'ArtOrDet', 'Some']
+[18, 19, 'Rloc-', ' ']
+[27, 32, 'Spar', 'providing']
+
+sentence number 110 in batch number: 1 is originaly in line 12129 and is:
+Secondly, given choice of not revealing the result of genetic testing, individual will therefore and most of the time chooses to do so to his related company.
+mistakes for sentence number 111 are:
+[3, 3, 'ArtOrDet', 'the']
+[7, 12, 'WOinc', 'one']
+[13, 13, 'ArtOrDet', 'an']
+[14, 15, 'Wci', 'is']
+[15, 17, 'Rloc-', ' ']
+[17, 21, 'Wci', ',']
+[21, 22, 'Vform', 'choose']
+[22, 22, 'Others', 'not']
+[27, 29, 'Wci', 'employer']
+
+sentence number 111 in batch number: 1 is originaly in line 63601 and is:
+In today's context, industry changes in a fast pace and technology gets obsolete very quickly.
+mistakes for sentence number 112 are:
+[7, 13, 'Um', ' ']
+[13, 14, 'SVA', 'get']
+
+sentence number 112 in batch number: 1 is originaly in line 31194 and is:
+The elderly is the more vulnerable group in this situation due to the fact that they are not capable of generating income to provide for themselves.
+mistakes for sentence number 113 are:
+[2, 3, 'Vt', 'are']
+
+sentence number 113 in batch number: 1 is originaly in line 41439 and is:
+Having an aging population meant that there will be lesser people in the workforce and this will have an impact on the country's economy size.
+mistakes for sentence number 114 are:
+[4, 5, 'Vt', 'means']
+[25, 26, 'Wci', ' ']
+
+sentence number 114 in batch number: 1 is originaly in line 125639 and is:
+Third, the fossil resources are shrinking rapidly, so the cost for coal and oil would increase sharply in the future.
+mistakes for sentence number 115 are:
+[2, 3, 'ArtOrDet', ' ']
+
+sentence number 115 in batch number: 1 is originaly in line 66447 and is:
+Also there are some that are shy to speak up about their ideas.
+mistakes for sentence number 116 are:
+[0, 1, 'Trans', 'Moreover']
+
+sentence number 116 in batch number: 1 is originaly in line 89545 and is:
+In this way, the elderly will have a sum of money available to support themselves in their golden age when they retired.
+mistakes for sentence number 117 are:
+[22, 23, 'Vt', 'retire']
+
+sentence number 117 in batch number: 1 is originaly in line 158528 and is:
+Therefore, with the emergency of surveillance technology such as RFID, which allows automatic identification of objects, animals or people by incorporating a small electronic chip on its " host " (Europe's Information Society, n.d.), people's accurate location can be tracked and returned in time.
+mistakes for sentence number 118 are:
+[4, 5, 'Wform', 'emergence']
+
+sentence number 118 in batch number: 1 is originaly in line 54791 and is:
+However, there will always be persisting problems that the government will face such as National budget and economies coming under pressure, rising cost in the medical field and providing safety aids and measures in public areas.
+mistakes for sentence number 119 are:
+[13, 13, 'Srun', ',']
+[15, 16, 'Wci', 'planning']
+[17, 22, 'Um', ' ']
+[23, 23, 'V0', 'managing']
+[32, 34, 'Rloc-', ' ']
+
+sentence number 119 in batch number: 1 is originaly in line 153658 and is:
+However, protecting the privacy in this situation is not more important than letting the offenders to violate the laws and threaten our lives.
+mistakes for sentence number 120 are:
+[16, 17, 'Rloc-', ' ']
+
+sentence number 120 in batch number: 1 is originaly in line 141894 and is:
+With the development of science and technologies, the demand for energy is keeping increasing.
+mistakes for sentence number 121 are:
+[12, 14, 'Vform', 'keeps']
+
+sentence number 121 in batch number: 1 is originaly in line 34247 and is:
+As the benefit of the approach can only be seen in the long run, reducing and limiting the public funding amount immediately will result in shortage of funds to deal with current demand.
+mistakes for sentence number 122 are:
+[23, 24, 'Vm', 'would']
+
+sentence number 122 in batch number: 1 is originaly in line 133332 and is:
+Therefore the implementation of the VHTR can offer a wide range of solution to the fuel crisis that is currently troubling the public.
+mistakes for sentence number 123 are:
+[12, 13, 'Nn', 'solutions']
+
+sentence number 123 in batch number: 1 is originaly in line 85868 and is:
+Overcoming a problem requires time and repeating trial to make sure that the product is safe to use and works efficiently.
+mistakes for sentence number 124 are:
+[6, 7, 'Wform', 'repeated']
+[7, 8, 'Wform', 'trialsl']
+
+sentence number 124 in batch number: 1 is originaly in line 19733 and is:
+Trainings are given at subsidies rate for workers to upgrade themselves, to remain competitive in the workforce.
+mistakes for sentence number 125 are:
+[4, 5, 'Wform', 'subsidized']
+[11, 12, 'Mec', ' ']
+[12, 12, 'Trans', 'and']
+
+sentence number 125 in batch number: 1 is originaly in line 2145 and is:
+Now, this situation has become a problem for the nation that the generation at present age is lack of creativity and innovation ability.
+mistakes for sentence number 126 are:
+[11, 12, 'Trans', 'because']
+[13, 17, 'WOinc', 'present']
+[17, 20, 'Wform', 'lacks']
+[23, 24, 'Rloc-', ' ']
+
+sentence number 126 in batch number: 1 is originaly in line 79348 and is:
+Thus leading to the development of the vaccine for H1N1 Besides the governments, the H1N1 patient and the general public is also very concerned with the development of the vaccine of H1N1.
+mistakes for sentence number 127 are:
+[1, 2, 'Srun', ',']
+[10, 10, 'Mec', '.']
+[14, 15, 'ArtOrDet', ' ']
+[16, 17, 'Nn', 'patients']
+[21, 22, 'SVA', 'are']
+[31, 32, 'Prep', 'for']
+
+sentence number 127 in batch number: 1 is originaly in line 107183 and is:
+However it has been upgraded to so that it can be shared between high speed trains and other slower trains.
+mistakes for sentence number 128 are:
+[1, 1, 'Mec', ',']
+[2, 3, 'Vt', 'had']
+[5, 6, 'Rloc-', ' ']
+[9, 10, 'Vt', 'could']
+[17, 18, 'Rloc-', ' ']
+
+sentence number 128 in batch number: 1 is originaly in line 87197 and is:
+Subsequently, the inventor of the very software can only get a little profit, which will not impel him or her to continue paying much attention to the innovation.
+mistakes for sentence number 129 are:
+[6, 7, 'Rloc-', ' ']
+[28, 29, 'ArtOrDet', ' ']
+
+sentence number 129 in batch number: 1 is originaly in line 24678 and is:
+It is reported that the government will be raising the current retirement age of 62 to 65 by 2012 and ultimately to 67 and has also made amendments to the Retirement Age Act which increases the employability of elderly workers.
+mistakes for sentence number 130 are:
+[1, 2, 'Vt', 'was']
+
+sentence number 130 in batch number: 1 is originaly in line 78722 and is:
+Firstly, we'd better develop some technical centre to bring talents together and do research.
+mistakes for sentence number 131 are:
+[3, 4, 'Wtone', 'had']
+
+sentence number 131 in batch number: 1 is originaly in line 90837 and is:
+Over the time, the population of old people is gradually growing.
+mistakes for sentence number 132 are:
+[1, 2, 'ArtOrDet', ' ']
+[7, 9, 'Wtone', 'the']
+
+sentence number 132 in batch number: 1 is originaly in line 66052 and is:
+Most significantly, because of the insufficient amount of engineers in the country, we are just not able to source enough manpower to accomplish the design process.
+mistakes for sentence number 133 are:
+[7, 8, 'Wci', 'number']
+[20, 21, 'Wci', 'get']
+
+sentence number 133 in batch number: 1 is originaly in line 41893 and is:
+The policies that the government introduced and the current research have indeed helped to buffer the aging process.
+mistakes for sentence number 134 are:
+[7, 8, 'ArtOrDet', ' ']
+
+sentence number 134 in batch number: 1 is originaly in line 122670 and is:
+While, experts have found a new generation of new clear reactors are safer and more effective than the old generation.
+mistakes for sentence number 135 are:
+[0, 2, 'Rloc-', ' ']
+[2, 3, 'Mec', 'Experts']
+[9, 11, 'Wform', 'nuclear']
+[12, 12, 'Others', 'which']
+
+sentence number 135 in batch number: 1 is originaly in line 113403 and is:
+Thus the over-eagerness and the time pressure exerted on them often lead to short-cuts and worsen the failure further (Wilpert.B, 2007).
+mistakes for sentence number 136 are:
+[15, 16, 'Vt', 'worsened']
+
+sentence number 136 in batch number: 1 is originaly in line 95865 and is:
+This trend towards older population is largely irreversible and is presenting both opportunities and challenges requiring every country to take measures in all facets of life : economic, healthcare and technology.
+mistakes for sentence number 137 are:
+[2, 5, 'Rloc-', ' ']
+[11, 12, 'Others', 'countries']
+[15, 18, 'Srun', '.']
+[18, 33, 'Um', ' ']
+
+sentence number 137 in batch number: 1 is originaly in line 34997 and is:
+Being a firm believer of'Prevention is better than cure', I agree to a certain extent.
+mistakes for sentence number 138 are:
+[5, 5, 'Others', 'the']
+[5, 6, 'Mec', "'prevention"]
+[13, 14, 'Others', 'with']
+
+sentence number 138 in batch number: 1 is originaly in line 135025 and is:
+In fact, over the years ICE expanded throughout Germany, the safety record was perfect.
+mistakes for sentence number 139 are:
+[11, 11, 'Srun', 'and']
+
+sentence number 139 in batch number: 1 is originaly in line 29755 and is:
+Now, another similarity that most nations are facing is the ageing population.
+mistakes for sentence number 140 are:
+[3, 4, 'Wci', 'phase']
+
+sentence number 140 in batch number: 1 is originaly in line 108741 and is:
+So the usage amount of chemical substances will be largely reduced.
+mistakes for sentence number 141 are:
+[2, 3, 'Rloc-', ' ']
+[7, 7, 'Others', 'used']
+
+sentence number 141 in batch number: 1 is originaly in line 23212 and is:
+Other than that, Interim Disability Assistance Programme for the Elderly (IDAPE) and Primary Care Partnership (PCPS) are other subsidy schemes available.
+mistakes for sentence number 142 are:
+[4, 4, 'ArtOrDet', 'the']
+
+sentence number 142 in batch number: 1 is originaly in line 36914 and is:
+This is however, only a short-term solution to the problem of ageing population.
+mistakes for sentence number 143 are:
+[12, 12, 'ArtOrDet', 'an']
+
+sentence number 143 in batch number: 1 is originaly in line 143983 and is:
+Thus, the government needs to prevent the healthcare cost from escalatng too much and also how much funds should be set aside for the elderly.
+mistakes for sentence number 144 are:
+[7, 10, 'Nn', 'health']
+[16, 16, 'V0', 'to']
+[18, 19, 'Wform', 'funding']
+
+sentence number 144 in batch number: 1 is originaly in line 96966 and is:
+They are usually had low income level or below poverty level.
+mistakes for sentence number 145 are:
+[1, 2, 'Rloc-', ' ']
+[3, 4, 'Vt', 'have']
+[8, 8, 'V0', 'are']
+
+sentence number 145 in batch number: 1 is originaly in line 157347 and is:
+For example, like the surveillance camera, peeping toms and other criminals commonly use them for crimes, yet why does the government still allow such technology to be used.
+mistakes for sentence number 146 are:
+[31, 32, 'Mec', '?']
+
+sentence number 146 in batch number: 1 is originaly in line 149193 and is:
+Undoubtedly, privacy advocates criticizes that such enforced obligation violates an individual's autonomy.
+mistakes for sentence number 147 are:
+[4, 5, 'SVA', 'criticize']
+
+sentence number 147 in batch number: 1 is originaly in line 53446 and is:
+Therefore, without limitation on the spending on the aged do not necessary mean that other area of Singapore's development will be crowded out.
+mistakes for sentence number 148 are:
+[0, 26, 'Um', ' ']
+
+sentence number 148 in batch number: 1 is originaly in line 25797 and is:
+Assistant schemes such as the'GST' offsets, rebates, service and conservancy charge rebates serve to act as a stimulus for the country in hope that the people will spend more to keep the economy afloat.
+mistakes for sentence number 149 are:
+[0, 1, 'Wform', 'assistance']
+[26, 26, 'ArtOrDet', 'the']
+
+sentence number 149 in batch number: 1 is originaly in line 144526 and is:
+Mobility, which is one of the activities of daily living (U.S. Department of Health and Human Services, 1984), would be hindered by this change of physical capability.
+mistakes for sentence number 150 are:
+[23, 25, 'Vm', 'is']
+
+sentence number 150 in batch number: 1 is originaly in line 118484 and is:
+When people are comparing the two types of reactors, they tend to focus on the temperature at which reactors operates.
+mistakes for sentence number 151 are:
+[2, 4, 'Vform', 'compare']
+
+sentence number 151 in batch number: 1 is originaly in line 49689 and is:
+For these reasons, it should be better if the money pent on the aged is deliberately limited for investing on many critical factors of the national economy.
+mistakes for sentence number 152 are:
+[11, 12, 'Mec', 'spent']
+
+sentence number 152 in batch number: 1 is originaly in line 65147 and is:
+The bonding agent was initially thought as a failure as it does not meet the expectation of the researchers,which is to stick tightly to the surface of paper.
+mistakes for sentence number 153 are:
+[11, 12, 'Vt', 'did']
+[19, 20, 'Vt', 'was']
+
+sentence number 153 in batch number: 1 is originaly in line 135317 and is:
+The efficiency of the MSR will improves in the near future as scientists are working to increase the output of hydrogen and electricity (NERAC).
+mistakes for sentence number 154 are:
+[6, 7, 'Vform', 'improve']
+
+sentence number 154 in batch number: 1 is originaly in line 98587 and is:
+The aged may choose to wear optical lenses for presbyopia, and current research has raised this lens technology to a new height.
+mistakes for sentence number 155 are:
+[16, 16, 'Smod', 'the']
+[18, 19, 'Spar', ' ']
+
+sentence number 155 in batch number: 1 is originaly in line 127411 and is:
+One particularly advanced concept is the Very High Temperature Reactor (VHTR), which makes use of helium coolant, which is inert and not reactive, and produces electricity and hydrogen, which is in turn used for the formation of hydrogen cell.
+mistakes for sentence number 156 are:
+[45, 46, 'Mec', ' ']
+
+sentence number 156 in batch number: 1 is originaly in line 17515 and is:
+When the results of the test is given to the individual, the question of whether the results should be revealed or not arises.
+mistakes for sentence number 157 are:
+[6, 7, 'SVA', 'are']
+
+sentence number 157 in batch number: 1 is originaly in line 150339 and is:
+On the other hand, critics argue that by revealing results of the carrier of known genetic risk to his relatives, this will benefit the relatives' health and well-being greatly.
+mistakes for sentence number 158 are:
+[15, 15, 'ArtOrDet', 'a']
+
+sentence number 158 in batch number: 1 is originaly in line 74835 and is:
+Because without having a proper testing at all stages in the process, you may find yourself into trouble later on.
+mistakes for sentence number 159 are:
+[17, 18, 'Prep', 'in']
+
+sentence number 159 in batch number: 1 is originaly in line 108661 and is:
+France intends to replace its ageing plants using a US $3.5 billions generation three reactors (Butler, 2004).
+mistakes for sentence number 160 are:
+[12, 13, 'Nn', 'billion']
+[13, 15, 'Mec', 'Generation']
+
+sentence number 160 in batch number: 1 is originaly in line 117830 and is:
+For first aspect, SCWR is still facing the financial problem.
+mistakes for sentence number 161 are:
+[0, 3, 'Wci', 'Firstly']
+[8, 9, 'ArtOrDet', 'a']
+
+sentence number 161 in batch number: 1 is originaly in line 120773 and is:
+Nuclear power source has been deemed to be a promising energy source in the future.
+mistakes for sentence number 162 are:
+[2, 3, 'Rloc-', ' ']
+[3, 5, 'Vt', 'is']
+[12, 13, 'Prep', 'for']
+
+sentence number 162 in batch number: 1 is originaly in line 82028 and is:
+For instance, there is always a need for new and better anti-flu drugs as virus gets mutated very easily and will soon acquire resistance to Tamiflu.
+mistakes for sentence number 163 are:
+[16, 17, 'Rloc-', ' ']
+[17, 18, 'Rloc-', 'mutate']
+
+sentence number 163 in batch number: 1 is originaly in line 136269 and is:
+It is the fact that several billion dollars is needed to get a nuclear reactor going and the sodium-cooled fast reactors are even more expensive than other ones.
+mistakes for sentence number 164 are:
+[0, 6, 'Rloc-', 'Several']
+[26, 26, 'ArtOrDet', 'the']
+
+sentence number 164 in batch number: 1 is originaly in line 89090 and is:
+Besides by changing the workspace, ICT also brings good news to the aged by changing employment relationships.
+mistakes for sentence number 165 are:
+[1, 2, 'Prep', ' ']
+
+sentence number 165 in batch number: 1 is originaly in line 44 and is:
+A good example is Japan where there are a lot of tall condominiums despite the large number of earthquakes happening in there.
+mistakes for sentence number 166 are:
+[5, 5, 'Mec', ',']
+[20, 21, 'Prep', ' ']
+
+sentence number 166 in batch number: 1 is originaly in line 19312 and is:
+Some might argue that it is the government's duty to look after the welfare of its citizens, but if the government were to look after all of the elderly without the help of the children, it would certainly cost the government an enormous amount of time and money.
+mistakes for sentence number 167 are:
+[28, 29, 'Prep', ' ']
+
+sentence number 167 in batch number: 1 is originaly in line 96818 and is:
+Although critics of this position point out that technology is still short of significantly slowing aging, current research and development has to a large extend ease this process and make life easier through the introduction of technological inventions.
+mistakes for sentence number 168 are:
+[25, 26, 'Mec', 'extent']
+[26, 27, 'Vt', 'eased']
+[30, 31, 'Vt', 'made']
+
+sentence number 168 in batch number: 1 is originaly in line 115577 and is:
+Companies hire engineers to design certain product and they expect them to consider every detail related to the design.
+mistakes for sentence number 169 are:
+[5, 5, 'ArtOrDet', 'a']
+
+sentence number 169 in batch number: 1 is originaly in line 42388 and is:
+CPF is a saving fund employ by the government.
+mistakes for sentence number 170 are:
+[5, 6, 'Vform', 'employed']
+
+sentence number 170 in batch number: 1 is originaly in line 95558 and is:
+This can be done by either plastic surgery, application of biochemical substance, or attempts to manipulate hormone level because hormone level is scientifically tested to have influence towards metabolism level, which in turn influences the effects of aging.
+mistakes for sentence number 171 are:
+[8, 14, 'Um', ' ']
+[15, 17, 'Rloc-', ' ']
+[17, 18, 'Wci', 'manipulation']
+[18, 19, 'Nn', 'hormones']
+[19, 20, 'Rloc-', ' ']
+[20, 20, 'Srun', '.']
+[22, 23, 'Nn', 'levels']
+[23, 27, 'Rloc-', ' ']
+[29, 30, 'Prep', 'over']
+[31, 32, 'Nn', 'levels']
+[36, 37, 'Rloc-', 'influence']
+
+sentence number 171 in batch number: 1 is originaly in line 145850 and is:
+With the advancement in medical technology, people can find out and understand the various causes of diseases.
+mistakes for sentence number 172 are:
+[2, 3, 'Nn', 'advancements']
+
+sentence number 172 in batch number: 1 is originaly in line 57055 and is:
+In the current situation, it is best to reflect on the funds provided and given to the elderly in near future.
+mistakes for sentence number 173 are:
+[0, 23, 'Um', ' ']
+
+sentence number 173 in batch number: 1 is originaly in line 112353 and is:
+As an addition point, lead is inexpensive, in theory.
+mistakes for sentence number 174 are:
+[2, 3, 'Wform', 'additional']
+
+sentence number 174 in batch number: 1 is originaly in line 34185 and is:
+People at this opposing end, on the other hand, believe that public spending on the aged should be limited so that money can be diverted to other areas of the country's development, indirectly solving the aging matter effectively.
+mistakes for sentence number 175 are:
+[6, 11, 'Trans', 'thus']
+
+sentence number 175 in batch number: 1 is originaly in line 80060 and is:
+It is not applicable to transplant an organ from one person to another.
+mistakes for sentence number 176 are:
+[0, 14, 'Um', ' ']
+
+sentence number 176 in batch number: 1 is originaly in line 1838 and is:
+This also applies to virtual technology, which was developed under a specific social and technological background and was evolved to meet increasing needs under a changing environment.
+mistakes for sentence number 177 are:
+[10, 11, 'Prep', 'within']
+[16, 17, 'Wci', 'context']
+[18, 19, 'Wci', 'which']
+[24, 25, 'Prep', 'in']
+
+sentence number 177 in batch number: 1 is originaly in line 157303 and is:
+The benefits of RFID are its efficiency and the safety it can offer which people in future will enjoy.
+mistakes for sentence number 178 are:
+[16, 16, 'ArtOrDet', 'the']
+
+sentence number 178 in batch number: 1 is originaly in line 153713 and is:
+In conclusion, surveillance technology's advantages outweigh its disadvantages.
+mistakes for sentence number 179 are:
+[3, 7, 'Others', 'the']
+
+sentence number 179 in batch number: 1 is originaly in line 3952 and is:
+But there are still some technology is invented from a serendipitous discovery.
+mistakes for sentence number 180 are:
+[0, 1, 'Trans', 'However']
+[1, 7, 'WOinc', 'some']
+
+sentence number 180 in batch number: 1 is originaly in line 56643 and is:
+This unprecedented demographical shift with the number of dependent adults surpass the number dependent children envisage serious negative impacts, from declining of work forces and real GDP to sharp increasing of elderly fiscal cost, that will impoverish and subsequently impede developmental growth.
+mistakes for sentence number 181 are:
+[10, 11, 'Vt', 'surpassing']
+[13, 13, 'Wci', 'of']
+[15, 16, 'SVA', 'envisages']
+
+sentence number 181 in batch number: 1 is originaly in line 104873 and is:
+However, while the research cost of a reactor is very high, this can be solved through the cooperation of more contries, especially the larger start-up countries like China.
+mistakes for sentence number 182 are:
+[22, 23, 'Mec', 'countries']
+[27, 28, 'Um', ' ']
+
+sentence number 182 in batch number: 1 is originaly in line 82476 and is:
+Hence, as bike bug is a Bluetooth headset gadget, I predict a not so bright future for its sales record.
+mistakes for sentence number 183 are:
+[3, 3, 'ArtOrDet', 'the']
+[14, 17, 'Wci', 'dim']
+
+sentence number 183 in batch number: 1 is originaly in line 31593 and is:
+In addition, the government can instill filial obligation (Peterson, 2001) or family values and encouraging early marriage by diverting money in crafting new programmes via the education system.
+mistakes for sentence number 184 are:
+[18, 19, 'Vt', 'encourage']
+
+sentence number 184 in batch number: 1 is originaly in line 73926 and is:
+One of the techniques involves developing fast-growing trees that can grow to size in just 10 years to generate the bio fuel.
+mistakes for sentence number 185 are:
+[4, 5, 'Vt', 'involved']
+[5, 5, 'Others', 'in']
+[12, 12, 'Others', 'full']
+
+sentence number 185 in batch number: 1 is originaly in line 12957 and is:
+For example, if a man's genetic testing results indicated some pathogenic genes but he got married with a woman without telling her about these results, the woman might feel that she has been cheated after she knew the truth because she did not want to married to a man with gene deficiency.
+mistakes for sentence number 186 are:
+[48, 49, 'Vform', 'marry']
+[49, 50, 'Prep', ' ']
+
+sentence number 186 in batch number: 1 is originaly in line 122720 and is:
+Therefore with these design, the risk could be lowered.
+mistakes for sentence number 187 are:
+[2, 3, 'Nn', 'this']
+
+sentence number 187 in batch number: 1 is originaly in line 68640 and is:
+The other solution is dealing with the polluting products generated along the way.
+mistakes for sentence number 188 are:
+[4, 5, 'Vform', 'to']
+
+sentence number 188 in batch number: 1 is originaly in line 41657 and is:
+Government should try educating this younger generation on the correct mindset before exploiting the full potential of these implemented policies.
+mistakes for sentence number 189 are:
+[0, 0, 'ArtOrDet', 'The']
+
+sentence number 189 in batch number: 1 is originaly in line 10044 and is:
+As such, technology nowadays needs not only to prove its functionality but also spend efforts on creating its awareness since it is up to the consumers, who come in contact with many advertisements in their life and is eventually conditioned, to make the decisions.
+mistakes for sentence number 190 are:
+[16, 17, 'Prep', 'in']
+[18, 19, 'Pref', ' ']
+[45, 46, 'ArtOrDet', ' ']
+
+sentence number 190 in batch number: 1 is originaly in line 99292 and is:
+Thus, it seems that the information technology does not help the adults a lot.
+mistakes for sentence number 191 are:
+[5, 6, 'ArtOrDet', ' ']
+
+sentence number 191 in batch number: 1 is originaly in line 30864 and is:
+Lastly will the implementation of policies result in increase or decrease in public saving and investments.
+mistakes for sentence number 192 are:
+[16, 17, 'Mec', '?']
+
+sentence number 192 in batch number: 1 is originaly in line 42153 and is:
+With the constant rise in cost of living, families can no longer rely on a sole breadwinner as they need to support both their parents as well as their children in terms of food, shelter and education.
+mistakes for sentence number 193 are:
+[5, 5, 'ArtOrDet', 'the']
+
+sentence number 193 in batch number: 1 is originaly in line 17975 and is:
+Since, the advantages of revealing the results of genetic tests outweigh in most situations, therefore, an individual should not have the absolute authority to reveal their test results.
+mistakes for sentence number 194 are:
+[12, 12, 'Sfrag', 'the']
+[16, 18, 'Rloc-', ' ']
+[21, 21, 'Spar', 'therefore']
+
+sentence number 194 in batch number: 1 is originaly in line 12033 and is:
+By that time, her life would be in danger and this would most probably bring about dire consequences such as death.
+mistakes for sentence number 195 are:
+[4, 5, 'Pref', 'the']
+
+sentence number 195 in batch number: 1 is originaly in line 98936 and is:
+This mission not only lies on the scientists' hands but also require some supports from the society in general, and the government in particular.
+mistakes for sentence number 196 are:
+[14, 15, 'Vform', 'support']
+
+sentence number 196 in batch number: 1 is originaly in line 101705 and is:
+Lastly, the benefits that the researchers had predicted are not totally beneficial to human.
+mistakes for sentence number 197 are:
+[14, 15, 'Nn', 'humans']
+[15, 16, 'Sfrag', ',']
+
+sentence number 197 in batch number: 1 is originaly in line 143057 and is:
+The hydrogen gas generated as by product can also be sold to hydrogen industry to power hydrogen fuel vehicles.
+mistakes for sentence number 198 are:
+[5, 7, 'ArtOrDet', 'a']
+
+sentence number 198 in batch number: 1 is originaly in line 135483 and is:
+In this seminar he talked about the JSFR and the achievements Japanese scientists got to reduce the cost of the SFR.
+mistakes for sentence number 199 are:
+[13, 14, 'Wci', 'had']
+
+sentence number 199 in batch number: 1 is originaly in line 27580 and is:
+And as far as I am concerned, to run a country, we need to take interest in far view more than near view.
+mistakes for sentence number 200 are:
+[19, 21, 'Wci', 'long']
+[23, 25, 'Wci', 'short']
+
+sentence number 200 in batch number: 1 is originaly in line 52386 and is:
+However, considering the future financial inputs that these well-equipped workforces would generate, it would prove that it is a worthwhile investment for the country.
+mistakes for sentence number 201 are:
+[6, 7, 'Nn', 'input']
+[14, 15, 'Rloc-', ' ']
+[15, 17, 'Vt', 'proves']
+
